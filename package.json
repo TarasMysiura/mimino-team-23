@@ -5,13 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/vanilla-app-template/",
+    "build": "vite build --base=/mimino-team-23/",
     "preview": "vite preview"
   },
   "devDependencies": {
     "vite": "^4.0.0"
   },
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Taras Mysiura <TarasMysiura@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "vite-plugin-full-reload": "^1.0.5",
