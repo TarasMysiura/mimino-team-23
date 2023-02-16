@@ -1,20 +1,4 @@
-.list {
-    list-style: none;
-    padding-left: 0;
-    margin: 0;
-}
-  
-.link {
-    text-decoration: none;
-}
-  
-.container {
-    min-width: 320px;
-    padding: 0 15px;
-    margin-left: auto;
-    margin-right: auto;
-}
-  
+
 @media screen and (min-width: 414px) {
 .container {
     max-width: 414px;
@@ -36,7 +20,7 @@
 }
   
 .logo {
-    /* font-family: "FilmP3", "sans-serif"; */
+    font-family: 'Film P3', sans-serif;
     text-transform: uppercase;
     font-size: 40px;
     line-height: 1.08;
@@ -141,7 +125,7 @@
   
 .footer-nav__link {
     color: #f3c653;
-    /* font-family: "Montserrat", "sans-serif"; */
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     line-height: 1.2;
     font-weight: 500;
@@ -184,7 +168,7 @@
 .social-icons-text {
     display: none;
     color: #f3c653;
-    /* font-family: "Montserrat"; */
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     line-height: 1.2;
     font-weight: 400;

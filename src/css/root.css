@@ -1,7 +1,7 @@
 :root {
     /* ===================FONTS======================== */
-  font-family: 'Montserrat', sans-serif;;
-  font-logo: Roboto;
+  /* font-family: 'Montserrat', sans-serif;
+  
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -13,7 +13,14 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; */
+
+
+
+-font-logo: 'Film P3 Bold', sans-serif;
+
+
+
 
 /* =================COLORS=================== */
 
@@ -26,8 +33,5 @@
 -colors-bg-btn-active: #ffffff;
 -colors-bg-btn-modal-default: #000000;
 -colors-bg-btn-modal-active: #ffffff;
-
-
-
 
 }
