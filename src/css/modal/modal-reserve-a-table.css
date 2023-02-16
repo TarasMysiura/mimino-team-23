@@ -1,162 +1,197 @@
+@media screen and (min-width: 414px) {
+}
+/* ---------------------------------GENERAL-STYLE */
 
- /* ---------------------------------GENERAL-STYLE */
-
- ul {
+ul {
   margin: 0;
   padding-left: 0;
- }
- img {
+}
+img {
   display: block;
   max-width: 100%;
   height: auto;
   width: 100%;
- }
- h1 {
+}
+h1 {
   margin: 0;
- }
- button {
+}
+button {
   margin: 0;
   padding: 0;
   cursor: pointer;
- }
- .list {
+}
+.list {
   list-style: none;
- }
- 
-@media screen and (min-width: 414px) {}
+}
 
 /* ---------------------------------GENERAL-MODAL */
 
 .modal {
- position: relative;
- width: 414px;
- height: 688px;
- padding: 60px 15px;
+  position: absolute;
+  width: 414px;
+  height: 100%;
+  padding: 60px 15px;
 
- background: #fffdee;
- border-radius: 2px;
+  top: 50%;
+  left: 50%;
+
+  background: #fffdee;
+  border-radius: 2px;
+
+  transform: translate(-50%, -50%) scale(1);
 }
 
 /* ---------------------------------GENERAL-TITLE */
 
 .modal-title {
- font-family: "Times New Roman";
- font-weight: 700;
- font-size: 24px;
- line-height: 1.17;
- letter-spacing: 0.05em;
- color: #000000;
+  font-family: "Times New Roman";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+  color: #000000;
 
- margin-bottom: 40px;
- text-align: center;
+  margin-bottom: 40px;
+  text-align: center;
 }
 
 /* ---------------------------------GENERAL-INPUT */
 
-/* .input-flex {
- flex-flow: wrap;
- gap: 16px;
- display: flex;
-} */
 select {
- appearance: none;
- overflow: hidden;
- background: url(../images/select-check.png) no-repeat;
- background-position: 93%;
+  appearance: none;
+  overflow: hidden;
+  background: url(../images/select-check.png) no-repeat;
+  background-position: 93%;
 
- transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .text-input {
- font-family: "Times New Roman";
- font-weight: 700;
- font-size: 20px;
- line-height: 1.15;
- letter-spacing: 0.05em;
+  font-family: "Times New Roman";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: 0.05em;
 
- color: #808080;
- background-color: transparent;
- width: 384px;
- height: 54px;
+  color: #808080;
+  background-color: transparent;
+  width: 384px;
+  height: 54px;
 
- padding: 12px 17px;
+  padding: 12px 17px;
 
- border: 1px solid #c79002;
- border-radius: 2px;
+  border: 1px solid #c79002;
+  border-radius: 2px;
 
- outline: none;
- cursor: pointer;
+  outline: none;
+  cursor: pointer;
 }
 
 .text-label {
- font-family: "Montserrat";
- font-weight: 500;
- font-size: 14px;
- line-height: 1.21;
- letter-spacing: 0.02em;
- color: #c79002;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.21;
+  letter-spacing: 0.02em;
+  color: #c79002;
 
- margin-top: 20px;
+  margin-top: 8px;
+  margin-bottom: 20px;
 }
 
 /* ---------------------------------BUTTONS */
 
 .button-book {
- margin-top: 40px;
- width: 384px;
- height: 64px;
+  margin-top: 40px;
+  width: 384px;
+  height: 64px;
 
- background-color: #000000;
- border: 1px solid #f3c653;
- border-radius: 2px;
+  background-color: #000000;
+  border: 1px solid #f3c653;
+  border-radius: 2px;
 
- font-family: "Montserrat";
- font-weight: 500;
- font-size: 20px;
- line-height: 1.2;
- color: #ffffff;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #ffffff;
 
- transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-book:hover,
 .button-book:focus,
 .button-book:active {
- color: #000000;
- background: #f3c653;
- border: 1px solid #f3c653;
- border-radius: 2px;
- transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: #000000;
+  background: #f3c653;
+  border: 1px solid #f3c653;
+  border-radius: 2px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close {
- position: absolute;
- top: 18.57px;
- right: 19.43px;
- width: 18px;
- height: 18px;
- border: none;
- background: transparent;
- transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: absolute;
+  top: 18.57px;
+  right: 19.43px;
+  width: 18px;
+  height: 18px;
+  border: none;
+  background: transparent;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-    
 
-
-/* ===============TABLET=============== */
+/* !===============TABLET=============== */
 @media screen and (min-width: 1024px) {
- 
+  .modal {
+    width: 712px;
+    height: 522px;
+    padding: 60px;
+  }
 
+  /* ---------------------------------GENERAL-TITLE */
 
+  .modal-title {
+    font-size: 40px;
+    line-height: 1.15;
+  }
 
+  /* ---------------------------------GENERAL-INPUT */
 
+  .input-flex {
+    flex-flow: wrap;
+    column-gap: 16px;
+    row-gap: 28px;
+    display: flex;
+  }
+
+  .text-input {
+    font-size: 24px;
+    line-height: 1.17;
+
+    width: 288px;
+    height: 64px;
+
+    padding: 12px 18px;
+    margin-bottom: 8px;
+  }
+
+  .text-label {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  /* ---------------------------------BUTTONS */
+
+  .button-book {
+    width: 592px;
+
+    font-size: 24px;
+  }
 }
 
+/* !===============DESKTOP=============== */
 
-/* ===============DESKTOP=============== */
 @media screen and (min-width: 1280px) {
- 
-
-
-
-
 }
