@@ -1,18 +1,22 @@
 @font-face {
-    font-family: "Film P3", sans-serif;
-    src: url("../fonts/FFilmP3Bold.ttf");
+  /* font-family: 'Film P3', sans-serif; */
+  font-family: 'Film P3';
+  font-style: normal;
+  font-weight: 700;
+
+  src: url('../fonts/FilmP3.ttf');
 }
 @font-face {
-    font-family: "Times New Roman", serif;
-    src: url("../fonts/times-new-roman.ttf");
+  font-family: 'Times New Roman', serif;
+  src: url('../fonts/times-new-roman.ttf');
 }
 @font-face {
-    font-family: "Times New Roman Bold" , serif;
-    src: url("../fonts/times-new-roman-bold.ttf");
+  font-family: 'Times New Roman Bold', serif;
+  src: url('../fonts/times-new-roman-bold.ttf');
 }
 @font-face {
-    font-family: 'Montserrat', sans-serif;
-    src: url("'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap'");
+  font-family: 'Montserrat', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 }
 /* @font-face {
     font-family: "Times New Roman Bold";
