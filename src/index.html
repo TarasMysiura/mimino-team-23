@@ -1,22 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body>
-    <!-- <section>
-      <h1>Lorem ipsum dolor sit amet.</h1>
-      <!-- Path to images as from index.html file -->
-      <img src="./img/javascript.svg" alt="" />
-    </section> -->
 
-    <!-- Loads the specified .html file -->
-    <load ="partials/vite-promo.html" />
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <script type="module" src="/main.js"></script>
-  </body>
+
+
+  <link rel="stylesheet" href="./css/styles.css" />
+
+  <title>main page</title>
+</head>
+
+<body>
+  <section>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <!-- Path to images as from index.html file -->
+    <img src="./img/javascript.svg" alt="" />
+  </section>
+
+  <!-- Loads the specified .html file -->
+  <load src="partials/main-page/main-page-heder.html" />
+  <load src="partials/main-page/main-page-hero.html" />
+  <load src="partials/main-page/main-page-about-our-restaurant.html" />
+  <load src="partials/main-page/main-page-details-of-our-restaurant.html" />
+  <load src="partials/main-page/main-page-about-our-hotel.html" />
+  <load src="partials/main-page/main-page-details-of-our-hotel.html" />
+  <load src="partials/main-page/main-page-contacts.html" />
+  <load src="partials/main-page/main-page-footer.html" />
+
+  <load src="partials/vite-promo.html" />
+
+  <script type="module" src="/main.js"></script>
+</body>
+
 </html>

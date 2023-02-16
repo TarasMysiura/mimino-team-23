@@ -1,0 +1,33 @@
+:root {
+    /* ===================FONTS======================== */
+  font-family: 'Montserrat', sans-serif;;
+  font-logo: Roboto;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color: #242424;
+  background-color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+/* =================COLORS=================== */
+
+-colors-border-address: rgba(243, 198, 83, 0.7);
+-colors-border-btn-default: #FFFFFF;
+-colors-border-btn-active: #FFFFFF;
+-colors-text-btn-default: #F3C653;
+-colors-text-btn-active: #F3C653;
+-colors-bg-btn-default: rgba(0, 0, 0, 0.4);
+-colors-bg-btn-active: #ffffff;
+-colors-bg-btn-modal-default: #000000;
+-colors-bg-btn-modal-active: #ffffff;
+
+
+
+
+}
