@@ -32,11 +32,27 @@
 select {
   appearance: none;
   overflow: hidden;
-  background: url(../images/select-check.png) no-repeat;
-  background-position: 93%;
+}
 
+.arrow-select::before {
+  content: "";
+  background-image: url(/img/select.svg);
+
+  position: absolute;
+  bottom: 55px;
+  right: 15px;
+
+  width: 19.95px;
+  height: 11.48px;
+
+  pointer-events: none;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.arrow-label-select {
+  position: relative;
+}
+
 .date-input,
 .amount-input {
   appearance: none;
