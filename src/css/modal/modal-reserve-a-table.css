@@ -1,11 +1,9 @@
 /* ---------------------------------GENERAL-MODAL */
-
 .modal {
   position: relative;
   width: 712px;
   height: 522px;
   padding: 60px;
-
   background: #fffdee;
   border-radius: 2px;
 }
