@@ -52,7 +52,8 @@ h6 {
 
 .hero-room-section {
   position: relative;
-  max-width: 1280px;
+  max-width: 414px;
+  margin: 0 auto;
   padding-top: 483px;
   padding-bottom: 118px;
 
@@ -107,7 +108,7 @@ h6 {
   display: block;
   align-items: center;
   justify-content: center;
-  max-width: 232px;
+  width: 232px;
   /* height: 48px; */
 
   border: 2px solid #ffffff;
@@ -138,6 +139,7 @@ h6 {
 /* ----------AMENITIES ROOM------------ */
 
 .amenities-room-section {
+  max-width: 414px;
   background-color: #fffdee;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -244,6 +246,7 @@ h6 {
   }
   /* ----------HERO ROOM------------ */
   .hero-room-section {
+    max-width: 1024px;
     padding-top: 468px;
     padding-bottom: 102px;
 
@@ -277,6 +280,7 @@ h6 {
   /* ----------AMENITIES ROOM------------ */
 
   .amenities-room-section {
+    max-width: 1024px;
     padding-top: 50px;
     padding-bottom: 40px;
   }
@@ -323,6 +327,7 @@ h6 {
   }
   /* ----------HERO ROOM------------ */
   .hero-room-section {
+    max-width: 1280px;
     padding-top: 531px;
     padding-bottom: 48px;
 
@@ -349,6 +354,7 @@ h6 {
   /* ----------AMENITIES ROOM------------ */
 
   .amenities-room-section {
+    max-width: 1280px;
     padding-top: 48px;
     padding-bottom: 48px;
   }
@@ -356,10 +362,4 @@ h6 {
   .room-text-wrapper {
     gap: 159px;
   }
-
-  /* .amenities-btn-link-wrapper {
-  
-    justify-content: end;
-    align-items: end;
-  } */
 }
