@@ -1,0 +1,376 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: 'Times New Roman';
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.16;
+  color: #000000;
+}
+
+.subtitle {
+  margin-bottom: 16px;
+  font-family: 'Times New Roman';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.17;
+  color: #000000;
+}
+
+.text {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: #7a7a7a;
+}
+
+.room-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* ----------HEADER------------ */
+
+/* ----------HERO ROOM------------ */
+
+.hero-room-section {
+  position: relative;
+  max-width: 1280px;
+  padding-top: 483px;
+  padding-bottom: 118px;
+
+  background-image: url(../img/mobile/hefo-hotel-bg-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-room-section {
+    background-image: url(../img/mobile/hefo-hotel-bg-mobile-2x.jpg);
+  }
+}
+
+.hero-room-title {
+  max-width: 325px;
+  margin-bottom: 24px;
+
+  font-family: 'Times New Roman';
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.14;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.part-room-title {
+  text-transform: lowercase;
+}
+
+.hero-room-text {
+  max-width: 325px;
+
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+/* .hero-room-section > .container {
+   
+    position: relative;
+} */
+
+.hero-room-btn {
+  position: absolute;
+  bottom: 40px;
+  right: 58px;
+
+  display: block;
+  align-items: center;
+  justify-content: center;
+  max-width: 232px;
+  /* height: 48px; */
+
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+  padding: 14px 35px;
+
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+
+  color: #f3c653;
+  background-color: rgba(0, 0, 0, 0.4);
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-room-btn:hover,
+.hero-room-btn:focus {
+  color: #f3c653;
+  background-color: rgb(255, 255, 255, 0.4);
+  border-color: #f3c653;
+}
+
+/* ----------AMENITIES ROOM------------ */
+
+.amenities-room-section {
+  background-color: #fffdee;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin: 0 auto;
+}
+
+.amenities-room-title {
+  margin-bottom: 16px;
+  font-family: 'Times New Roman';
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.16;
+  color: #000000;
+}
+
+.amenities-title-text {
+  margin-bottom: 32px;
+}
+.amenities-room-item {
+  margin-bottom: 32px;
+}
+
+.amenities-btn-link-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.booking-room-btn {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  max-width: 384px;
+  border-radius: 25px;
+  border: 1px solid #f3c653;
+  padding: 20px 43px;
+
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  color: #ffffff;
+  background-color: #000000;
+
+  cursor: pointer;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.booking-room-btn:hover,
+.booking-room-btn:focus {
+  color: #000000;
+  background-color: #f3c653;
+}
+
+.amenities-room-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 12px;
+
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: #c79002;
+  text-decoration: none;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.amenities-room-link:hover,
+.amenities-room-link:focus {
+  color: #f3c653;
+}
+
+.back-icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  align-items: center;
+  justify-content: center;
+  fill: #c79002;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.amenities-room-link:hover .back-icon:hover,
+.amenities-room-link:focus .back-icon:focus {
+  fill: #f3c653;
+}
+
+/* ----------MOBILE------------ */
+@media screen and (min-width: 414px) {
+  .container {
+    max-width: 414px;
+  }
+}
+
+/* ----------TABLET------------ */
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 960px;
+  }
+  /* ----------HERO ROOM------------ */
+  .hero-room-section {
+    padding-top: 468px;
+    padding-bottom: 102px;
+
+    background-image: url(../img/tablet/hefo-hotel-bg-tablet.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-room-section {
+      background-image: url(../img/tablet/hefo-hotel-bg-tablet-2x.jpg);
+    }
+  }
+
+  .hero-room-title {
+    max-width: 509px;
+
+    font-size: 36px;
+  }
+
+  .hero-room-text {
+    max-width: 400px;
+    font-size: 16px;
+  }
+
+  .hero-room-btn {
+    bottom: 62px;
+    right: 32px;
+  }
+
+  /* ----------AMENITIES ROOM------------ */
+
+  .amenities-room-section {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+
+  .room-text-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+  }
+
+  .amenities-title-text {
+    width: 757px;
+  }
+
+  .amenities-room-text {
+    width: 400px;
+  }
+
+  .amenities-btn-link-wrapper {
+    gap: 32px;
+    justify-content: end;
+    align-items: end;
+  }
+
+  .booking-room-btn {
+    max-width: 434px;
+    padding: 18px 38px;
+
+    font-size: 24px;
+  }
+
+  .amenities-room-link {
+    gap: 16px;
+
+    font-size: 20px;
+    line-height: 1.2;
+  }
+}
+
+/* ----------DESCTOP------------ */
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1140px;
+  }
+  /* ----------HERO ROOM------------ */
+  .hero-room-section {
+    padding-top: 531px;
+    padding-bottom: 48px;
+
+    background-image: url(../img/desktop/hefo-hotel-bg-desktop.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-room-section {
+      background-image: url(../img/desktop/hefo-hotel-bg-desktop-2x.jpg);
+    }
+  }
+
+  .hero-room-title {
+    margin-bottom: 17px;
+  }
+
+  .hero-room-btn {
+    bottom: 66px;
+    right: 70px;
+  }
+
+  /* ----------AMENITIES ROOM------------ */
+
+  .amenities-room-section {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .room-text-wrapper {
+    gap: 159px;
+  }
+
+  /* .amenities-btn-link-wrapper {
+  
+    justify-content: end;
+    align-items: end;
+  } */
+}
