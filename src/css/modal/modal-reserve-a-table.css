@@ -39,7 +39,7 @@ select {
 
 .arrow-select::before {
   content: "";
-  background-image: url(/img/select.svg);
+  background-image: url(/src/img/select.svg);
 
   position: absolute;
   bottom: 45px;
