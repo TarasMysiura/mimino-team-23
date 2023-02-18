@@ -1,0 +1,20 @@
+body{
+    font-family: 'Film P3 Bold', sans-serif;
+}
+
+.list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+  
+.link {
+    text-decoration: none;
+}
+  
+.container {
+    min-width: 320px;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+}

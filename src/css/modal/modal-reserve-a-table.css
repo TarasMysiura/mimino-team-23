@@ -33,6 +33,12 @@
 /* ---------------------------------GENERAL-INPUT */
 
 select {
+
+ appearance: none;
+ overflow: hidden;
+ background: url(../img/select-check.png) no-repeat;
+ background-position: 93%;
+
   appearance: none;
   overflow: hidden;
 }
@@ -49,6 +55,7 @@ select {
   height: 11.48px;
 
   pointer-events: none;
+
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
