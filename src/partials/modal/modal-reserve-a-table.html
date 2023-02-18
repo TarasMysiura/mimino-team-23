@@ -1,8 +1,8 @@
-    <!------------------------------- TITLE ----------------------------------->
-    <div class="modal" data-modal>
+    <!------------------------------- TITLE ------------------------------>
+    <div class="modal">
       <h1 class="modal-title">ЗАБРОНЮВАТИ СТОЛИК</h1>
 
-      <!------------------------------ NAME ----------------------------------->
+      <!------------------------------ NAME --------------------------->
       <form autocomplete="on">
         <ul class="input-flex list">
           <li class="name-input">
@@ -19,10 +19,10 @@
             </div>
           </li>
 
-          <!------------------------- AMOUNT --------------------------------->
+          <!------------------------- AMOUNT ------------------------>
 
           <li class="amount-input">
-            <select id="number" name="number" required class="text-input">
+            <select id="people" name="people" class="text-input">
               <option value="1">1</option>
               <option value="2" selected>2</option>
               <option value="3-5">3-5</option>
@@ -30,13 +30,13 @@
               <option value="8-15">8-15</option>
             </select>
             <div class="text-label">
-              <label for="size">Столик на яку кількість осіб?</label>
+              <label for="people">Столик на яку кількість осіб?</label>
             </div>
           </li>
 
-          <!----------------------------- PHONE ------------------------------>
+          <!----------------------------- PHONE --------------------->
 
-          <li class="phone-input text-label">
+          <li class="phone-input">
             <input
               type="tel"
               name="phone"
@@ -53,34 +53,31 @@
             </div>
           </li>
 
-          <!----------------------------- DATE ------------------------------->
+          <!----------------------------- DATE -------------------->
 
-          <li class="date-input text-label">
-            <select name="date" id="date" required class="text-input">
+          <li class="date-input">
+            <select name="date" id="date" class="text-input">
               <option value="Сьогодні" selected>Сьогодні</option>
-              <option value="Сьогодні">Завтра</option>
-              <option value="Сьогодні">Післязавтра</option>
+              <option value="Завтра">Завтра</option>
+              <option value="Післязавтра">Післязавтра</option>
             </select>
             <div class="text-label">
-              <label>На яку дату бронювати?</label>
+              <label for="date">На яку дату бронювати?</label>
             </div>
           </li>
         </ul>
 
-        <!----------------------------- BUTTON ------------------------------->
+        <!----------------------------- BUTTON --------------------->
 
         <div class="button-modal">
-          <button type="submit" class="btn button-book">
-            ОФОРМИТИ БРОНЮВАННЯ
-          </button>
+          <button type="submit" class="button-book">ОФОРМИТИ БРОНЮВАННЯ</button>
         </div>
-        <!-------------------------- BUTTON-CLOSE ---------------------------->
+        <!-------------------------- BUTTON-CLOSE ---------------------->
 
-        <button type="button" class="modal-close" data-modal-close>
+        <button type="button" class="modal-close">
           <svg width="18" height="18" class="modal-close-cross">
             <use href="/src/img/icons.svg#icon-x"></use>
           </svg>
         </button>
       </form>
     </div>
-
