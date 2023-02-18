@@ -7,13 +7,18 @@
 @import url('./reset.css');
 @import url('./fonts.css');
 @import url('./root.css');
-/* @import url('./vite-promo.css'); */
+@import url('./modern-normalize.css');
+
 
 @import url('../main-page/main-page-header-hero');
 
 @import url('./footer.css');
 
+@import url('./footer-new.css');
 
+
+
+@import url('./modal/test-button.css');
 @import url('./modal/modal-reserve-a-table.css');
 /*  */
 
