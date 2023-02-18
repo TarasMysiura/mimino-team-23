@@ -24,14 +24,15 @@
 
 /* =================COLORS=================== */
 
--colors-border-address: rgba(243, 198, 83, 0.7);
--colors-border-btn-default: #FFFFFF;
--colors-border-btn-active: #FFFFFF;
--colors-text-btn-default: #F3C653;
--colors-text-btn-active: #F3C653;
--colors-bg-btn-default: rgba(0, 0, 0, 0.4);
--colors-bg-btn-active: #ffffff;
--colors-bg-btn-modal-default: #000000;
--colors-bg-btn-modal-active: #ffffff;
+--colors-border-address: rgba(243, 198, 83, 0.7);
+--colors-border-btn-default: #FFFFFF;
+--colors-border-btn-active: #FFFFFF;
+--colors-text-btn-default: #F3C653;
+--colors-text-btn-active: #F3C653;
+--colors-bg-btn-default: rgba(0, 0, 0, 0.4);
+--colors-bg-btn-active: #ffffff;
+--colors-bg-btn-modal-default: #000000;
+--colors-bg-btn-modal-active: #ffffff;
+--colors-bg-section-fon-lemon:#FFFDEE;
 
 }
