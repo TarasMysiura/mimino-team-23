@@ -4,16 +4,14 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/mimino-team-23/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>main page</title>
-
+    <title>Vanilla App Template</title>
     
     
-    <link rel="stylesheet" href="/mimino-team-23/assets/index-d7a4a781.css">
+    <script type="module" crossorigin src="/mimino-team-23/assets/modulepreload-polyfill-ec808ebb.js"></script>
+    <link rel="stylesheet" href="/mimino-team-23/assets/restaurans-page-ab7cca97.css">
     <link rel="stylesheet" href="/mimino-team-23/assets/styles-94cedfc9.css">
   </head>
   <body>
-    
-
     <!-- ===================Денис========================= -->
     <div class="hero-main-background">
     <header class="header">
@@ -103,181 +101,54 @@
         </div>
     </section>
 </div>>
-    <section class="about-restaurant">
-    <div class="container ">
-        <div class="about-rest-container">
-            <div class="about-rest-title">
-                <p class="about-rest-slogan">Amet minim mollit non</p>
-                <h2 class="about-titles">MIMINO</h2>
-                <p class="about-rest-main-text"> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-                    Velit
-                    officia consequat duis enim velit
-                    mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+
+
+    <!-- ============================================ -->
+    <section class="section-about-kitchen">
+    <div class="container">
+        <div class="about-kitchen">
+            <div class="text">
+                <p class="text-kitchen">Amet minim mollit non</p>
+                <h2 class="title-about-kitchen">MIMIHO</h2>
+                <p class="text-about-kitchen">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                    sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+                    amet.</p>
             </div>
+            <div class="photo-kitchen">
+                <picture class="">
+                    <source
+                        srcset="/mimino-team-23/assets/hotel-1-fa9d83a5.jpg 1x, /mimino-team-23/assets/hotel-1-2x-6ffa034c.jpg 2x"
+                        sizes="460px" media="(min-width:1280px)">
+                    <source
+                        srcset="/mimino-team-23/assets/hotel-tablet-1-0523d392.jpg 1x, /mimino-team-23/assets/hotel-tablet-1-2x-ff74aefe.jpg 2x"
+                        sizes="400px" media="(min-width:1024px)">
+                    <img class="photo-kitchen"
+                        srcset="/mimino-team-23/assets/hotel-mobile-1-5dfcee62.jpg 1x, /mimino-team-23/assets/hotel-mobile-1-2x-f67469f2.jpg 2x"
+                        src="../../img/mobile/about-hotel-mobile/hotel-mobile-1.jpg" alt="hotel" sizes="244px">
+                </picture>
 
-            <picture class="about-rest-img">
-                <source
-                    srcset="/mimino-team-23/assets/rest-inter-1-5b72c37e.jpg 1x, /mimino-team-23/assets/rest-inter-1-2x-00c2e738.jpg 2x"
-                    media="(min-width: 1280px)">
-                <source
-                    srcset="/mimino-team-23/assets/rest-inter-1-01f19f31.jpg 1x, /mimino-team-23/assets/rest-inter-1-2x-3a720f87.jpg 2x"
-                    srcset="./img/desktop/restaurant-interior/restaurant-interior-desktop-1.jpg 1x, ./img/desktop/restaurant-interior/restaurant-interior-desktop-1-2x.jpg 2x"
-                    media="(min-width: 1280px)">
-                <source
-                    srcset="./img/tablet/restaurant-interior/restaurant-interior-tablet-1.jpg 1x, ./img/tablet/restaurant-interior/restaurant-interior-tablet-1-2x.jpg 2x"
-                    media="(min-width: 1024px)">
-                <source
-                    srcset="./img/mobile/restaurant-interior/restaurant-interior_2.jpg 1x, ./img/mobile/restaurant_interior/restaurant-interior_2.jpg 2x"
-                    media="(min-width: 384px)">
-
-
-                <img class="about-first-images" src="../..//img/mobile/restaurant_interior/restaurant-interior_1.jpg"
-                    alt="restaurant interior">
-            </picture>
-        </div>
-        <div class="second-rest-about">
-            <picture class="">
-                <source
-                    srcset="/mimino-team-23/assets/rest-inter-2-38a8c520.jpg 1x, /mimino-team-23/assets/rest-inter-2-38a8c520.jpg 2x"
-                    media="(min-width: 1280px)">
-                <source
-                    srcset="/mimino-team-23/assets/rest-inter-2-95e53c9f.jpg 1x, /mimino-team-23/assets/rest-inter-2-2x-3518c08f.jpg 2x"
-                    srcset=" ./img/desktop/restaurant-interior/restaurant-interior-desktop-2.jpg 1x, ./img/desktop/restaurant-interior/restaurant-interior-desktop-2-2x.jpg 2x"
-                    media="(min-width: 1280px)">
-                <source
-                    srcset="./img/tablet/restaurant-interior/restaurant-interior-tablet-2.jpg 1x, ./img/tablet/restaurant-interior/restaurant-interior-tablet-2-2x.jpg 2x"
-                    media="(min-width: 1024px)">
-                <source
-                    srcset="./img/mobile/restaurant-interior/restaurant-interior_2.jpg 1x, ./img/mobile/restaurant_interior/restaurant-interior_2.jpg 2x "
-                    media="(max-width: 384px)">
-
-
-                <img class="about-second-images" src="../../img/mobile/restaurant_interior/restaurant-interior_2.jpg"
-                    alt="restaurant terrace">
-            </picture>
-            <p class="about-secondary-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-                sint.
-                Velit officia consequat duis enim velit
-                mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-        </div>
-            <!-- PLace for slider -->
-
-        <div class="rest-about-slider">
-        <div class="rest-about-slider-container">
-        <!-- <ul class="restaurant-about-slider slick variable-width">
-        <li class="rest-about-slider-item">
-<img class="rest-about-slider-image" srcset="" 
-sizes="(min-width: 1280px) 254px, (min-width: 1024px) 194px, 245px" src="../../img/mobile/restaurant_interior/restaurant-interior_3.jpg" alt="фотографія кухні ресторану">
-            </li>        
-                <li class="rest-about-slider-item">
-<img class="rest-about-slider-image" srcset="" 
-sizes="(min-width: 1280px) 254px, (min-width: 1024px) 194px, 245px" src="" alt="страви з оливками">
-            </li>       
-                <li class="rest-about-slider-item">
-<img class="rest-about-slider-image" srcset="" 
-sizes="(min-width: 1280px) 254px, (min-width: 1024px) 194px, 245px" src="" alt="страва з морепродуктами">
-            </li>          
-        <li class="rest-about-slider-item">
-<img class="rest-about-slider-image" srcset="" 
-sizes="(min-width: 1280px) 254px, (min-width: 1024px) 194px, 245px" src="" alt="стіл сервирований стравами та напоями">
-            </li>        
-                    <li class="rest-about-slider-item">
-<img class="rest-about-slider-image" srcset="" 
-sizes="(min-width: 1280px) 254px, (min-width: 1024px) 194px, 245px" src="" alt="сервірований стіл">                 
-</li>
-<li class="rest-about-slider-item">
-<img class="rest-about-slider-image" srcset="" 
-sizes="(min-width: 1280px) 254px, (min-width: 1024px) 194px, 245px" src="" alt="келих з вином">
-            </li> 
-        <li class="rest-about-slider-item">
-<img class="rest-about-slider-image" srcset="" 
-sizes="(min-width: 1280px) 254px, (min-width: 1024px) 194px, 245px" src="" alt="келих з вином">
-            </li> 
-        </ul> -->
-    <!-- <div class="rest-about-slider-buttons">
-        <button class="about-slider-arrow-left" type="button">
-    <svg width="30px" height="17px" class="rest-about-slider-left-svg">
-        <use href="../../img/icons.svg#icon-cil_arrow-left"></use>
-    </svg>
-    </button>
-
-        <button class="about-slider-arrow-right" type="button">
-
-    <button class="about-slider-arrow-right" type="button">
-
-    <svg width="30px" height="17px" class="rest-about-slider-right-svg">
-        <use href="../../img/icons.svg#icon-cil_arrow-right"></use>
-    </svg>
-    </button>
- 
-        </div>
-    </div>
-    </div>
-</section>
-
-    
-    </div> -->
-        </div>
-    </div>
-
-</section>
-    </div>
-</section>
-
-
-    
-    <section class="about-hotel">
-    <div class="container ">
-        <div class="about-hot-container">
-            <div class="about-hot-title">
-                <p class="about-hot-slogan">Amet minim mollit non</p>
-                <h2 class="about-hot-titles">MIMINO</h2>
-                <p class="about-hot-main-text"> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-
-                </p>
             </div>
-
-            <picture class="about-hot-img">
-                <source
-                    srcset="/mimino-team-23/assets/hotel-1-fa9d83a5.jpg 1x, /mimino-team-23/assets/hotel-1-2x-6ffa034c.jpg 2x"
-                    media="(min-width: 1280px)">
-                <source
-                    srcset="/mimino-team-23/assets/hotel-tablet-1-0523d392.jpg 1x, /mimino-team-23/assets/hotel-tablet-1-2x-ff74aefe.jpg 2x"
-                    media="(min-width: 1024px)">
-                <source
-                    srcset="/mimino-team-23/assets/hotel-mobile-1-5dfcee62.jpg 1x, /mimino-team-23/assets/hotel-mobile-1-2x-f67469f2.jpg 2x"
-                    media="(min-width: 384px)">
-
-
-                <img class="about-hot--first-images" src="../../img/mobile/about-hotel-mobile/hotel-mobile-1.jpg"
-                    alt="hotel room">
-            </picture>
         </div>
 
-        <!-- ----second post -->
-        <div class="second-rest-about">
-            <picture class="">
-                <source
-                    srcset="/mimino-team-23/assets/hotel-2-e60695fe.jpg 1x, /mimino-team-23/assets/hotel-2-2x-e6b15caf.jpg 2x"
-                    media="(min-width: 1280px)">
-                <source
-                    srcset="/mimino-team-23/assets/hotel-tablet-2-6859a4ee.jpg 1x, /mimino-team-23/assets/hotel-tablet-2-2x-3dcfe863.jpg 2x"
-                    media="(min-width: 1024px)">
-                <source
-                    srcset="/mimino-team-23/assets/hotel-mobile-2-eed621ec.jpg 1x, /mimino-team-23/assets/hotel-mobile-2-2x-9f36a95c.jpg 2x"
-                    media="(max-width: 384px)">
+        <ul class="img-about-kitchen">
+            <li class="photo-second-kitchen">
+                <picture class="photo">
+                    <source
+                        srcset="/mimino-team-23/assets/hotel-2-e60695fe.jpg 1x, /mimino-team-23/assets/hotel-2-2x-e6b15caf.jpg 2x"
+                        sizes="460px" media="(min-width:1280px)">
+                    <source
+                        srcset="/mimino-team-23/assets/hotel-tablet-2-6859a4ee.jpg 1x, /mimino-team-23/assets/hotel-tablet-2-2x-3dcfe863.jpg 2x"
+                        sizes="350px" media="(min-width:1024px)">
+                    <img class="photo--second-kitchen"
+                        srcset="/mimino-team-23/assets/hotel-mobile-2-eed621ec.jpg 1x, /mimino-team-23/assets/hotel-mobile-2-2x-9f36a95c.jpg 2x"
+                        src="../../img/mobile/about-hotel-mobile/hotel-mobile-2.jpg" alt="hotel" sizes="244px">
+                </picture>
+                <p class="second-text-kitchen">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                    officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            </li>
+        </ul>
 
-
-                <img class="about-second-images" src="../../img/mobile/about-hotel-mobile/hotel-mobile-2.jpg"
-                    alt="hotel ">
-            </picture>
-            <p class="about-secondary-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-                
-            </p>
-        </div>
-
-
-        <!-- ----Place for slide -->
+        <!-- Slider-->
             <div class="rest-about-slider">
         <div class="rest-about-slider-container">
         <button class="about-slider-arrow-left" type="button">
@@ -293,11 +164,242 @@ sizes="(min-width: 1280px) 254px, (min-width: 1024px) 194px, 245px" src="" alt="
         </div>
     </div>
     </div>
-</section>
-    
 
+
+</section>
+
+    <!-- ============================================ -->
+    <!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant-page-menu</title>
     
+    <link rel="stylesheet" href="/src/css/restaurant-page/restaurant-page-menu.css">
+</head>
+<body>
+<section class="container ">
+      <div class="menu-section">
+           <h2 class="menu-title">МЕНЮ РЕСТОРАНУ</h2>
+           <div class="menu-rest">
+                <div class="menu-chapter col1">
+                    <h3 class="menu-chapter-name">Гарячі страви</h3>
+                    <div class="menu-point">
+                        <div class="item-dish">
+                            <ul class="dish list">
+                                <li class="name-dish">Борщ з телятини з квасолею
+                                    <p class="discr-dish">Телятина, картопля, капуста, морква, цибуля, квасоля, часник, помідори, зелень, сметана</p>
+                                </li>
+                                <li class="portion">400 г</li>
+                                <li class="price">240 грн</li>
+                            </ul>
+                        </div>
+                        <div class="item-dish">
+                            <ul class="dish list">
+                                <li class="name-dish">Суп сирний з куркою
+                                    <p class="discr-dish">Курятина, картопля, морква, цибуля, печериці, сир м’який, зелень</p>
+                                </li>
+                                <li class="portion">400 г</li>
+                                <li class="price">200 грн</li>
+                            </ul>
+                        </div>
+                        <div class="item-dish">
+                            <ul class="dish list">
+                                <li class="name-dish">Паста карбонара
+                                    <p class="discr-dish">Паста тальятеле, бекон, вершки, сир пармезан, яйце, зелень</p>
+                                </li>
+                                <li class="portion">350 г</li>
+                                <li class="price">430 грн</li>
+                            </ul>
+                        </div>
+                        <div class="item-dish">
+                            <ul class="dish list">
+                                <li class="name-dish">Стейк зі свинини
+                                    <p class="discr-dish">Свиняча вирізка, спеціі, подається з соусом солодкий чилі та овочами</p>
+                                </li>
+                                <li class="portion">400 г</li>
+                                <li class="price">500 грн</li>
+                            </ul>
+                        </div>
+                        <div class="item-dish">
+                            <ul class="dish list">
+                                <li class="name-dish">Горбуша в соусі з білого вина
+                                    <p class="discr-dish">Ніжна горбуша, вершковий соус на основі білого вина</p>
+                                </li>
+                                <li class="portion">400 г</li>
+                                <li class="price">400 грн</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-chapter col2">
+                    <h3 class="menu-chapter-name">Гарніри та закуски</h3>
+                    <div class="menu-point">
+                        <div class="item-dish">
+                            <ul class="dish list">
+                                <li class="name-dish">Запечені овочі
+                                    <p class="discr-dish">Кабачок, перець, помідор, баклажан</p>
+                                </li>
+                                <li class="portion">200 г</li>
+                                <li class="price">230 грн</li>
+                            </ul>
+                        </div>
+                        <div class="item-dish">
+                            <ul class="dish list">
+                                <li class="name-dish">Картопля фрі
+                                    <p class="discr-dish">Картопля, соус томатний</p>
+                                </li>
+                                <li class="portion">150 г</li>
+                                <li class="price">160 грн</li>
+                            </ul>
+                        </div>
+                        <div class="item-dish">
+                            <ul class="dish list">
+                                <li class="name-dish">Картопля по-селянськи
+                                    <p class="discr-dish">Картопля, спеції, соус пікантний</p>
+                                </li>
+                                <li class="portion">150 г</li>
+                                <li class="price">160 грн</li>
+                            </ul>
+                        </div>
+                        <div class="item-dish">
+                            <ul class="dish list">
+                                <li class="name-dish">Хрумкі соління з бочки
+                                    <p class="discr-dish">Огірок солений, помідор квашений, квашена капуста, морква по-корейські</p>
+                                </li>
+                                <li class="portion">250 г</li>
+                                <li class="price">350 грн</li>
+                            </ul>
+                        </div>
+                        <div class="item-dish">
+                            <ul class="dish list">
+                                <li class="name-dish">Крильця курячі в медовому соусі
+                                    <p class="discr-dish">Крильця курячі, гірчично-медовий соус, подається з морквою, селерою і соусом блючиз</p>
+                                </li>
+                                <li class="portion">400 г</li>
+                                <li class="price">420 грн</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-chapter col3">
+                    <h3 class="menu-chapter-name">Салати</h3>
+                    <div class="menu-point">
+                        <div class="item-dish">
+                            <ul class="dish list">
+                                <li class="name-dish">Цезар з куркою
+                                    <p class="discr-dish">Куряче філе, листя салату, помідори чері, сир пармезан, грінки, соус цезар</p>
+                                </li>
+                                <li class="portion">230 г</li>
+                                <li class="price">450 грн</li>
+                            </ul>
+                        </div>
+                        <div class="item-dish">
+                            <ul class="dish list">
+                                <li class="name-dish">Цезар з креветками
+                                    <p class="discr-dish">Тигрові креветки, листя салату, помідори чері, сир пармезан, грінки, соус цезар</p>
+                                </li>
+                                <li class="portion">230 г</li>
+                                <li class="price">300 грн</li>
+                            </ul>
+                        </div>
+                        <div class="item-dish">
+                            <ul class="dish list">
+                                <li class="name-dish">Грецький салат
+                                    <p class="discr-dish">Свіжі огірок, помідор, болгарський перець, оливки, сир бринза, листя салату, соус</p>
+                                </li>
+                                <li class="portion">230 г</li>
+                                <li class="price">280 грн</li>
+                            </ul>
+                        </div>
+                        <div class="item-dish">
+                            <ul class="dish list">
+                                <li class="name-dish">М’ясний салат
+                                    <p class="discr-dish">Куряче філе або свиняча вирізка, свіжі огірок, помідор, болгарський перець, соус ранч</p>
+                                </li>
+                                <li class="portion">230 г</li>
+                                <li class="price">300 грн</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-chapter col4">
+                    <h3 class="menu-chapter-name">Десерти</h3>
+                    <div class="menu-point">
+                        <div class="item-dish">
+                            <ul class="dish list">
+                                <li class="name-dish">Торт наполеон</li>
+                                <li class="portion">230 г</li>
+                                <li class="price">300 грн</li>
+                            </ul>
+                        </div>
+                        <div class="item-dish">
+                            <ul class="dish list">
+                                <li class="name-dish">Торт маковий</li>
+                                <li class="portion">230 г</li>
+                                <li class="price">300 грн</li>
+                            </ul>
+                        </div>
+                        <div class="item-dish">
+                            <ul class="dish list">
+                                <li class="name-dish">Тірамісу</li>
+                                <li class="portion">120 г</li>
+                                <li class="price">260 грн</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-chapter col5">
+                    <h3 class="menu-chapter-name">Напої</h3>
+                    <div class="menu-point">
+                        <div class="item-dish">
+                            <ul class="dish list">
+                                <li class="name-dish">Чай чорний/зелений</li>
+                                <li class="portion">500 мл</li>
+                                <li class="price">100 грн</li>
+                            </ul>
+                        </div>
+                        <div class="item-dish">
+                            <ul class="dish list">
+                                <li class="name-dish">Еспресо</li>
+                                <li class="portion">30 мл</li>
+                                <li class="price">100 грн</li>
+                            </ul>
+                        </div>
+                        <div class="item-dish">
+                            <ul class="dish list">
+                                <li class="name-dish">Американо</li>
+                                <li class="portion">150 мл</li>
+                                <li class="price">100 грн</li>
+                            </ul>
+                        </div>
+                        <div class="item-dish">
+                            <ul class="dish list">
+                                <li class="name-dish">Капучино</li>
+                                <li class="portion">200 мл</li>
+                                <li class="price">160 грн</li>
+                            </ul>
+                        </div>
+                        <div class="item-dish">
+                            <ul class="dish list">
+                                <li class="name-dish">Лате</li>
+                                <li class="portion">200 мл</li>
+                                <li class="price">160 грн</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+           </div>
+           <button type="button" class="btn-table-reserv">Забронювати столик</button>
+      </div>
+</section>
+</body>
+</html>
     
+        
+       
     <!-- ===================Ліза========================= -->
     <footer>
     <div class="footer-container container">
@@ -344,10 +446,10 @@ sizes="(min-width: 1280px) 254px, (min-width: 1024px) 194px, 245px" src="" alt="
     </div>
 </footer>
 
-   
-   
-  <!-- ===================Наташа Рубель========================= -->
-  <a href="#" class="js-open-modal" data-modal="1">Забронювати столик</a>
+    
+    
+    <!-- ===================Наташа Рубель========================= -->
+    <a href="#" class="js-open-modal" data-modal="1">Забронювати столик</a>
 <a href="#" class="js-open-modal" data-modal="2">Забронювати номер</a>
 <a href="#" class="js-open-modal" data-modal="3">Переглянути ціни</a>
 
@@ -624,8 +726,9 @@ sizes="(min-width: 1280px) 254px, (min-width: 1024px) 194px, 245px" src="" alt="
 <!-- Подложка под модальным окном -->
 <div class="test-overlay js-overlay-modal"></div>
     
-
-
+    
+    
     <!-- <script type="module" src="/main.js"></script> -->
+    
   </body>
 </html>
