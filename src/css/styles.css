@@ -7,11 +7,16 @@
 @import url('./reset.css');
 @import url('./fonts.css');
 @import url('./root.css');
+<<<<<<< Updated upstream
 @import url('./modern-normalize.css');
 
 @import url('./footer.css');
 
 
 @import url('./modal/modal-reserve-a-table.css');
+=======
+@import url('./vite-promo.css');
+@import url('./modern-normalize.css');
+>>>>>>> Stashed changes
 /*  */
 
