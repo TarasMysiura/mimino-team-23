@@ -1,0 +1,20 @@
+/*
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+@import url('./main-page/main-page-header-hero.css');
+@import url('./main-page/main-page-about-our-restaurant.css');
+@import url('./main-page/main-page-details-of-our-restaurant.css');
+@import url('./main-page/main-page-about-our-hotel.css');
+@import url('./main-page/main-page-details-of-our-hotel.css');
+@import url('./main-page/main-page-contacts.css');
+@import url('./footer.css');
+
+@import url('./modal/test-button.css');
+@import url('./modal/modal-reserve-a-table.css');
+@import url('./modal/modal-reserve-a-room.css');
+@import url('./modal/modal-prices-per-room.css');
+/*  */
+
