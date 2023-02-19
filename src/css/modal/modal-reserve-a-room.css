@@ -17,7 +17,7 @@
 /* ---------------------------------GENERAL-TITLE */
 
 .modal-title {
-  font-family: "Times New Roman";
+  font-family: "Times New Roman", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.17;
@@ -55,7 +55,7 @@ select {
 }
 
 .text-input {
-  font-family: "Times New Roman";
+  font-family: "Times New Roman", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.15;
@@ -76,7 +76,7 @@ select {
 }
 
 .text-label {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.21;
@@ -98,7 +98,7 @@ select {
   border: var(--border-btn-modal);
   border-radius: 2px;
 
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
