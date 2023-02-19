@@ -31,8 +31,60 @@
 --colors-text-btn-active: #F3C653;
 --colors-bg-btn-default: rgba(0, 0, 0, 0.4);
 --colors-bg-btn-active: #ffffff;
+
+
 --colors-bg-btn-modal-default: #000000;
 --colors-bg-btn-modal-active: #ffffff;
---colors-bg-section-fon-lemon:#FFFDEE;
 
+/* =================BACKGROUND-COLOR SECTION =================== */
+--colors-bg-section-fon-lemon:#FFFDEE;
+--box-shadow-mobile-desktop:2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+--box-shadow-tablet:5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+
+--colors-bg-section-restaurant-hotel-pages: #F0ECD6;
+--colors-bg-footer:#000000;
+--background-hero-section-gradient: rgba(0, 0, 0, 0.65); 
+--background-restaurant-hotel-section-gradient:rgba(0, 0, 0, 0.76); 
+
+/* =================COLORS TEXT CONTENT=================== */
+
+--color-title-mimiho-dark: #494848;
+--color-title-mimiho-white: #FFFFFF;
+--color-title-mimiho-yellow: #F3C653;
+--color-title-black: #000000;
+
+--color-text-white: #FFFFFF;
+--color-text-brown: #F3C653;
+--color-contacts-section-text-brown: #C79002;
+--color-contacts-section-tel-text: #494848;
+--color-text-gray: #7A7A7A;
+--color-text-light-gray: #B4B4B4;
+--color-contacts-address-hero: #E5E5E5;
+--color-modal-input: #808080;
+
+/* =================COLORS SVG=================== */
+--color-soc-icon-fill: rgba(243, 198, 83, 0.7);
+--color-svg-fill-broun: #C79002;
+--color-svg-fill-yellow: #F3C653;
+--color-svg-fill-black: #000000;
+--color-svg-fill-white:#FFFFFF;
+
+/* =================TRANSITION=================== */
+--transition-function: 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+
+
+/* =================MODAL=================== */
+
+--bg-section-fon-lemon:#FFFDEE;
+--bg-btn-modal-default: #000000;
+--bg-btn-modal-active: #ffffff;
+--border-btn-modal: 1px solid #f3c653;
+--bcg-btn-active: #f3c653;
+--text-btn-active: #000000;
+--text-btn-def: #ffffff;
+--text-title: #000000;
+--text-input: #808080;
+--border-input: 1px solid #c79002;
+--text-label: #c79002;
+--modal-close: #808080;
 }
