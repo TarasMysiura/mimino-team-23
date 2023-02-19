@@ -1,14 +1,16 @@
-.hero-main-background {
+.hero-hotel-background {
     margin: 0 auto;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../../img/mobile/hefo-all-bg-mobile.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../../img/mobile/hefo-hotel-bg-mobile.jpg);
 }
 
-@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-    .hero-main-background {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../../img/mobile/hefo-all-bg-mobile-2x.jpg);
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero-hotel-background {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../../img/mobile/hefo-hotel-bg-mobile-2x.jpg);
     }
 }
 
@@ -288,13 +290,15 @@
 
 @media screen and (min-width: 1024px) {
 
-    .hero-main-background {
-        background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../../img/tablet/hefo-all-bg-tablet.jpg);
+    .hero-hotel-background {
+        background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../../img/tablet/hefo-all-hotel-bg-tablet.jpg);
     }
 
-    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-        .hero-main-background {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../../img/tablet/hefo-all-bg-tablet-2x.jpg);
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero-hotel-background {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../../img/tablet/hefo-all-hotel-bg-tablet-2x.jpg);
         }
     }
 
@@ -419,13 +423,15 @@
 
 @media screen and (min-width: 1280px) {
 
-    .hero-main-background {
-        background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../../img/desktop/hefo-all-bg-desktop.jpg);
+    .hero-hotel-background {
+        background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../../img/desktop/hefo-all-hotel-bg-desktop.jpg);
     }
-    
-    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-        .hero-main-background {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../../img/desktop/hefo-all-bg-desktop-2x.jpg);
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero-hotel-background {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../../img/desktop/hefo-all-hotel-bg-desktop-2x.jpg);
         }
     }
 
