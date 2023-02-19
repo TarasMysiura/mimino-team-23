@@ -6,7 +6,7 @@
   top: 50%;
   left: 50%;
 
-  background: #fffdee;
+  background: var(--bg-section-fon-lemon);
   border-radius: 2px;
 
   transform: translate(-50%, -50%) scale(1);
@@ -17,7 +17,7 @@
   font-size: 20px;
   line-height: 1.17;
   letter-spacing: 0.05em;
-  color: #000000;
+  color: var(--text-title);
 
   margin-bottom: 40px;
   text-align: center;
@@ -28,7 +28,7 @@
   font-size: 24px;
   line-height: 1.17;
   letter-spacing: 0.05em;
-  color: #808080;
+  color: var(--text-input);
 
   margin-bottom: 28px;
 }
@@ -40,7 +40,7 @@
   line-height: 1.15;
   letter-spacing: 0.05em;
 
-  color: #808080;
+  color: var(--text-input);
   background-color: transparent;
   width: 290px;
   height: 54px;
@@ -48,7 +48,7 @@
   padding: 12px 18px;
   margin-top: 20px;
 
-  border: 1px solid #c79002;
+  border: var(--border-input);
   border-radius: 2px;
 
   outline: none;
@@ -64,7 +64,7 @@
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.02em;
-  color: #c79002;
+  color: var(--text-label);
 
   margin-top: 8px;
 }
@@ -88,7 +88,7 @@ select {
   height: 11.48px;
 
   pointer-events: none;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: var(--cubic-transition);
 }
 
 .arrow-label-select {
@@ -99,27 +99,27 @@ select {
   width: 290px;
   height: 64px;
 
-  background-color: #000000;
-  border: 1px solid #f3c653;
+  background-color: var(--bg-btn-modal-default);
+  border: var(--border-btn-modal);
   border-radius: 2px;
 
   font-family: "Montserrat";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
-  color: #ffffff;
+  color: var(--bg-btn-modal-active);
 
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: var(--cubic-transition);
 }
 
 .button-book:hover,
 .button-book:focus,
 .button-book:active {
-  color: #000000;
-  background: #f3c653;
-  border: 1px solid #f3c653;
+  color: var(--text-btn-active);
+  background: var(bcg-btn-active);
+  border: var(--border-btn-modal);
   border-radius: 2px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: var(--cubic-transition);
 }
 
 .modal-close {
@@ -131,7 +131,7 @@ select {
   border: none;
   background: transparent;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  fill: #808080;
+  fill: var(--modal-close);
 }
 
 /* !===============MOBILE=============== */
