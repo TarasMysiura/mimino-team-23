@@ -9,12 +9,11 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'src/index.html'),
-        nested: resolve(__dirname, 'src/restaurans-page.html'),
-        nested: resolve(__dirname, 'src/hotel-page.html'),
-        nested: resolve(__dirname, 'src/room-page.html'),
+        second: resolve(__dirname, 'src/restaurans-page.html'),
+        next: resolve(__dirname, 'src/hotel-page.html'),
       },
     },
-    outDir: '../../dist',
+    outDir: '../dist',
   },
   plugins: [injectHTML(), FullReload(['./src/**/**.html'])],
 });
