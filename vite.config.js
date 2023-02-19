@@ -14,7 +14,7 @@ export default defineConfig({
         nested: resolve(__dirname, './src/room-page.html'),
       },
     },
-    outDir: '../dist',
+    outDir: './dist',
   },
-  plugins: [injectHTML(), FullReload(['./src/**.html'])],
+  plugins: [injectHTML(), FullReload(['./src/**/**.html'])],
 });
