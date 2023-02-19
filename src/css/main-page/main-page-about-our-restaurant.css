@@ -6,9 +6,7 @@
   }
 
   .about-rest-title {
-  
     margin-bottom: 28px;
-  
   }
 
   .about-rest-slogan {
@@ -219,18 +217,17 @@
     background-color: transparent;
   }
   .rest-about-slider-left-svg,
-  .rest-about-slider-right-svg{
+  .rest-about-slider-right-svg {
     cursor: pointer;
     transition: var(--transition-function);
   }
-    .rest-about-slider-left-svg:hover,
-    .rest-about-slider-right-svg:hover,
-        .rest-about-slider-left-svg:focus,
-        .rest-about-slider-right-svg:focus{
-          fill: var(--colors-text-btn-active);
-        }
-
-
+  .rest-about-slider-left-svg:hover,
+  .rest-about-slider-right-svg:hover,
+  .rest-about-slider-left-svg:focus,
+  .rest-about-slider-right-svg:focus {
+    fill: var(--colors-text-btn-active);
+  }
+}
 /* ===============TABLET=============== */
 @media screen and (min-width: 1024px) {
   .about-restaurant {
