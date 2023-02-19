@@ -1,4 +1,4 @@
-@media screen and (min-width: 414px) {
+@media screen and (min-width: 320px),(min-width: 414px) {
   .about-restaurant {
     padding: 16px 0px;
     background: var(--colors-bg-section-fon-lemon);
@@ -241,7 +241,6 @@
   .about-rest-slogan {
     font-size: 36px;
     line-height: 1.15;
-    padding-top: 120px;
     margin-bottom: 4px;
   }
 
