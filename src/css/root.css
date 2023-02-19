@@ -33,6 +33,8 @@
 --colors-text-btn-active: #F3C653;
 --colors-bg-btn-default: rgba(0, 0, 0, 0.4);
 --colors-bg-btn-active: #ffffff;
+
+
 --colors-bg-btn-modal-default: #000000;
 --colors-bg-btn-modal-active: #ffffff;
 
@@ -69,4 +71,19 @@
 /* =================TRANSITION=================== */
 --transition-function: 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 
+
+--cubic-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+--bg-section-fon-lemon:#FFFDEE;
+--bg-btn-modal-default: #000000;
+--bg-btn-modal-active: #ffffff;
+--border-btn-modal: 1px solid #f3c653;
+--bcg-btn-active: #f3c653;
+--text-btn-active: #000000;
+--text-btn-def: #ffffff;
+--text-title: #000000;
+--text-input: #808080;
+--border-input: 1px solid #c79002;
+--text-label: #c79002;
+--modal-close: #808080;
 }
