@@ -129,7 +129,7 @@
   }
 
   .about-titles {
-    font-family: 'Film P3 Bold', sans-serif;
+    font-family: 'Film P3', sans-serif;
     font-size: 40px;
     line-height: 1em;
     letter-spacing: 0.3em;
@@ -220,7 +220,7 @@
 /* ===============TABLET=============== */
 @media screen and (min-width: 1024px) {
   .about-restaurant {
-    padding: 0;
+    padding-bottom: 20px;
   }
 
   .about-rest-title {
