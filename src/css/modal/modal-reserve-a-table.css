@@ -1,10 +1,8 @@
-@media screen and (min-width: 414px) {
-}
 /* ---------------------------------GENERAL-MODAL */
 
 .modal {
   position: absolute;
-  width: 414px;
+  width: 320px;
   padding: 60px 15px;
 
   top: 50%;
@@ -21,7 +19,7 @@
 .modal-title {
   font-family: "Times New Roman";
   font-weight: 700;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.17;
   letter-spacing: 0.05em;
   color: #000000;
@@ -59,13 +57,13 @@ select {
 .text-input {
   font-family: "Times New Roman";
   font-weight: 700;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.15;
   letter-spacing: 0.05em;
 
   color: #808080;
   background-color: transparent;
-  width: 384px;
+  width: 290px;
   height: 54px;
 
   padding: 12px 17px;
@@ -93,7 +91,7 @@ select {
 
 .button-book {
   margin-top: 40px;
-  width: 384px;
+  width: 290px;
   height: 64px;
 
   background-color: #000000;
@@ -102,7 +100,7 @@ select {
 
   font-family: "Montserrat";
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.2;
   color: #ffffff;
 
@@ -129,6 +127,26 @@ select {
   background: transparent;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: #808080;
+}
+
+/* !===============MOBILE=============== */
+@media screen and (min-width: 414px) {
+  .modal {
+    width: 414px;
+  }
+  .text-input {
+    width: 384px;
+  }
+  .button-book {
+    width: 384px;
+    font-size: 20px;
+  }
+  .modal-title {
+    font-size: 24px;
+  }
+  .text-input {
+    font-size: 20px;
+  }
 }
 
 /* !===============TABLET=============== */
