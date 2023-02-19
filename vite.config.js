@@ -9,9 +9,9 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'src/index.html'),
-        second: resolve(__dirname, 'src/restaurant-page.html'),
-        next: resolve(__dirname, 'src/hotel-page.html'),
-        next: resolve(__dirname, 'src/room-page.html')
+        restaurant: resolve(__dirname, 'src/restaurant-page.html'),
+        hotel: resolve(__dirname, 'src/hotel-page.html'),
+        room: resolve(__dirname, 'src/room-page.html')
       },
     },
     outDir: '../dist',
