@@ -44,7 +44,7 @@ iframe {
 }
 .section-contacts-text {
     margin-bottom: 16px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.25;
@@ -70,7 +70,7 @@ iframe {
     display: block;
     width: 102px;
     margin-right: 22px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -108,7 +108,7 @@ iframe {
 }
 .contacts-phones-link,
 .address-link-text {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     letter-spacing: 0.02em;
     color: var(--color-contacts-section-tel-text);
@@ -168,6 +168,10 @@ iframe {
     .container {
         max-width: 960px;
     }
+    .section-contacts {
+        padding-top: 56px;
+        padding-bottom: 40px;
+    }
     .section-contacts-block {
         display: flex;
         flex-direction: row;
@@ -219,6 +223,9 @@ iframe {
 @media screen and (min-width: 1280px) {
     .container {
         max-width: 1140px;
+    }
+    .section-contacts {
+        padding-bottom: 74px;
     }
     .section-contacts-block {
         gap: 108px;
