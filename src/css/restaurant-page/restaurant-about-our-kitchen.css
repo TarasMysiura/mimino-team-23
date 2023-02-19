@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 414px) {
+@media screen and (min-width: 320px),(min-width: 414px) {
 .section-about-kitchen {
         /* padding: 16px 0px; */
         background: #FFFDEE;
@@ -16,7 +16,7 @@
         line-height: 1em;
         margin-bottom: 12px;
         color: #B4B4B4;
-        padding-top: 12px;
+        padding-top: 16px;
     }
 
     .title-about-kitchen {
@@ -80,7 +80,6 @@
         position: relative;
         left: 70px;
         margin: 0;
-        /* box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25); */
     }
 
     .rest-about-slider-container {
@@ -92,8 +91,6 @@
         height: 245px;
 
         box-shadow: var(--box-shadow-mobile-desktop);
-
-        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
 
 
     }
@@ -161,7 +158,6 @@
 
     .about-kitchen {
         display: flex;
-        align-items: center;
         gap: 26px;
     }
 
@@ -184,6 +180,7 @@
     .second-text-kitchen {
         position: relative;
         font-size: 16px;
+        line-height: 1.25;
         max-width: 312px;
         top: 148px;
     }
