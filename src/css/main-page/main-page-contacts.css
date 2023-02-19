@@ -18,6 +18,7 @@
     --color-contacts-section-text-brown: #C79002;
     --colors-bg-btn-active: #ffffff;
     --color-contacts-section-tel-text: #494848;
+    --color-svg-fill-broun: #C79002;
 }
 
 
@@ -97,10 +98,10 @@ iframe {
     fill: var(--color-svg-fill-broun);
     margin-right: 8px;
 }
-.contacts-phones-link {
+/* .contacts-phones-link {
     width: 100px;
     max-height: 17px;
-}
+} */
 .contacts-phones-link{
     font-size: 14px;
     line-height: 1.21;
