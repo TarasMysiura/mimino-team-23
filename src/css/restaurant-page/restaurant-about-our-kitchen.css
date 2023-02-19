@@ -1,6 +1,122 @@
 
 @media screen and (min-width: 414px) {
- 
+.section-about-kitchen {
+        padding: 16px 0px;
+        background: #FFFDEE;
+        margin: 0 auto;
+    }
+
+    .text {
+        margin-bottom: 28px;
+    }
+
+    .text-kitchen {
+        font-family: 'Times New Roman', serif;
+        font-size: 20px;
+        line-height: 1em;
+        margin-bottom: 12px;
+        color: #B4B4B4;
+    }
+
+    .title-about-kitchen {
+        font-family: 'Film P3 Bold', sans-serif;
+        font-size: 40px;
+        line-height: 1em;
+        letter-spacing: 0.3em;
+        margin-bottom: 12px;
+        color: #494848;
+        text-transform: uppercase;
+    }
+
+    .text-about-kitchen {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 1.25;
+        letter-spacing: 0.02em;
+        max-width: 258px;
+        color: #7A7A7A;
+    }
+
+
+
+
+    .photo-kitchen {
+        min-width: 244px;
+        margin-left: auto;
+        margin-bottom: 32px;
+        border-radius: 2px;
+        box-shadow: 2px 2px 60px rgba(0, 0, 0, 0.25);
+    }
+
+
+    .photo--second-kitchen {
+        max-width: 200px;
+        border-radius: 2px;
+        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+    }
+
+    .second-text-kitchen {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 1.25;
+        letter-spacing: 0.02em;
+        max-width: 163px;
+        color: #C79002;
+    }
+
+    .img-about-kitchen {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+        column-gap: 20px;
+    }
+
+    /* -------------Slider----------- */
+    .rest-about-slider {
+        position: relative;
+        left: 70px;
+        margin: 0;
+        /* box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25); */
+    }
+
+    .rest-about-slider-container {
+        width: 330px;
+    }
+
+    .rest-about-slider-item {
+        width: 245px;
+        height: 245px;
+        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+
+    }
+
+    .rest-about-slider-image {
+        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+    }
+
+    .rest-about-slider-buttons {
+        position: absolute;
+        top: 265px;
+        width: 108px;
+        left: 120px;
+
+    }
+
+    .about-slider-arrow-left {
+        padding: 0;
+        border: none;
+        margin-right: 30px;
+        background-color: transparent;
+    }
+
+    .about-slider-arrow-right {
+        padding: 0;
+        border: none;
+        background-color: transparent;
+    }
 
 
 
@@ -9,8 +125,64 @@
 
 /* ===============TABLET=============== */
 @media screen and (min-width: 1024px) {
- 
+.section-about-kitchen {
+        padding: 0;
+    }
 
+    .text {
+        margin-bottom: 0;
+    }
+
+    .text-kitchen {
+        font-size: 36px;
+        line-height: 1.15;
+    }
+
+    .title-about-kitchen {
+        font-size: 64px;
+    }
+
+    .text-about-kitchen {
+        font-size: 16px;
+        line-height: 1.21;
+        max-width: 439px;
+    }
+
+    .about-kitchen {
+        display: flex;
+        align-items: center;
+        gap: 26px;
+    }
+
+    .photo-kitchen {
+        min-width: 400px;
+        box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+        position: relative;
+        top: -32px;
+        margin-bottom: 0;
+    }
+
+    .photo--second-kitchen {
+        max-width: 350px;
+        position: relative;
+        top: -48px;
+        box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+    }
+
+
+    .second-text-kitchen {
+        position: relative;
+        font-size: 16px;
+        max-width: 312px;
+        top: 148px;
+    }
+
+
+    .img-about-kitchen {
+        justify-content: flex-start;
+        align-items: flex-start;
+        column-gap: 48px;
+    }
 
 
 
@@ -19,8 +191,39 @@
 
 /* ===============DESKTOP=============== */
 @media screen and (min-width: 1280px) {
- 
+.text-kitchen {
+        margin-bottom: 4px;
+    }
 
+    .title-about-kitchen {
+        margin-bottom: 24px;
+    }
+
+    .text-about-kitchen {
+        max-width: 518px;
+    }
+
+    .about-kitchen {
+        gap: 37px;
+    }
+
+    .photo-kitchen {
+        max-width: 460px;
+    }
+
+    .photo--second-kitchen {
+        max-width: 460px;
+        top: -96px;
+        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+    }
+
+    .img-about-kitchen {
+        column-gap: 32px;
+    }
+
+    .second-text-kitchen {
+        top: 89px;
+    }
 
 
 
