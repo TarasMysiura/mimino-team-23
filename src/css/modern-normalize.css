@@ -12,11 +12,7 @@ Use a better box model (opinionated).
 *,
 ::before,
 ::after {
-<<<<<<< Updated upstream
-	box-sizing: border-box;
-=======
-    box-sizing: border-box;
->>>>>>> Stashed changes
+  box-sizing: border-box;
 }
 
 /**
@@ -26,21 +22,10 @@ Use a better box model (opinionated).
 */
 
 html {
-<<<<<<< Updated upstream
-	line-height: 1.15; /* 1 */
-	-webkit-text-size-adjust: 100%; /* 2 */
-	-moz-tab-size: 4; /* 3 */
-	tab-size: 4; /* 3 */
-=======
-    line-height: 1.15;
-    /* 1 */
-    -webkit-text-size-adjust: 100%;
-    /* 2 */
-    -moz-tab-size: 4;
-    /* 3 */
-    tab-size: 4;
-    /* 3 */
->>>>>>> Stashed changes
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -moz-tab-size: 4; /* 3 */
+  tab-size: 4; /* 3 */
 }
 
 /*
@@ -54,31 +39,9 @@ Sections
 */
 
 body {
-<<<<<<< Updated upstream
-	margin: 0; /* 1 */
-	font-family:
-		system-ui,
-		'Segoe UI',
-		Roboto,
-		Helvetica,
-		Arial,
-		sans-serif,
-		'Apple Color Emoji',
-		'Segoe UI Emoji'; /* 2 */
-=======
-    margin: 0;
-    /* 1 */
-    font-family:
-        system-ui,
-        'Segoe UI',
-        Roboto,
-        Helvetica,
-        Arial,
-        sans-serif,
-        'Apple Color Emoji',
-        'Segoe UI Emoji';
-    /* 2 */
->>>>>>> Stashed changes
+  margin: 0; /* 1 */
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji'; /* 2 */
 }
 
 /*
@@ -92,15 +55,8 @@ Grouping content
 */
 
 hr {
-<<<<<<< Updated upstream
-	height: 0; /* 1 */
-	color: inherit; /* 2 */
-=======
-    height: 0;
-    /* 1 */
-    color: inherit;
-    /* 2 */
->>>>>>> Stashed changes
+  height: 0; /* 1 */
+  color: inherit; /* 2 */
 }
 
 /*
@@ -113,11 +69,7 @@ Add the correct text decoration in Chrome, Edge, and Safari.
 */
 
 abbr[title] {
-<<<<<<< Updated upstream
-	text-decoration: underline dotted;
-=======
-    text-decoration: underline dotted;
->>>>>>> Stashed changes
+  text-decoration: underline dotted;
 }
 
 /**
@@ -126,11 +78,7 @@ Add the correct font weight in Edge and Safari.
 
 b,
 strong {
-<<<<<<< Updated upstream
-	font-weight: bolder;
-=======
-    font-weight: bolder;
->>>>>>> Stashed changes
+  font-weight: bolder;
 }
 
 /**
@@ -142,27 +90,9 @@ code,
 kbd,
 samp,
 pre {
-<<<<<<< Updated upstream
-	font-family:
-		ui-monospace,
-		SFMono-Regular,
-		Consolas,
-		'Liberation Mono',
-		Menlo,
-		monospace; /* 1 */
-	font-size: 1em; /* 2 */
-=======
-    font-family:
-        ui-monospace,
-        SFMono-Regular,
-        Consolas,
-        'Liberation Mono',
-        Menlo,
-        monospace;
-    /* 1 */
-    font-size: 1em;
-    /* 2 */
->>>>>>> Stashed changes
+  font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo,
+    monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /**
@@ -170,11 +100,7 @@ Add the correct font size in all browsers.
 */
 
 small {
-<<<<<<< Updated upstream
-	font-size: 80%;
-=======
-    font-size: 80%;
->>>>>>> Stashed changes
+  font-size: 80%;
 }
 
 /**
@@ -183,33 +109,18 @@ Prevent 'sub' and 'sup' elements from affecting the line height in all browsers.
 
 sub,
 sup {
-<<<<<<< Updated upstream
-	font-size: 75%;
-	line-height: 0;
-	position: relative;
-	vertical-align: baseline;
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
 }
 
 sub {
-	bottom: -0.25em;
+  bottom: -0.25em;
 }
 
 sup {
-	top: -0.5em;
-=======
-    font-size: 75%;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline;
-}
-
-sub {
-    bottom: -0.25em;
-}
-
-sup {
-    top: -0.5em;
->>>>>>> Stashed changes
+  top: -0.5em;
 }
 
 /*
@@ -223,15 +134,8 @@ Tabular data
 */
 
 table {
-<<<<<<< Updated upstream
-	text-indent: 0; /* 1 */
-	border-color: inherit; /* 2 */
-=======
-    text-indent: 0;
-    /* 1 */
-    border-color: inherit;
-    /* 2 */
->>>>>>> Stashed changes
+  text-indent: 0; /* 1 */
+  border-color: inherit; /* 2 */
 }
 
 /*
@@ -249,21 +153,10 @@ input,
 optgroup,
 select,
 textarea {
-<<<<<<< Updated upstream
-	font-family: inherit; /* 1 */
-	font-size: 100%; /* 1 */
-	line-height: 1.15; /* 1 */
-	margin: 0; /* 2 */
-=======
-    font-family: inherit;
-    /* 1 */
-    font-size: 100%;
-    /* 1 */
-    line-height: 1.15;
-    /* 1 */
-    margin: 0;
-    /* 2 */
->>>>>>> Stashed changes
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
 }
 
 /**
@@ -272,11 +165,7 @@ Remove the inheritance of text transform in Edge and Firefox.
 
 button,
 select {
-<<<<<<< Updated upstream
-	text-transform: none;
-=======
-    text-transform: none;
->>>>>>> Stashed changes
+  text-transform: none;
 }
 
 /**
@@ -287,11 +176,7 @@ button,
 [type='button'],
 [type='reset'],
 [type='submit'] {
-<<<<<<< Updated upstream
-	-webkit-appearance: button;
-=======
-    -webkit-appearance: button;
->>>>>>> Stashed changes
+  -webkit-appearance: button;
 }
 
 /**
@@ -299,13 +184,8 @@ Remove the inner border and padding in Firefox.
 */
 
 ::-moz-focus-inner {
-<<<<<<< Updated upstream
-	border-style: none;
-	padding: 0;
-=======
-    border-style: none;
-    padding: 0;
->>>>>>> Stashed changes
+  border-style: none;
+  padding: 0;
 }
 
 /**
@@ -313,11 +193,7 @@ Restore the focus styles unset by the previous rule.
 */
 
 :-moz-focusring {
-<<<<<<< Updated upstream
-	outline: 1px dotted ButtonText;
-=======
-    outline: 1px dotted ButtonText;
->>>>>>> Stashed changes
+  outline: 1px dotted ButtonText;
 }
 
 /**
@@ -326,11 +202,7 @@ See: https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d4
 */
 
 :-moz-ui-invalid {
-<<<<<<< Updated upstream
-	box-shadow: none;
-=======
-    box-shadow: none;
->>>>>>> Stashed changes
+  box-shadow: none;
 }
 
 /**
@@ -338,11 +210,7 @@ Remove the padding so developers are not caught out when they zero out 'fieldset
 */
 
 legend {
-<<<<<<< Updated upstream
-	padding: 0;
-=======
-    padding: 0;
->>>>>>> Stashed changes
+  padding: 0;
 }
 
 /**
@@ -350,11 +218,7 @@ Add the correct vertical alignment in Chrome and Firefox.
 */
 
 progress {
-<<<<<<< Updated upstream
-	vertical-align: baseline;
-=======
-    vertical-align: baseline;
->>>>>>> Stashed changes
+  vertical-align: baseline;
 }
 
 /**
@@ -363,11 +227,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 
 ::-webkit-inner-spin-button,
 ::-webkit-outer-spin-button {
-<<<<<<< Updated upstream
-	height: auto;
-=======
-    height: auto;
->>>>>>> Stashed changes
+  height: auto;
 }
 
 /**
@@ -376,15 +236,8 @@ Correct the cursor style of increment and decrement buttons in Safari.
 */
 
 [type='search'] {
-<<<<<<< Updated upstream
-	-webkit-appearance: textfield; /* 1 */
-	outline-offset: -2px; /* 2 */
-=======
-    -webkit-appearance: textfield;
-    /* 1 */
-    outline-offset: -2px;
-    /* 2 */
->>>>>>> Stashed changes
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
 }
 
 /**
@@ -392,11 +245,7 @@ Remove the inner padding in Chrome and Safari on macOS.
 */
 
 ::-webkit-search-decoration {
-<<<<<<< Updated upstream
-	-webkit-appearance: none;
-=======
-    -webkit-appearance: none;
->>>>>>> Stashed changes
+  -webkit-appearance: none;
 }
 
 /**
@@ -405,15 +254,8 @@ Remove the inner padding in Chrome and Safari on macOS.
 */
 
 ::-webkit-file-upload-button {
-<<<<<<< Updated upstream
-	-webkit-appearance: button; /* 1 */
-	font: inherit; /* 2 */
-=======
-    -webkit-appearance: button;
-    /* 1 */
-    font: inherit;
-    /* 2 */
->>>>>>> Stashed changes
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
 }
 
 /*
@@ -426,9 +268,5 @@ Add the correct display in Chrome and Safari.
 */
 
 summary {
-<<<<<<< Updated upstream
-	display: list-item;
-=======
-    display: list-item;
->>>>>>> Stashed changes
+  display: list-item;
 }

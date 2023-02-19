@@ -3,8 +3,10 @@
   font-family: 'Film P3';
   font-style: normal;
   font-weight: 700;
-
   src: url('../fonts/FilmP3.ttf');
+  src: url('../fonts/FilmP3.eot');
+  src: url('../fonts/FilmP3.woff');
+  src: url('../fonts/FilmP3.woff2');
 }
 @font-face {
   font-family: 'Times New Roman', serif;
