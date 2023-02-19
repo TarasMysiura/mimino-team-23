@@ -1,5 +1,5 @@
 @media screen and (min-width: 414px) {
-}
+
 /* ---------------------------------GENERAL-MODAL */
 
 .modal {
@@ -39,7 +39,7 @@ select {
 
 .arrow-select::before {
   content: "";
-  background-image: url(/src/img/select.svg);
+  background-image: url(../../img/select.svg);
 
   position: absolute;
   bottom: 45px;
@@ -130,7 +130,7 @@ select {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: #808080;
 }
-
+}
 /* !===============TABLET=============== */
 @media screen and (min-width: 1024px) {
   .modal {
