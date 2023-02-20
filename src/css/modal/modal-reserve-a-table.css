@@ -101,7 +101,7 @@ select {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
-  color: var(text-btn-def);
+  color: var(--text-btn-def);
 
   transition: var(--transition-function);
 }
@@ -110,7 +110,7 @@ select {
 .button-book:focus,
 .button-book:active {
   color: var(--text-btn-active);
-  background: var(bcg-btn-active);
+  background: var(--bcg-btn-active);
   border: var(--border-btn-modal);
   border-radius: 2px;
   transition: var(--transition-function);

@@ -14,6 +14,7 @@ h3 {
 .room-three {
     padding: 32px 0;
     background: #F0ECD6;
+    overflow: hidden;
 }
 
 .room-luxe-pre-title,
@@ -65,6 +66,12 @@ h3 {
 
 .room-three-image-area {
     justify-content: left;
+}
+
+.room-luxe-image-area img, .room-two-image-area img,
+.room-three-image-area img {
+  box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
 }
 
 .slider-area {
@@ -133,7 +140,7 @@ h3 {
 .room-two-btn-link,
 .room-two-btn, .room-three-btn-link,
 .room-three-btn {
-  width: 236px;
+  width: 240px;
   height: 48px;
   font-family: 'Montserrat';
   font-weight: 700;
@@ -202,16 +209,21 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 25
 
 @media screen and (min-width: 414px) and (max-width: 1023.98px) {
     .room-three-paragraph {
-            margin-left: 113px;
+            margin-left: 83px;
         }
 }
 
 @media screen and (max-width: 1023.98px) {
- .room-luxe-wrapper .slider-area,
-  .room-two-wrapper .slider-area, .room-three-wrapper .slider-area {
+  .room-three-wrapper .slider-area {
     position: relative;
-    left: -120px;
+    left: 120px;
   }
+
+    .room-luxe-wrapper .slider-area,
+    .room-two-wrapper .slider-area {
+      position: relative;
+      left: -120px;
+    }
 
   .room-three-pre-title, .room-three-title, .room-three-secondary-title {
     text-align: right;
@@ -231,7 +243,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 25
   .room-luxe-wrapper,
   .room-two-wrapper, .room-three-wrapper {
     display: flex;
-    gap: 42px;
+    gap: 45px;
   }
 
   .room-three-wrapper {
@@ -249,6 +261,10 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 25
     font-size: 32px;
     line-height: 1.16;
   }
+
+    .room-three-pre-title, .room-three-secondary-title {
+      text-align: right;
+    }
 
   .room-luxe-secondary-title,
   .room-two-secondary-title, .room-three-secondary-title {
