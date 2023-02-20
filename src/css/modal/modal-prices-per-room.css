@@ -1,176 +1,193 @@
-@media screen and (min-width: 414px) {
- .modal {
-   position: absolute;
-   width: 414px;
-   padding: 60px 15px;
+.modal {
+  position: absolute;
+  width: 320px;
+  padding: 60px 15px;
 
-   top: 50%;
-   left: 50%;
+  top: 50%;
+  left: 50%;
 
-   background: #fffdee;
-   border-radius: 2px;
+  background: var(--bg-section-fon-lemon);
+  border-radius: 2px;
 
-   transform: translate(-50%, -50%) scale(1);
- }
- .modal-title {
-   font-family: "Times New Roman";
-   font-weight: 700;
-   font-size: 24px;
-   line-height: 1.17;
-   letter-spacing: 0.05em;
-   color: #000000;
+  transform: translate(-50%, -50%) scale(1);
+}
+.modal-title {
+  font-family: "Times New Roman", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+  color: var(--text-title);
 
-   margin-bottom: 40px;
-   text-align: center;
- }
- .type-room {
-   font-family: "Times New Roman";
-   font-weight: 700;
-   font-size: 24px;
-   line-height: 1.17;
-   letter-spacing: 0.05em;
-   color: #808080;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.type-room {
+  font-family: "Times New Roman", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+  color: var(--text-input);
 
-   margin-bottom: 28px;
- }
-
- .text-input {
-   font-family: "Times New Roman";
-   font-weight: 700;
-   font-size: 20px;
-   line-height: 1.15;
-   letter-spacing: 0.05em;
-
-   color: #808080;
-   background-color: transparent;
-   width: 384px;
-   height: 54px;
-
-   padding: 12px 18px;
-   margin-top: 20px;
-
-   border: 1px solid #c79002;
-   border-radius: 2px;
-
-   outline: none;
-   cursor: pointer;
- }
- .category-room {
-   margin-bottom: 0;
- }
- .text-label,
- .category-room {
-   font-family: "Montserrat";
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 1.25;
-   letter-spacing: 0.02em;
-   color: #c79002;
-
-   margin-top: 8px;
- }
- .label-left {
-   margin-left: 15px;
- }
- select {
-   appearance: none;
-   overflow: hidden;
- }
-
- .arrow-select::before {
-   content: "";
-   background-image: url(/src/img/select.svg);
-
-   position: absolute;
-   bottom: 45px;
-   right: 10px;
-
-   width: 19.95px;
-   height: 11.48px;
-
-   pointer-events: none;
-   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
- }
-
- .arrow-label-select {
-   position: relative;
- }
- .button-book {
-   margin-top: 40px;
-   width: 384px;
-   height: 64px;
-
-   background-color: #000000;
-   border: 1px solid #f3c653;
-   border-radius: 2px;
-
-   font-family: "Montserrat";
-   font-weight: 500;
-   font-size: 20px;
-   line-height: 1.2;
-   color: #ffffff;
-
-   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
- }
-
- .button-book:hover,
- .button-book:focus,
- .button-book:active {
-   color: #000000;
-   background: #f3c653;
-   border: 1px solid #f3c653;
-   border-radius: 2px;
-   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
- }
-
- .modal-close {
-   position: absolute;
-   top: 18.57px;
-   right: 19.43px;
-   width: 18px;
-   height: 18px;
-   border: none;
-   background: transparent;
-   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   fill: #808080;
- }
+  margin-bottom: 28px;
 }
 
+.text-input {
+  font-family: "Times New Roman", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.15;
+  letter-spacing: 0.05em;
+
+  color: var(--text-input);
+  background-color: transparent;
+  width: 290px;
+  height: 54px;
+
+  padding: 12px 18px;
+  margin-top: 20px;
+
+  border: var(--border-input);
+  border-radius: 2px;
+
+  outline: none;
+  cursor: pointer;
+}
+.category-room {
+  margin-bottom: 0;
+}
+.text-label,
+.category-room {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: var(--text-label);
+
+  margin-top: 8px;
+}
+.label-left {
+  margin-left: 15px;
+}
+select {
+  appearance: none;
+  overflow: hidden;
+}
+
+.arrow-select::before {
+  content: "";
+  background-image: url(../../img/select.svg);
+
+  position: absolute;
+  bottom: 45px;
+  right: 10px;
+
+  width: 19.95px;
+  height: 11.48px;
+
+  pointer-events: none;
+  transition: var(--transition-function);
+}
+
+.arrow-label-select {
+  position: relative;
+}
+.button-book {
+  margin-top: 40px;
+  width: 290px;
+  height: 64px;
+
+  background-color: var(--bg-btn-modal-default);
+  border: var(--border-btn-modal);
+  border-radius: 2px;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  color: var(--bg-btn-modal-active);
+
+  transition: var(--transition-function);
+}
+
+.button-book:hover,
+.button-book:focus,
+.button-book:active {
+  color: var(--text-btn-active);
+  background: var(bcg-btn-active);
+  border: var(--border-btn-modal);
+  border-radius: 2px;
+  transition: var(--transition-function);
+}
+
+.modal-close {
+  position: absolute;
+  top: 18.57px;
+  right: 19.43px;
+  width: 18px;
+  height: 18px;
+  border: none;
+  background: transparent;
+  transition: var(--transition-function);
+  fill: var(--modal-close);
+}
+
+/* !===============MOBILE=============== */
+@media screen and (min-width: 414px) {
+  .modal {
+    width: 414px;
+  }
+  .text-input {
+    width: 384px;
+  }
+  .button-book {
+    width: 384px;
+    font-size: 20px;
+  }
+  .modal-title {
+    font-size: 24px;
+  }
+  .text-input {
+    font-size: 20px;
+  }
+}
 /* !===============TABLET=============== */
 @media screen and (min-width: 1024px) {
- .input-flex {
-   display: flex;
-   gap: 16px;
- }
- .modal {
-   width: 712px;
+  .input-flex {
+    display: flex;
+    gap: 16px;
+  }
+  .modal {
+    width: 712px;
 
-   position: absolute;
-   padding: 60px;
- }
- .modal-title {
-   font-size: 32px;
-   line-height: 1.16;
- }
- .text-input {
-   font-size: 24px;
-   line-height: 1.17;
+    position: absolute;
+    padding: 60px;
+  }
+  .modal-title {
+    font-size: 32px;
+    line-height: 1.16;
+  }
+  .text-input {
+    font-size: 24px;
+    line-height: 1.17;
 
-   width: 288px;
-   height: 64px;
- }
+    width: 288px;
+    height: 64px;
+  }
 
- .arrow-select::before {
-   bottom: 50px;
- }
+  .arrow-select::before {
+    bottom: 50px;
+  }
 
- .button-book {
-   margin-top: 40px;
-   width: 592px;
+  .button-book {
+    margin-top: 40px;
+    width: 592px;
 
-   font-size: 24px;
-   line-height: 1.21;
- }
+    font-size: 24px;
+    line-height: 1.21;
+  }
 }
 /* !===============DESKTOP=============== */
 

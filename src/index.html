@@ -1,30 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+<html lang="uk">
 
-    <link rel="stylesheet" href="./css/styles.css" />
-    <!-- <link rel="stylesheet" href="./css/footer.css"> -->
-  </head>
-  <body>
-    
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./public/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>main page</title>
 
-    <!-- ===================Денис========================= -->
-    <load src="partials/main-page/main-page-heder.html" />
-    
-    
-    <!-- ===================Ліза========================= -->
-    <load src="partials/footer.html" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./css/styles-main-page.css" />
+</head>
 
-   
-   
+<body>
+
+  <!-- ===================Денис========================= -->
+  <load src="partials/main-page/main-page-header-hero.html" />
+
+  <load src="partials/main-page/main-page-about-our-restaurant.html" />
+
+  <load src="partials/main-page/main-page-details-of-our-restaurant.html" />
+
+  <load src="partials/main-page/main-page-about-our-hotel.html" />
+
+  <load src="partials/main-page/main-page-details-of-our-hotel.html" />
+
+  <!-- ===================Наталя Яковина========================= -->
+  <load src="partials/main-page/main-page-contacts.html" />
+
+  <!-- ===================Ліза========================= -->
+  <load src="partials/footer.html" />
+
   <!-- ===================Наташа Рубель========================= -->
-    <load src="partials/modal/modal-reserve-a-table.html" />
+  <load src="partials/modal/modal.html" />
+
+  <!-- Подложка под модальным окном -->
+  <div class="overlay js-overlay-modal"></div>
 
 
-    <!-- <script type="module" src="/main.js"></script> -->
-  </body>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
 </html>
