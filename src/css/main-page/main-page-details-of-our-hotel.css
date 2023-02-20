@@ -6,7 +6,7 @@ body {
 .details-restaurant {
   padding: 48px 0 40px 0;
   background: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
-    url(../../img/mobile/hefo-all-hotel-bg-mobile.jpg) center no-repeat;
+    url(../../img/mobile/hero-all-hotel-bg-mobile.jpg) center no-repeat;
   background-size: cover;
   max-width: 414px;
   margin: 0 auto;
@@ -19,7 +19,7 @@ body {
   .details-hotel,
   .details-restaurant {
     background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
-      url(../../img/mobile/hefo-all-hotel-bg-mobile-2x.jpg) center no-repeat;
+      url(../../img/mobile/hero-all-hotel-bg-mobile-2x.jpg) center no-repeat;
     background-size: cover;
   }
 }
@@ -139,7 +139,7 @@ body {
           rgba(0, 0, 0, 0.76),
           rgba(0, 0, 0, 0.76)
         ),
-        url(../../img/tablet/hefo-all-hotel-bg-tablet-2x.jpg) center no-repeat;
+        url(../../img/tablet/hero-all-hotel-bg-tablet-2x.jpg) center no-repeat;
       background-size: cover;
     }
   }
@@ -168,7 +168,7 @@ body {
   .details-restaurant {
     padding: 48px 0 40px 0;
     background: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
-      url(../../img/desktop/hefo-all-hotel-bg-desktop.jpg) center no-repeat;
+      url(../../img/desktop/hero-all-hotel-bg-desktop.jpg) center no-repeat;
     background-size: cover;
     max-width: 1140px;
     margin: 0 auto;
@@ -183,7 +183,7 @@ body {
           rgba(0, 0, 0, 0.76),
           rgba(0, 0, 0, 0.76)
         ),
-        url(../../img/desktop/hefo-all-bg-desktop-2x.jpg) center no-repeat;
+        url(../../img/desktop/hero-all-bg-desktop-2x.jpg) center no-repeat;
       background-size: cover;
     }
   }
