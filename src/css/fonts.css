@@ -3,10 +3,10 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('./fonts/FilmP3/FilmP3.ttf') format('truetype');
-  src: url('./fonts/FilmP3/FilmP3.eot') format('eot');
-  src: url('./fonts/FilmP3/FilmP3.woff') format('woff');
-  src: url('./fonts/FilmP3/FilmP3.woff2') format('woff2');
+  src: url('../fonts/FilmP3/FilmP3.ttf') format('truetype');
+  src: url('../fonts/FilmP3/FilmP3.eot') format('eot');
+  src: url('../fonts/FilmP3/FilmP3.woff') format('woff');
+  src: url('../fonts/FilmP3/FilmP3.woff2') format('woff2');
 }
 
 @font-face {
