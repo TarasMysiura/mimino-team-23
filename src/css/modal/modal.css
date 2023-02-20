@@ -22,8 +22,8 @@
   visibility: hidden;
 
   /*  Установаем ширину окна  */
-  /* width: 100%;
-  max-width: 500px; */
+  width: 100%;
+  max-width: 500px;
 
   /*  Центрируем и задаем z-index */
   position: fixed;
@@ -63,7 +63,7 @@
 
 /* Стили для кнопок. Мы ведь порядочные разработчики, негоже простые ссылки оставлять */
 
-/* a.js-open-modal {
+/* a {
   padding: 20px;
   display: inline-block;
   text-decoration: none;
@@ -73,6 +73,6 @@
   border-radius: 3px;
 } */
 
-@import url('./modal-reserve-a-table.css');
+/* @import url('./modal-reserve-a-table.css');
 @import url('./modal-reserve-a-room.css');
-@import url('./modal-prices-per-room.css');
+@import url('./modal-prices-per-room.css'); */
