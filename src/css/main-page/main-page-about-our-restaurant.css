@@ -181,52 +181,32 @@
     column-gap: 20px;
   }
   /* -------------Slider----------- */
-  .rest-about-slider {
-    position: relative;
-    left: 70px;
-    margin: 0;
-    /* box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25); */
-  }
-  .rest-about-slider-container {
-    width: 330px;
-  }
-  .rest-about-slider-item {
-    width: 245px;
-    height: 245px;
-    box-shadow: var(--box-shadow-mobile-desktop);
-  }
-  .rest-about-slider-image {
-    box-shadow: var(--box-shadow-mobile-desktop);
-  }
-  .rest-about-slider-buttons {
-    position: absolute;
-    top: 265px;
-    width: 108px;
-    left: 120px;
-  }
-  .about-slider-arrow-left {
-    padding: 0;
-    border: none;
-    margin-right: 30px;
-    background-color: transparent;
-  }
-
-  .about-slider-arrow-right {
-    padding: 0;
-    border: none;
-    background-color: transparent;
-  }
-  .rest-about-slider-left-svg,
-  .rest-about-slider-right-svg {
-    cursor: pointer;
-    transition: var(--transition-function);
-  }
-  .rest-about-slider-left-svg:hover,
-  .rest-about-slider-right-svg:hover,
-  .rest-about-slider-left-svg:focus,
-  .rest-about-slider-right-svg:focus {
-    fill: var(--colors-text-btn-active);
-  }
+    .slider-rest-list {
+      display: flex;
+      margin-left: 70px;
+      margin-bottom: 20px;
+      column-gap: 24px;
+  
+    }
+  
+    .swiper-slide {
+      width: 245px;
+    }
+  
+  
+    .rest-about-slider-buttons {
+      color: var(--black);
+      padding: 0;
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+      transition: color var(--box-shadow-mobile-desktop);
+    }
+  
+    .rest-about-slider-buttons:hover,
+    .rest-about-slider-buttons:focus {
+      color: var(--akzent-yellow);
+    }
 }
 /* ===============TABLET=============== */
 @media screen and (min-width: 1024px) {
@@ -292,102 +272,19 @@
   }
 
   /* ------Slider------- */
-  .rest-about-slider {
-    max-width: 328px;
-  }
-
-  .rest-about-slider-container {
-    width: 430px;
-  }
-
-  .rest-about-slider-item {
-    width: 194px;
-    height: 194px;
-  }
-
-  .rest-about-slider-image {
-    box-shadow: var(--box-shadow-tablet);
-  }
-
-  .rest-about-slider-buttons {
-    top: 230px;
-    left: 325px;
-  }
-
-  .about-restaurant {
-    padding: 0;
-  }
-
-  .about-rest-title {
-    margin-bottom: 0;
-  }
-
-  .about-rest-slogan {
-    font-size: 36px;
-    line-height: 1.15;
-  }
-
-  .about-titles {
-    font-size: 64px;
-  }
-
-  .about-rest-main-text {
-    font-size: 16px;
-    line-height: 1.21;
-    max-width: 439px;
-  }
-
-  .about-rest-container {
-    display: flex;
-    align-items: center;
-    gap: 26px;
-  }
-
-  .about-first-images {
-    min-width: 400px;
-    box-shadow: var(--box-shadow-tablet);
-    position: relative;
-    top: -32px;
-    margin-bottom: 0;
-  }
-
-  .about-second-images {
-    max-width: 350px;
-    position: relative;
-    top: -48px;
-    box-shadow: var(--box-shadow-tablet);
-  }
-
-  .about-secondary-text {
-    position: relative;
-    font-size: 16px;
-    max-width: 312px;
-    top: 148px;
-  }
-
-  .second-rest-about {
-    justify-content: flex-start;
-    align-items: flex-start;
-    column-gap: 48px;
-  }
-  /* ------Slider------- */
-  .rest-about-slider {
-    max-width: 328px;
-  }
-  .rest-about-slider-container {
-    width: 430px;
-  }
-  .rest-about-slider-item {
-    width: 194px;
-    height: 194px;
-  }
-  .rest-about-slider-image {
-    box-shadow: var(--box-shadow-tablet);
-  }
-  .rest-about-slider-buttons {
-    top: 230px;
-    left: 325px;
-  }
+    .slider-rest-list {
+      position: relative;
+      justify-content: flex-end;
+      margin-bottom: 32px;
+      column-gap: 40px;
+  
+    }
+  
+    .swiper-slide {
+      width: auto;
+      min-width: 194px;
+  
+    }
 }
 
 /* ===============DESKTOP=============== */
@@ -482,21 +379,11 @@
     top: 89px;
   }
   /* ----Slider---- */
-  .rest-about-slider {
-    left: 10px;
-  }
-  .rest-about-slider-container {
-    width: 550px;
-  }
-  .rest-about-slider-item {
-    width: 254px;
-    height: 254px;
-  }
-  .rest-about-slider-image {
-    box-shadow: var(--box-shadow-mobile-desktop);
-  }
-  .rest-about-slider-buttons {
-    top: 290px;
-    left: 450px;
-  }
+.slider-rest-list {
+  margin-bottom: 40px;
+}
+
+.swiper-slide {
+  min-width: 254px;
+}
 }
