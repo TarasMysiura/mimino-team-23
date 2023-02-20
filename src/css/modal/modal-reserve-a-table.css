@@ -1,6 +1,6 @@
 /* ---------------------------------GENERAL-MODAL */
 
-.modal {
+.base-modal {
   position: absolute;
   width: 320px;
   padding: 60px 15px;
@@ -17,7 +17,7 @@
 /* ---------------------------------GENERAL-TITLE */
 
 .modal-title {
-  font-family: "Times New Roman", sans-serif;
+  font-family: 'Times New Roman', sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.17;
@@ -36,7 +36,7 @@ select {
 }
 
 .arrow-select::before {
-  content: "";
+  content: '';
   background-image: url(../../img/select.svg);
 
   position: absolute;
@@ -55,7 +55,7 @@ select {
 }
 
 .text-input {
-  font-family: "Times New Roman", sans-serif;
+  font-family: 'Times New Roman', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.15;
@@ -76,7 +76,7 @@ select {
 }
 
 .text-label {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.21;
@@ -88,7 +88,6 @@ select {
 }
 
 /* ---------------------------------BUTTONS */
-
 .button-book {
   margin-top: 40px;
   width: 290px;
@@ -98,11 +97,11 @@ select {
   border: var(--border-btn-modal);
   border-radius: 2px;
 
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
-  color: var(text-btn-def);
+  color: var(--text-btn-def);
 
   transition: var(--transition-function);
 }
@@ -111,7 +110,7 @@ select {
 .button-book:focus,
 .button-book:active {
   color: var(--text-btn-active);
-  background: var(bcg-btn-active);
+  background: var(--bcg-btn-active);
   border: var(--border-btn-modal);
   border-radius: 2px;
   transition: var(--transition-function);
