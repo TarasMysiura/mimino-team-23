@@ -116,7 +116,7 @@ select {
 .button-book:focus,
 .button-book:active {
   color: var(--text-btn-active);
-  background: var(bcg-btn-active);
+  background: var(--bcg-btn-active);
   border: var(--border-btn-modal);
   border-radius: 2px;
   transition: var(--transition-function);
