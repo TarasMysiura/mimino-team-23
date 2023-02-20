@@ -9,7 +9,6 @@ h6 {
 }
 
 .container {
-  min-width: 320px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -41,17 +40,17 @@ h6 {
   color: #7a7a7a;
 }
 
-.room-text-wrapper {
+/* .room-text-wrapper {
   display: flex;
   flex-direction: column;
   gap: 16px;
-}
+} */
 
 /* ----------HEADER------------ */
 
 /* ----------HERO ROOM------------ */
 
-.hero-room-section {
+/* .hero-room-section {
   position: relative;
   max-width: 414px;
   padding-top: 483px;
@@ -70,9 +69,9 @@ h6 {
   .hero-room-section {
     background-image: url(../img/mobile/hefo-hotel-bg-mobile-2x.jpg);
   }
-}
+} */
 
-.hero-room-title {
+/* .hero-room-title {
   max-width: 325px;
   margin-bottom: 24px;
 
@@ -158,12 +157,12 @@ h6 {
 .hero-room-slider-icon:hover,
 .hero-room-slider-icon:focus {
   fill: #f3c653;
-}
+} */
 
 /* ----------AMENITIES ROOM------------ */
 
 .amenities-room-section {
-  max-width: 414px;
+  width: 100%;
   background-color: #fffdee;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -172,6 +171,12 @@ h6 {
 
 .amenities-room-title {
   margin-bottom: 16px;
+}
+
+.room-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .amenities-title-text {
@@ -269,8 +274,7 @@ h6 {
     max-width: 960px;
   }
   /* ----------HERO ROOM------------ */
-  .hero-room-section {
-    max-width: 1024px;
+  /* .hero-room-section {
     padding-top: 468px;
     padding-bottom: 102px;
 
@@ -304,12 +308,11 @@ h6 {
   .hero-room-slider-container {
     right: 47px;
     left: 47px;
-  }
+  } */
 
   /* ----------AMENITIES ROOM------------ */
 
   .amenities-room-section {
-    max-width: 1024px;
     padding-top: 50px;
     padding-bottom: 40px;
   }
@@ -355,8 +358,7 @@ h6 {
     max-width: 1140px;
   }
   /* ----------HERO ROOM------------ */
-  .hero-room-section {
-    max-width: 1280px;
+  /* .hero-room-section {
     padding-top: 531px;
     padding-bottom: 48px;
 
@@ -383,12 +385,11 @@ h6 {
   .hero-room-slider-container {
     right: 85px;
     left: 85px;
-  }
+  } */
 
   /* ----------AMENITIES ROOM------------ */
 
   .amenities-room-section {
-    max-width: 1280px;
     padding-top: 48px;
     padding-bottom: 48px;
   }
