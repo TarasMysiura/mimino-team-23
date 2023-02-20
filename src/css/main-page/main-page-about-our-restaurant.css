@@ -213,6 +213,12 @@
   .about-restaurant {
     padding-bottom: 20px;
   }
+  .about-rest-container {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    margin-bottom: -32px;
+  }
 
   .about-rest-title {
     margin-bottom: 0;
@@ -236,11 +242,7 @@
     max-width: 439px;
   }
 
-  .about-rest-container {
-    display: flex;
-    align-items: center;
-    gap: 26px;
-  }
+  
 
   .about-first-images {
     min-width: 400px;
@@ -253,7 +255,7 @@
   .about-second-images {
     max-width: 350px;
     position: relative;
-    top: -48px;
+    top: -16px;
     box-shadow: var(--box-shadow-tablet);
   }
 
@@ -269,6 +271,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     column-gap: 48px;
+    margin-bottom:-16px;
   }
 
   /* ------Slider------- */
@@ -277,6 +280,7 @@
       justify-content: flex-end;
       margin-bottom: 32px;
       column-gap: 40px;
+      top: -28px;
   
     }
   
@@ -289,6 +293,11 @@
 
 /* ===============DESKTOP=============== */
 @media screen and (min-width: 1280px) {
+  
+  .second-rest-about {
+    column-gap: 32px;
+    margin-bottom: -65px;
+  }
   .about-rest-slogan {
     margin-bottom: 4px;
   }
@@ -311,13 +320,13 @@
 
   .about-second-images {
     max-width: 460px;
-    top: -96px;
+    top: -65px;
+    box-shadow: var(--box-shadow-mobile-desktop);
+    max-width: 460px;
     box-shadow: var(--box-shadow-mobile-desktop);
   }
 
-  .second-rest-about {
-    column-gap: 32px;
-  }
+  
 
   .about-secondary-text {
     top: 89px;
@@ -365,11 +374,7 @@
     max-width: 460px;
   }
 
-  .about-second-images {
-    max-width: 460px;
-    top: -96px;
-    box-shadow: var(--box-shadow-mobile-desktop);
-  }
+ 
 
   .second-rest-about {
     column-gap: 32px;
@@ -380,6 +385,8 @@
   }
   /* ----Slider---- */
 .slider-rest-list {
+  position: relative;
+  top: -147px;
   margin-bottom: 40px;
 }
 
