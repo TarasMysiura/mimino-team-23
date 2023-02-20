@@ -24,6 +24,7 @@ footer {
   padding-bottom: 40px;
   align-items: center;
   justify-content: space-around;
+  gap: 75px;
 }
 
 .footer-logo {
@@ -46,7 +47,7 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 32px;
-  padding-right: 15px; 
+
 }
   
 .footer-nav-list {
@@ -148,7 +149,7 @@ footer {
     gap: 136px;
     padding: 0;
     justify-content: space-around;
-    margin-left: 143px;
+    
   }
 
   .footer-soc-list {
@@ -177,10 +178,11 @@ footer {
 @media screen and (min-width: 1280px) {
   .container {
       max-width: 1140px;
-  }
+  } 
 
-  .footer-container{
+  .footer-container .container{
     padding: 80px 186px;
+    gap: 210px ;
   }
 
   .footer-wrap {
