@@ -4,7 +4,7 @@
   | default @import url()
   |============================
 */
-@import url('./main-page/main-page-header-hero.css');
+@import url('./restaurant-page/restaurant-page-header-hero.css');
 @import url('./restaurant-page/restaurant-about-our-kitchen.css');
 @import url('./restaurant-page/restaurant-page-menu.css');
 
