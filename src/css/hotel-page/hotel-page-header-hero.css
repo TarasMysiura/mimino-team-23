@@ -4,7 +4,7 @@
     background-position: center;
     background-size: cover;
     background-image: linear-gradient(rgba(to right, 0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), 
-    url(../../img/mobile/hefo-hotel-bg-mobile.jpg);
+    url(../../img/mobile/hero-hotel-bg-mobile.jpg);
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -12,21 +12,21 @@
 (min-resolution: 2dppx) {
     .hero-hotel-background {
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), 
-        url(../../img/mobile/hefo-hotel-bg-mobile-2x.jpg);
+        url(../../img/mobile/hero-hotel-bg-mobile-2x.jpg);
     }
 }
 
 @media screen and (min-width: 415px) {
     .hero-hotel-background {
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), 
-        url(../../img/tablet/hefo-all-hotel-bg-tablet.jpg);
+        url(../../img/tablet/hero-hotel-bg-tablet.jpg);
     }
 
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .hero-hotel-background {
             background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), 
-            url(../../img/tablet/hefo-all-hotel-bg-tablet-2x.jpg);
+            url(../../img/tablet/hero-hotel-bg-tablet-2x.jpg);
         }
     }
 }
@@ -38,14 +38,14 @@
 
     .hero-hotel-background {
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), 
-        url(../../img/desktop/hefo-all-hotel-bg-desktop.jpg);
+        url(../../img/desktop/hero-hotel-bg-desktop.jpg);
     }
 
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .hero-hotel-background {
             background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), 
-            url(../../img/desktop/hefo-all-hotel-bg-desktop-2x.jpg);
+            url(../../img/desktop/hero-hotel-bg-desktop-2x.jpg);
         }
     }
 }
