@@ -219,6 +219,7 @@
 @media screen and (min-width: 1024px) {
   .about-restaurant {
     padding-bottom: 20px;
+    padding-top: 0;
   }
   .about-rest-container {
     display: flex;
