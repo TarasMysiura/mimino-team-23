@@ -4,6 +4,7 @@
     background: var(--colors-bg-section-fon-lemon);
     margin: 0 auto;
   }
+  
 
   .about-rest-title {
     margin-bottom: 28px;
@@ -67,9 +68,11 @@
     align-items: center;
     gap: 32px;
     column-gap: 20px;
+    margin-bottom: 32px;
   }
 
   /* -------------Slider----------- */
+
   .rest-about-slider {
     position: relative;
     left: 70px;
@@ -183,14 +186,18 @@
   /* -------------Slider----------- */
     .slider-rest-list {
       display: flex;
+      min-width: 330px;
       margin-left: 70px;
       margin-bottom: 20px;
       column-gap: 24px;
+      position: relative;
+      left: 69px;
+      overflow: hidden;
   
     }
   
     .swiper-slide {
-      width: 245px;
+      max-width: 245px;
     }
   
   
@@ -212,6 +219,13 @@
 @media screen and (min-width: 1024px) {
   .about-restaurant {
     padding-bottom: 20px;
+    padding-top: 0;
+  }
+  .about-rest-container {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    margin-bottom: -32px;
   }
 
   .about-rest-title {
@@ -236,11 +250,7 @@
     max-width: 439px;
   }
 
-  .about-rest-container {
-    display: flex;
-    align-items: center;
-    gap: 26px;
-  }
+  
 
   .about-first-images {
     min-width: 400px;
@@ -253,7 +263,7 @@
   .about-second-images {
     max-width: 350px;
     position: relative;
-    top: -48px;
+    top: -16px;
     box-shadow: var(--box-shadow-tablet);
   }
 
@@ -269,6 +279,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     column-gap: 48px;
+    margin-bottom:-16px;
   }
 
   /* ------Slider------- */
@@ -277,6 +288,8 @@
       justify-content: flex-end;
       margin-bottom: 32px;
       column-gap: 40px;
+      top: -28px;
+      left:0;
   
     }
   
@@ -289,6 +302,11 @@
 
 /* ===============DESKTOP=============== */
 @media screen and (min-width: 1280px) {
+  
+  .second-rest-about {
+    column-gap: 32px;
+    margin-bottom: -65px;
+  }
   .about-rest-slogan {
     margin-bottom: 4px;
   }
@@ -311,13 +329,13 @@
 
   .about-second-images {
     max-width: 460px;
-    top: -96px;
+    top: -65px;
+    box-shadow: var(--box-shadow-mobile-desktop);
+    max-width: 460px;
     box-shadow: var(--box-shadow-mobile-desktop);
   }
 
-  .second-rest-about {
-    column-gap: 32px;
-  }
+  
 
   .about-secondary-text {
     top: 89px;
@@ -365,11 +383,7 @@
     max-width: 460px;
   }
 
-  .about-second-images {
-    max-width: 460px;
-    top: -96px;
-    box-shadow: var(--box-shadow-mobile-desktop);
-  }
+ 
 
   .second-rest-about {
     column-gap: 32px;
@@ -380,6 +394,8 @@
   }
   /* ----Slider---- */
 .slider-rest-list {
+  position: relative;
+  top: -147px;
   margin-bottom: 40px;
 }
 
