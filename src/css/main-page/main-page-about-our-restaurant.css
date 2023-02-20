@@ -4,6 +4,7 @@
     background: var(--colors-bg-section-fon-lemon);
     margin: 0 auto;
   }
+  
 
   .about-rest-title {
     margin-bottom: 28px;
@@ -71,6 +72,7 @@
   }
 
   /* -------------Slider----------- */
+
   .rest-about-slider {
     position: relative;
     left: 70px;
@@ -184,14 +186,18 @@
   /* -------------Slider----------- */
     .slider-rest-list {
       display: flex;
+      min-width: 330px;
       margin-left: 70px;
       margin-bottom: 20px;
       column-gap: 24px;
+      position: relative;
+      left: 69px;
+      overflow: hidden;
   
     }
   
     .swiper-slide {
-      width: 245px;
+      max-width: 245px;
     }
   
   
@@ -282,6 +288,7 @@
       margin-bottom: 32px;
       column-gap: 40px;
       top: -28px;
+      left:0;
   
     }
   
