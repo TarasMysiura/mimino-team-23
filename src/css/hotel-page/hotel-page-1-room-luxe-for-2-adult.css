@@ -71,41 +71,60 @@ h3 {
   width: 428px;
 }
 
-.slick-track {
+.room-luxe .slick-track, .room-two .slick-track, .room-three .slick-track {
   display: flex;
   gap: 15px;
 }
 
-.slick-prev,
-.slick-next {
+.room-luxe .slick-prev,
+.room-two .slick-prev,
+.room-three .slick-prev,
+.room-luxe .slick-next,
+.room-two .slick-next,
+.room-three .slick-next {
   position: absolute;
   top: 230px;
   width: 32px;
   height: 32px;
 }
 
-.slick-prev {
+.room-luxe .slick-prev,
+.room-two .slick-prev,
+.room-three .slick-prev {
   left: 120px;
   background: url(../../img/svg-bg/cil_arrow-left.svg);
 }
 
-.slick-next {
+.room-luxe .slick-next,
+.room-two .slick-next,
+.room-three .slick-next {
   right: 190px;
   background: url(../../img/svg-bg/cil_arrow-right.svg);
 }
 
-.slick-prev::before,
-.slick-next::before {
+.room-luxe .slick-prev::before,
+.room-two .slick-prev::before,
+.room-three .slick-prev::before, .room-luxe .slick-next::before,
+.room-two .slick-next::before,
+.room-three .slick-next::before {
   content: '';
 }
 
-.slick-prev:hover,
-.slick-prev:focus {
+.room-luxe .slick-prev:hover,
+.room-two .slick-prev:hover,
+.room-three .slick-prev:hover,
+.room-luxe .slick-prev:focus,
+.room-two .slick-prev:focus,
+.room-three .slick-prev:focus {
   background: url(../../img/svg-bg/cil_arrow-left.svg);
 }
 
-.slick-next:hover,
-.slick-next:focus {
+.room-luxe .slick-next:hover,
+.room-two .slick-next:hover,
+.room-three .slick-next:hover,
+.room-luxe .slick-next:focus,
+.room-two .slick-next:focus,
+.room-three .slick-next:focus {
   background: url(../../img/svg-bg/cil_arrow-right.svg);
 }
 
@@ -260,17 +279,25 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 25
     margin-top: -94px;
   }
 
-  .slick-prev,
-  .slick-next {
+  .room-luxe .slick-prev,
+  .room-two .slick-prev,
+  .room-three .slick-prev,
+  .room-luxe .slick-next,
+  .room-two .slick-next,
+  .room-three .slick-next {
     top: 242px;
   }
 
-  .slick-prev {
+  .room-luxe .slick-prev,
+  .room-two .slick-prev,
+  .room-three .slick-prev{
     left: 330px;
     background: url(../../img/svg-bg/cil_arrow-left.svg);
   }
 
-  .slick-next {
+  .room-luxe .slick-next,
+  .room-two .slick-next,
+  .room-three .slick-next {
     right: 10px;
     background: url(../../img/svg-bg/cil_arrow-right.svg);
   }
@@ -342,17 +369,25 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 25
     width: 548px;
   }
 
-  .slick-prev,
-  .slick-next {
+  .room-luxe .slick-prev,
+  .room-two .slick-prev,
+  .room-three .slick-prev,
+  .room-luxe .slick-next,
+  .room-two .slick-next,
+  .room-three .slick-next {
     top: 278px;
   }
 
-  .slick-prev {
+  .room-luxe .slick-prev,
+  .room-two .slick-prev,
+  .room-three .slick-prev {
     left: 450px;
     background: url(../../img/svg-bg/cil_arrow-left.svg);
   }
 
-  .slick-next {
+  .room-luxe .slick-next,
+  .room-two .slick-next,
+  .room-three .slick-next {
     right: 10px;
     background: url(../../img/svg-bg/cil_arrow-right.svg);
   }
