@@ -151,7 +151,6 @@
 
     .container {
         max-width: 414px;
-        padding: 0;
     }
 
     .menu-section {
@@ -167,13 +166,10 @@
         display: flex;
         flex-wrap: wrap;
         max-width: 960px;
-        padding: 0;
     }
 
     .menu-section {
         max-width: 930px;
-        padding-left: 47px;
-        padding-right: 47px;
         padding-top: 58px;
         padding-bottom: 40px;
     }
@@ -230,8 +226,6 @@
 
     .menu-section {
         max-width: 1110px;
-        padding-left: 85px;
-        padding-right: 85px;
         padding-top: 58px;
         padding-bottom: 60px;
     }
