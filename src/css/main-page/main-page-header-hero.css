@@ -3,17 +3,57 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../../img/mobile/hefo-all-bg-mobile.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), 
+    url(../../img/mobile/hefo-all-bg-mobile.jpg);
 }
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .hero-main-background {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../../img/mobile/hefo-all-bg-mobile-2x.jpg);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), 
+        url(../../img/mobile/hefo-all-bg-mobile-2x.jpg);
     }
 }
 
-.container {
+@media screen and (min-width: 415px) {
+    .hero-main-background {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), 
+        url(../../img/tablet/hefo-all-bg-tablet.jpg);  
+}
+
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero-main-background {
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), 
+            url(../../img/tablet/hefo-all-bg-tablet-2x.jpg);
+        }
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .hero-main-background {
+        max-width: 1280px;
+    }
+
+    .hero-main-background {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), 
+        url(../../img/desktop/hefo-all-bg-desktop.jpg);
+    }
+
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero-main-background {
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), 
+            url(../../img/desktop/hefo-all-bg-desktop-2x.jpg);
+        }
+    }
+}
+
+.hh-container {
     position: relative;
+    /* width: 100%;  */
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
 
 .header .header-top {
@@ -266,7 +306,7 @@
 /* ===============MOBILE=============== */
 
 @media screen and (min-width: 414px) {
-    .container {
+    .hh-container {
         /* max-width: 414px; */
         width: 414px;
     }
@@ -287,18 +327,7 @@
 /* ===============TABLET=============== */
 
 @media screen and (min-width: 1024px) {
-
-    .hero-main-background {
-        background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../../img/tablet/hefo-all-bg-tablet.jpg);
-    }
-
-    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-        .hero-main-background {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../../img/tablet/hefo-all-bg-tablet-2x.jpg);
-        }
-    }
-
-    .container {
+    .hh-container {
         /* max-width: 960px; */
         width: 1024px;
         padding: 0 47px;
@@ -418,18 +447,7 @@
 /* ===============DESKTOP=============== */
 
 @media screen and (min-width: 1280px) {
-
-    .hero-main-background {
-        background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../../img/desktop/hefo-all-bg-desktop.jpg);
-    }
-    
-    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-        .hero-main-background {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../../img/desktop/hefo-all-bg-desktop-2x.jpg);
-        }
-    }
-
-    .container {
+    .hh-container {
         /* max-width: 1140px; */
         width: 1280px;
         padding: 0 85px;
