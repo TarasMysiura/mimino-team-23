@@ -184,11 +184,15 @@
     column-gap: 20px;
   }
   /* -------------Slider----------- */
+
+    .slider-rest-box {
+      margin-bottom: 20px;
+    }
     .slider-rest-list {
       display: flex;
       min-width: 330px;
       margin-left: 70px;
-      margin-bottom: 20px;
+      m
       column-gap: 24px;
       position: relative;
       left: 69px;
