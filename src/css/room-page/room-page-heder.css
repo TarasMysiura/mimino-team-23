@@ -4,7 +4,7 @@
   background-position: center;
   background-size: cover;
 
-  background-image: url(..//../img/mobile/hero-hotel-bg-mobile.jpg);
+  background-image: url(../../img/mobile/hero-hotel-bg-mobile.jpg);
 
 }
 
@@ -13,7 +13,7 @@
   (min-resolution: 2dppx) {
   .hero-main-background {
 
-    background-image: url(..//../img/mobile/hero-hotel-bg-mobile-2x.jpg);
+    background-image: url(../../img/mobile/hero-hotel-bg-mobile-2x.jpg);
 
   }
 }
@@ -21,7 +21,7 @@
 @media screen and (min-width: 415px) {
   .hero-main-background {
 
-    background-image: url(..//../img/tablet/hero-hotel-bg-tablet.jpg);
+    background-image: url(../../img/tablet/hero-hotel-bg-tablet.jpg);
 
   }
 
@@ -30,7 +30,7 @@
     (min-resolution: 2dppx) {
     .hero-main-background {
 
-      background-image: url(..//../img/tablet/hero-hotel-bg-tablet-2x.jpg);
+      background-image: url(../../img/tablet/hero-hotel-bg-tablet-2x.jpg);
 
     }
   }
@@ -39,7 +39,7 @@
 @media screen and (min-width: 1025px) {
   .hero-main-background {
 
-    background-image: url(..//../img/desktop/hero-hotel-bg-desktop.jpg);
+    background-image: url(../../img/desktop/hero-hotel-bg-desktop.jpg);
 
     max-width: 1280px;
   }
@@ -51,11 +51,11 @@
     (min-resolution: 2dppx) {
     .hero-main-background {
 
-      background-image: url(..//../img/desktop/hero-hotel-bg-desktop-2x.jpg);
+      background-image: url(../../img/desktop/hero-hotel-bg-desktop-2x.jpg);
 
     }
   }
-}
+
 /*----------------------HEADER------------------*/
 
 .header-gradient {
