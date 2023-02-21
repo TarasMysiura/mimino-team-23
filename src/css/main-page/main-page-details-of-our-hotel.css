@@ -17,6 +17,11 @@ body {
   overflow: hidden;
 }
 
+.details-hotel .container,
+.details-restaurant .container {
+  overflow: hidden;
+}
+
 .details-restaurant {
   background: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
     url(../../img/mobile/hero-all-restaurant-bg-mobile.jpg) center no-repeat;
@@ -176,6 +181,14 @@ body {
   .container {
     max-width: 414px;
   }
+
+  .details-restaurant-imgs {
+    margin-left: 25px;
+  }
+
+  .details-hotel-imgs {
+    margin-right: 25px;
+  }
 }
 
 @media screen and (max-width: 1023.98px) {
@@ -204,6 +217,7 @@ body {
   .details-restaurant-text {
     margin-left: 45px;
   }
+
 }
 
 /* ===============TABLET=============== */
@@ -256,7 +270,7 @@ body {
     font-size: 64px;
     line-height: 1.08;
     text-align: left;
-    margin-left: 490px;
+    margin-left: 497px;
     margin-bottom: 16px;
   }
 
@@ -273,7 +287,7 @@ body {
   .details-restaurant-text {
     font-size: 16px;
     line-height: 1.25;
-    margin-left: 143px;
+    margin-left: 140px;
     margin-bottom: 40px;
     width: 549px;
   }
@@ -281,13 +295,13 @@ body {
   .details-restaurant-logo,
   .details-restaurant-title,
   .details-restaurant-text {
-    margin-left: 248px;
+    margin-left: 231px;
   }
 
   .details-hotel-wrapper,
   .details-restaurant-wrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-end;
   }
 
@@ -357,21 +371,21 @@ body {
   }
 
   .details-hotel-logo {
-    margin-left: 680px;
+    margin-left: 674px;
   }
 
   .details-restaurant-logo,
   .details-restaurant-title,
   .details-restaurant-text {
-    margin-left: 265px;
+    margin-left: 253px;
   }
 
   .details-hotel-title {
-    margin-left: 786px;
+    margin-left: 770px;
   }
 
   .details-hotel-text {
-    margin-left: 295px;
+    margin-left: 262px;
     width: 595px;
   }
 
