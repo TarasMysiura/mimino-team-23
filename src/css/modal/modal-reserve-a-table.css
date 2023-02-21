@@ -55,7 +55,7 @@ select {
   position: relative;
 }
 
-.name-input .text-input {
+.text-input {
   font-family: 'Times New Roman', sans-serif;
   font-weight: 700;
   font-size: 16px;
