@@ -30,7 +30,7 @@
 --colors-text-btn-default: #F3C653;
 --colors-text-btn-active: #F3C653;
 --colors-bg-btn-default: rgba(0, 0, 0, 0.4);
---colors-bg-btn-active: #ffffff;
+--colors-bg-btn-active: #FFFFFF;
 
 
 --colors-bg-btn-modal-default: #000000;
@@ -43,8 +43,8 @@
 
 --colors-bg-section-restaurant-hotel-pages: #F0ECD6;
 --colors-bg-footer:#000000;
---background-hero-section-gradient: rgba(0, 0, 0, 0.65); 
---background-restaurant-hotel-section-gradient:rgba(0, 0, 0, 0.76); 
+--background-hero-section-gradient: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)); 
+--background-restaurant-hotel-section-gradient: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)); 
 
 /* =================COLORS TEXT CONTENT=================== */
 
