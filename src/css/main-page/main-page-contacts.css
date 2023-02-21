@@ -98,10 +98,11 @@ iframe {
     fill: var(--color-svg-fill-broun);
     margin-right: 8px;
 }
-/* .contacts-phones-link {
+.contacts-phones-link {
     width: 100px;
-    max-height: 17px;
-} */
+    text-transform: uppercase;
+    /* max-height: 17px; */
+}
 .contacts-phones-link{
     font-size: 14px;
     line-height: 1.21;
