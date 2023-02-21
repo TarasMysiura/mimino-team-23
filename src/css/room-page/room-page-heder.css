@@ -42,20 +42,20 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero-main-background {
-    background-image: url(..//../img/mobile/hefo-hotel-bg-mobile-2x.jpg);
+    background-image: url(./img/mobile/hefo-hotel-bg-mobile-2x.jpg);
   }
 }
 
 @media screen and (min-width: 415px) {
   .hero-main-background {
-    background-image: url(..//../img/tablet/hefo-hotel-bg-tablet.jpg);
+    background-image: url(./img/tablet/hefo-hotel-bg-tablet.jpg);
   }
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero-main-background {
-      background-image: url(..//../img/tablet/hefo-hotel-bg-tablet-2x.jpg);
+      background-image: url(./img/tablet/hefo-hotel-bg-tablet-2x.jpg);
     }
   }
 }
@@ -66,14 +66,14 @@
   }
 
   .hero-main-background {
-    background-image: url(..//../img/desktop/hefo-hotel-bg-desktop.jpg);
+    background-image: url(./img/desktop/hefo-hotel-bg-desktop.jpg);
   }
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero-main-background {
-      background-image: url(..//../img/desktop/hefo-hotel-bg-desktop-2x.jpg);
+      background-image: url(./img/desktop/hefo-hotel-bg-desktop-2x.jpg);
     }
   }
 }
