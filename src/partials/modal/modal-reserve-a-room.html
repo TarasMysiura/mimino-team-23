@@ -5,11 +5,10 @@
   <!------------------------------ NAME ----------------------------------->
   <form autocomplete="on">
     <ul class="input-flex list">
-
-      <div class="name-phone-flex">
         <li class="name-input">
           <input type="text" name="name" pattern="[A-Za-zА-Яа-яЁёІіЇїЄє]{2,}" required placeholder="Ваше ім’я"
-            class="text-input" />
+  margin-top: 0;
+            class="text-input name-input" />  
           <div class="text-label">
             <label for="name">На кого забронювати номер?</label>
           </div>
@@ -23,11 +22,8 @@
             <label for="phone">Номер телефону</label>
           </div>
         </li>
-      </div>
-
 
       <!------------------------- ROOM --------------------------------->
-      <div class="room-input">
         <li class="empty"></li>
         <li>
           <select id="room" name="room" required class="text-input">
@@ -39,11 +35,8 @@
             <label for="room-input">Категорія номеру</label>
           </div>
         </li>
-      </div>
-
 
       <!----------------------------- DATE ------------------------------->
-      <div class="today-flex">
         <li class="date-input">
           <select name="date" id="date" required class="text-input">
             <option value="Сьогодні" selected>Сьогодні</option>
@@ -62,7 +55,6 @@
             <label>Дата виїзду</label>
           </div>
         </li>
-      </div>
     </ul>
 
     <!----------------------------- BUTTON ------------------------------->
