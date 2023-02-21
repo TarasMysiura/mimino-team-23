@@ -157,13 +157,12 @@
     margin-left: auto;
     margin-bottom: 32px;
     border-radius: 2px;
-    box-shadow: var(--box-shadow-mobile-desktop);
+
   }
 
   .about-second-images {
     max-width: 200px;
     border-radius: 2px;
-    box-shadow: var(--box-shadow-mobile-desktop);
   }
 
   .about-secondary-text {
@@ -200,8 +199,9 @@
   
     }
   
-    .swiper-slide {
+    .rest--swiper-slide {
       max-width: 245px;
+      border-radius: 2px;
     }
     .slider-arrow-list {
       display: flex;
@@ -217,7 +217,6 @@
       border: none;
       background-color: transparent;
       cursor: pointer;
-      transition: color var(--box-shadow-mobile-desktop);
     }
     .arrow-slider-icon{
       width: 100%;
@@ -246,13 +245,13 @@
   }
   .about-rest-container {
     display: flex;
-    align-items: center;
     gap: 26px;
     margin-bottom: -32px;
   }
 
   .about-rest-title {
     margin-bottom: 0;
+    margin-top: 120px;
   }
 
   .about-rest-slogan {
@@ -323,9 +322,10 @@
 
   }
 
-  .swiper-slide {
+  .rest--swiper-slide {
     width: auto;
     min-width: 194px;
+
 
   }
 }
@@ -434,7 +434,8 @@
   .slider-arrow-box {
     margin-top: 40px;
   }
-  .swiper-slide {
+  .rest--swiper-slide {
     min-width: 254px;
+
   }
 }

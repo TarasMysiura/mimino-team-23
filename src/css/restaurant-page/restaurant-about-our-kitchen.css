@@ -430,8 +430,8 @@
       }
     
       .swiper-slide {
-        max-width: 245px;
-      }
+            max-width: 245px;
+          }
       .slider-arrow-list {
         display: flex;
         justify-content: flex-end;
@@ -555,6 +555,7 @@
     .swiper-slide {
       width: auto;
       min-width: 194px;
+      
   
     }
   }
@@ -665,6 +666,7 @@
     }
     .swiper-slide {
       min-width: 254px;
+      
     }
   }
   
