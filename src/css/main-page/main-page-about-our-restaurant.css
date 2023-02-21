@@ -287,22 +287,25 @@
   }
 
   /* ------Slider------- */
-    .slider-rest-list {
-      position: relative;
-      justify-content: flex-end;
-      max-width: 100%;
-      margin-bottom: 32px;
-      column-gap: 40px;
-      top: -28px;
-      left:0;
-  
-    }
-  
-    .swiper-slide {
-      width: auto;
-      min-width: 194px;
-  
-    }
+  .slider-rest-box {
+    margin-bottom: 32px;
+  }
+  .slider-rest-list {
+    position: relative;
+    justify-content: flex-end;
+    max-width: 100%;
+    
+    column-gap: 40px;
+    top: -28px;
+    left:0;
+
+  }
+
+  .swiper-slide {
+    width: auto;
+    min-width: 194px;
+
+  }
 }
 
 /* ===============DESKTOP=============== */
@@ -398,13 +401,16 @@
     top: 89px;
   }
   /* ----Slider---- */
-.slider-rest-list {
-  position: relative;
-  top: -147px;
-  margin-bottom: 40px;
-}
+  .slider-rest-box {
+    margin-bottom: 40px;
+  }
+  .slider-rest-list {
+    position: relative;
+    top: -147px;
+    
+  }
 
-.swiper-slide {
-  min-width: 254px;
-}
+  .swiper-slide {
+    min-width: 254px;
+  }
 }
