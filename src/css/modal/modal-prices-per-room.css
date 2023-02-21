@@ -183,7 +183,7 @@ select {
   .modal {
     width: 712px;
 
-    position: absolute;
+    position: fixed;
     padding: 60px;
   }
   .modal-title {
