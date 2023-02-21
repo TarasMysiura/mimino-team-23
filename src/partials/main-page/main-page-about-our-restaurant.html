@@ -42,12 +42,12 @@
             ./img/mobile/restaurant_interior/restaurant-interior_1.jpg 1x,
             ./img/mobile/restaurant_interior/restaurant-interior_1_2x.jpg 2x
           "
-          media="(min-width: 384px)"
+          media="(min-width: 414px)"
         />
 
         <img
           class="about-first-images"
-          src="../..//img/mobile/restaurant_interior/restaurant-interior_1.jpg"
+          src=".//img/mobile/restaurant_interior/restaurant-interior_1.jpg"
           alt="restaurant interior"
         />
       </picture>
@@ -90,92 +90,95 @@
     </div>
     <!-- PLace for slider -->
 
-    <ul class="list slider-rest-list">
-      <li class="slider-rest-item">
-        <picture>
-          <source
-            srcset="
-              ./img/desktop/slider-desktop/rest-1.jpg    1x,
-              ./img/desktop/slider-desktop/rest-1-2x.jpg 2x
-            "
-            media="(min-width: 1280px)"
-            sizes="254px"
-          />
-
-          <source
-            srcset="
-              ./img/tablet/slider-tablet/rest-1.jpg    1x,
-              ./img/tablet/slider-tablet/rest-1-2x.jpg 2x
-            "
-            media="(min-width: 1024px)"
-            sizes="194px"
-          />
-
-          <source
-            srcset="
-              ./img/mobile/slider-mobile/rest-1.jpg    1x,
-              ./img/mobile/slider-mobile/rest-1-2x.jpg 2x
-            "
-            media="(max-width: 1023px)"
-            sizes="254px"
-          />
-
-          <img
-            src="./img/mobile/slider-mobile/rest-1.jpg"
-            alt=""
-            class="swiper-slide"
-          />
-        </picture>
-      </li>
-      <li class="slider-kitchen-item">
-        <picture>
-          <source
-            srcset="
-              ./img/desktop/slider-desktop/rest-2.jpg      1x,
-              ./img/desktop/slider-desktop/rest-2-2x.jpg 2x
-            "
-            media="(min-width: 1280px),"
-          />
-          <source
-            srcset="
-              ./img/tablet/slider-tablet/rest-2.jpg      1x,
-              ./img/tablet/slider-tablet/rest-2-2x.jpg 2x
-            "
-            media="(min-width: 1024px),"
-          />
-          <source
-            srcset="
-              ./img/mobile/slider-mobile/rest-2.jpg      1x,
-              ./img/mobile/slider-mobile/rest-2-2x.jpg 2x
-            "
-            media="(max-width: 1023px),"
-          />
-          <img
-            src="../../img/mobile/slider-mobile/rest-2.jpg"
-            alt=""
-            class="swiper-slide"
-          />
-        </picture>
-      </li>
-    </ul>
-
-    <ul class="list slider-rest-list">
+    <div class="slider-rest-box">
+      <ul class="list slider-rest-list">
         <li class="slider-rest-item">
-            <button class="rest-about-slider-buttons" type="button">
-            <svg width="30px" height="17px" class="about-slider-arrow-left">
-                <use href="./img/icons.svg#con-cil_arrow-left"></use>
-            </svg>
-            </button>
+          <picture>
+            <source
+              srcset="
+                ./img/desktop/slider-desktop/rest-1.jpg    1x,
+                ./img/desktop/slider-desktop/rest-1-2x.jpg 2x
+              "
+              media="(min-width: 1280px)"
+              sizes="254px"
+            />
+  
+            <source
+              srcset="
+                ./img/tablet/slider-tablet/rest-1.jpg    1x,
+                ./img/tablet/slider-tablet/rest-1-2x.jpg 2x
+              "
+              media="(min-width: 1024px)"
+              sizes="194px"
+            />
+  
+            <source
+              srcset="
+                ./img/mobile/slider-mobile/rest-1.jpg    1x,
+                ./img/mobile/slider-mobile/rest-1-2x.jpg 2x
+              "
+              media="(max-width: 1023px)"
+              sizes="254px"
+            />
+  
+            <img
+              src="./img/mobile/slider-mobile/rest-1.jpg"
+              alt=""
+              class="swiper-slide"
+            />
+          </picture>
         </li>
-        <li>
-            <button class="rest-about-slider-buttons" type="button">
-              <svg width="30px" height="17px" class="about-slider-arrow-right">
-                <use href="./img/icons.svg#icons-cil_arrow-right"></use>
+        <li class="slider-kitchen-item">
+          <picture>
+            <source
+              srcset="
+                ./img/desktop/slider-desktop/rest-2.jpg      1x,
+                ./img/desktop/slider-desktop/rest-2-2x.jpg 2x
+              "
+              media="(min-width: 1280px),"
+            />
+            <source
+              srcset="
+                ./img/tablet/slider-tablet/rest-2.jpg      1x,
+                ./img/tablet/slider-tablet/rest-2-2x.jpg 2x
+              "
+              media="(min-width: 1024px),"
+            />
+            <source
+              srcset="
+                ./img/mobile/slider-mobile/rest-2.jpg      1x,
+                ./img/mobile/slider-mobile/rest-2-2x.jpg 2x
+              "
+              media="(max-width: 1023px),"
+            />
+            <img
+              src="./img/mobile/slider-mobile/rest-2.jpg"
+              alt=""
+              class="swiper-slide"
+            />
+          </picture>
+        </li>
+      </ul>
+    </div>
+
+    <div class="slider-arrow-box">
+      <ul class="list slider-arrow-list">
+          <li class="slider-rest-item">
+            <button class="arrow-slider-btn" type="button">
+              <svg width="30px" height="17px" class="arrow-slider-icon">
+                  <use href="./img/icons.svg#icon-cil_arrow-left"></use>
               </svg>
             </button>
-        </li>
-      
-    </ul>
+          </li>
+          <li>
+            <button class="arrow-slider-btn" type="button">
+              <svg width="30px" height="17px" class="arrow-slider-icon">
+                  <use href="./img/icons.svg#icon-cil_arrow-right"></use>
+              </svg>
+            </button>
+          </li> 
+      </ul>
+    </div>
 
     <!-- _____SLIDER_END_____ -->
   </div>
