@@ -1,3 +1,9 @@
+@media screen and (max-width: 1023px) {
+  .container {
+    overflow: hidden;
+  }
+}
+
 @media screen and (min-width: 320px),(min-width: 414px) {
   .about-restaurant {
     padding: 16px 0px;
@@ -191,12 +197,11 @@
     .slider-rest-list {
       display: flex;
       max-width: 330px;
-      margin-left: 70px;
+      
       
       column-gap: 24px;
       position: relative;
       left: 69px;
-      overflow: hidden;
   
     }
   
@@ -233,8 +238,8 @@
       transition: color var(--box-shadow-mobile-desktop);
     }
    */
-    .rest-about-slider-buttons:hover,
-    .rest-about-slider-buttons:focus {
+    .arrow-slider-btn:hover,
+    .arrow-slider-btn:focus {
       color: var(--akzent-yellow);
     }
 }
