@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var modalButtons = document.querySelectorAll('.js-open-modal'),
     overlay = document.querySelector('.js-overlay-modal'),
     closeButtons = document.querySelectorAll('.js-modal-close');
-    // bodyNoScroll = document.querySelector('body');
+  bodyNoScroll = document.querySelector('body');
 
   /* Перебираем массив кнопок */
   modalButtons.forEach(function (item) {
@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function () {
             подложке и окну чтобы показать их. */
       modalElem.classList.add('active');
       overlay.classList.add('active');
-      // bodyNoScroll.classList.add('no-scroll');
+      bodyNoScroll.classList.add('no-scroll');
     }); // end click
   }); // end foreach
 
@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
       parentModal.classList.remove('active');
       overlay.classList.remove('active');
-      // bodyNoScroll.classList.remove('no-scroll');
+      bodyNoScroll.classList.remove('no-scroll');
     });
   }); // end foreach
 
@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function () {
       if (key == 27) {
         document.querySelector('.modal.active').classList.remove('active');
         document.querySelector('.overlay').classList.remove('active');
-        // document.querySelector('.no-scroll').classList.remove('.no-scroll');
+        document.querySelector('.no-scroll').classList.remove('.no-scroll');
       }
     },
     false
@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', function () {
   overlay.addEventListener('click', function () {
     document.querySelector('.modal.active').classList.remove('active');
     this.classList.remove('active');
-    // document.querySelector('body.no-scroll').classList.remove('no-scroll');
-    // this.classList.remove('no-scroll');
+    document.querySelector('body.no-scroll').classList.remove('no-scroll');
+    this.classList.remove('no-scroll');
   });
 }); // end ready
