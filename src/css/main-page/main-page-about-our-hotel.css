@@ -1,10 +1,8 @@
 @media screen and (min-width: 320px),(min-width: 414px) {
   .about-hotel {
-    max-width: 1280px;
     margin: 0 auto;
     overflow-x: clip;
     background-color: var(--colors-bg-section-fon-lemon);
-    border: 1px solid #000;
   }
   .about-hot-title {
     display: flex;
@@ -40,7 +38,6 @@
     text-transform: uppercase;
   }
   .about-hot-main-text {
-    margin-bottom: 382px;
     max-width: 242px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -51,7 +48,7 @@
     color: #7a7a7a;
   }
   .about-hot-img {
-    margin-bottom: 32px;
+    
   }
   .about-hot--first-images {
     box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
@@ -61,7 +58,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 32px;
+    gap: 32px;
     margin: 0px;
   }
 
@@ -81,14 +78,30 @@
     margin: 0;
   }
   .about-hot--second-img {
-    min-width: 200px;
+    max-width: 200px;
     box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
+    
   }
 /* -------Slider---- */
-.kitchen-about-slider{
+.slider-hotel--box{
+  margin-bottom: 20px;
+}
+.slider-hotel--list{
+  display: flex;
+    max-width: 330px;
+    margin-right: 84px;
+    column-gap: 24px;
+    right: 180px;
+    position: relative;
+    
+}
+.hotel--swiper-slide{
+  max-width: 245px;
+}
+
+.hot-about--slider-container{
   position: relative;
-    left: 70px;
     margin: 0;
 }
   .hotel-slider--arrow-left {
@@ -96,17 +109,23 @@
     border: none;
     margin-right: 30px;
     background-color: transparent;
+        width: 32px;
+          height: 32px;
   }
   .hotel-slider-arrow-right {
     padding: 0;
     border: none;
     background-color: transparent;
+        width: 32px;
+          height: 32px;
   }
 
   .hot-about--left-svg,
   .hot-about--right-svg {
     cursor: pointer;
     transition: fill var(--transition-function);
+    width: 100%;
+    height: 100%;
   }
   .hot-about--left-svg:hover,
   .hot-about--right-svg:hover {
@@ -120,17 +139,23 @@
 
 /* ===============TABLET=============== */
 @media screen and (min-width: 1024px) {
+  .about-hotel{
+    padding-bottom: 20px;
+      padding-top: 0;
+  }
+
   .about-hot-container {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    margin: 0;
+    margin-bottom: -32px;
+    gap: 26px;
   }
   .about-hot {
     margin-top: 120px;
   }
   .about-hot-title{
-    margin-bottom: ;
+    margin-bottom: 0; 
   }
   .about-hot-slogan {
     margin-right: 0;
@@ -146,18 +171,17 @@
     margin-bottom: 24px;
   }
   .about-hot-main-text {
-    margin-bottom: 127px;
-    min-width: 419px;
+    max-width: 419px;
     font-size: 16px;
     line-height: 1.25;
   }
   .about-hot-img {
     margin: 0;
-    margin-left: 65px;
     transform: translateY(-32px);
   }
   .second-hot-about {
     justify-content: flex-end;
+      margin-bottom: -16px;
   }
   .about-hot--secondary-text {
     width: 312px;
@@ -170,7 +194,27 @@
     margin-top: -45px;
   }
   .about-hot--second-img {
+    position: relative;
     max-width: 350px;
+    top: -20px;
+  }
+
+
+  /* ----------SLIDER------------- */
+  .slider-hotel--box{
+        margin-bottom: -32px;
+  }
+  .slider-hotel--list{
+    position: relative;
+    justify-content: flex-start;
+    max-width: 100%;
+  margin-right: 0;
+  right: 0;
+  column-gap: 40px;
+  top: -28px;
+  }
+  .hot-about-slider{
+    margin-top: 32px
   }
 }
 
