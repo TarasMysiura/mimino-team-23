@@ -16,6 +16,11 @@ h3 {
     background: #F0ECD6;
 }
 
+.room-luxe .container,
+.room-two .container, .room-three .container {
+  overflow: hidden;
+}
+
 .room-luxe-pre-title,
 .room-two-pre-title, .room-three-pre-title {
   font-family: 'Times New Roman';
@@ -65,12 +70,6 @@ h3 {
 
 .room-three-image-area {
     justify-content: left;
-}
-
-.room-luxe-image-area img, .room-two-image-area img,
-.room-three-image-area img {
-  box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
-  border-radius: 2px;
 }
 
 .slider-area {
@@ -134,22 +133,29 @@ h3 {
   background: url(../../img/svg-bg/cil_arrow-right.svg);
 }
 
+
+.room-luxe-btn-link,
+.room-two-btn-link, 
+.room-three-btn-link {
+  width: 240px;
+  height: 48px;
+}
+
 .room-luxe-btn-link,
 .room-luxe-btn,
 .room-two-btn-link,
-.room-two-btn, .room-three-btn-link,
+.room-two-btn,
+.room-three-btn-link,
 .room-three-btn {
-  width: 240px;
-  height: 48px;
-  font-family: 'Montserrat';
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.02em;
-  color: var(--colors-text-btn-default);
-  background: var(--colors-bg-btn-modal-default);
-  border: 2px solid #fffdee;
-  border-radius: 25px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: var(--colors-text-btn-default);
+    background: var(--colors-bg-btn-modal-default);
+    border: 2px solid #fffdee;
+    border-radius: 25px;
 }
 
 .slider-area {
