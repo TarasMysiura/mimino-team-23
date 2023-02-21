@@ -3,7 +3,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(rgba(to right, 0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), 
+    background-image: var(--background-restaurant-hotel-section-gradient),
     url(../../img/mobile/hero-hotel-bg-mobile.jpg);
 }
 
@@ -11,40 +11,40 @@
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .hero-hotel-background {
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), 
+        background-image: var(--background-restaurant-hotel-section-gradient), 
         url(../../img/mobile/hero-hotel-bg-mobile-2x.jpg);
     }
 }
 
 @media screen and (min-width: 415px) {
     .hero-hotel-background {
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), 
+        background-image: var(--background-restaurant-hotel-section-gradient),  
         url(../../img/tablet/hero-hotel-bg-tablet.jpg);
     }
 
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .hero-hotel-background {
-            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), 
+            background-image: var(--background-restaurant-hotel-section-gradient), 
             url(../../img/tablet/hero-hotel-bg-tablet-2x.jpg);
         }
     }
 }
 
 @media screen and (min-width: 1025px) {
-    .hero-main-background {
+    /* .hero-hotel-background  {
         max-width: 1280px;
-    }
+    } */
 
     .hero-hotel-background {
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), 
+        background-image: var(--background-restaurant-hotel-section-gradient), 
         url(../../img/desktop/hero-hotel-bg-desktop.jpg);
     }
 
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .hero-hotel-background {
-            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), 
+            background-image: var(--background-restaurant-hotel-section-gradient), 
             url(../../img/desktop/hero-hotel-bg-desktop-2x.jpg);
         }
     }
@@ -70,10 +70,10 @@
     font-family: 'Film P3', sans-serif;
     font-weight: 700;
     font-size: 36px;
-    line-height: calc(38.72px / 36px);
+    line-height: 1.08;
     letter-spacing: 0.3em;
     text-transform: uppercase;
-    color: #fff;
+    color: var(--color-text-white);
     text-decoration: none;
     margin-right: auto;
 }
@@ -98,21 +98,25 @@
 
 .header .box .menu-link {
     display: block;
-    padding: 28px 0;
+    padding: 15px 0 15px 0;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: calc(19.5px / 16px);
+    line-height: calc(20 / 16);
     letter-spacing: 0.02em;
-    color: #F3C653;
+    color: var(--color-text-brown);
     transition: color var(--transition-function);
 }
 
 .header .box .menu-link:hover,
 .header .box .menu-link:focus {
-    color: #c79002;
+    color: var(--color-contacts-section-text-brown);
 }
 
+.header .box .menu-link.active {
+    color: var(--color-contacts-section-text-brown);
+}
+  
 @media screen and (min-width: 360px) {
     .header .box .menu-first {
         margin-right: 20px;
@@ -122,7 +126,7 @@
 .header .box .icon,
 .hero .hero-elements .location-icon,
 .hero .soc-media .soc-icon {
-    fill: #F3C653;
+    fill: var(--color-text-brown);
     transition: fill var(--transition-function);
 }
 
@@ -134,9 +138,9 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 14px;
-    line-height: calc(17.07px / 14px);
+    line-height: calc(17 / 14);
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--color-text-white);
 }
 
 .header .box .phone {
@@ -178,13 +182,14 @@
 
 .hero .title {
     margin: 0 auto 12px;
-    width: 260px;
+    width: 260px; 
+    padding-left: 22px;
     font-family: 'Film P3', sans-serif;
     font-weight: 700;
     font-size: 80px;
-    line-height: calc(103.27px / 96px);
+    line-height: calc(103 / 96);
     letter-spacing: 0.3em;
-    color: #FFFFFF;
+    color: var(--color-text-white);
     text-transform: uppercase;
 }
 
@@ -195,9 +200,9 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 16px;
-    line-height: calc(19.5px /16px);
+    line-height: calc(19 /16);
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--color-text-white);
 }
 
 .hero .pre-title {
@@ -207,9 +212,9 @@
     font-family: 'Times New Roman', sans-serif;
     font-weight: 700;
     font-size: 32px;
-    line-height: calc(36.8px / 32px);
+    line-height: calc(36 / 32);
     letter-spacing: 0.05em;
-    color: #FFFFFF;
+    color: var(--color-text-white);
     text-transform: uppercase;
 }
 
@@ -232,16 +237,16 @@
     align-items: center;
     padding: 8px 8px 8px 10px;
     margin-right: auto;
-    border: 1px solid rgba(243, 198, 83, 0.7);
+    border: 1px solid var(--color-soc-icon-fill);
     border-radius: 2px;
     z-index: 20;
 
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 12px;
-    line-height: calc(14.63px / 12px);
+    line-height: calc(14 / 12);
     letter-spacing: 0.01em;
-    color: #E5E5E5;
+    color: var(--color-contacts-address-hero);
     text-decoration: none;
     transition: border-color var(--transition-function), color var(--transition-function);
 }
@@ -249,20 +254,20 @@
 @media screen and (max-width: 1023px) {
     .hero .map-location {
         position: absolute;
-        top: -121px;
+        top: -102px;
         right: 15px;
     }
 }
 
 .hero .map-location:hover,
 .hero .map-location:focus {
-    border-color: #c79002;
-    color: #c79002;
+    border-color: var(--color-contacts-section-text-brown);
+    color: var(--color-contacts-section-text-brown);
 }
 
 .hero .hero-elements .map-location:hover .location-icon,
 .hero .hero-elements .map-location:focus .location-icon {
-    fill: #c79002;
+    fill: var(--color-contacts-section-text-brown);
 }
 
 .hero .hero-elements .location-icon {
@@ -276,24 +281,24 @@
     justify-content: center;
     align-items: center;
     height: 48px;
-    border: 2px solid #FFFFFF;
+    border: 2px solid var(--color-text-white);
     border-radius: 25px;
-    background: rgba(0, 0, 0, 0.4);
+    background: var(--colors-bg-btn-default);
 
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 16px;
-    line-height: calc(19.5px / 16px);
+    line-height: calc(19 / 16);
     letter-spacing: 0.02em;
-    color: #F3C653;
+    color: var(--colors-text-btn-default);
     transition: background-color var(--transition-function), border-color var(--transition-function);
 }
 
 .hero .hero-elements .btn:hover,
 .hero .hero-elements .btn:focus {
-    background: #FFFFFF;
-    border: 2px solid #F3C653;
-    color: #F3C653;
+    background: var(--colors-border-btn-active);
+    border: 2px solid var(--colors-text-btn-active);
+    color: var(--colors-text-btn-active);
 }
 
 .btn-right {
@@ -314,14 +319,23 @@
         width: 414px;
     }
 
+    .header .box .menu-link{
+        padding: 28px 0;
+    }
+
     .hero .title {
-        width: 303px;
+        width: 303px; 
         font-size: 96px;
     }
 
     .hero .hero-elements .btn {
         bottom: 40px;
         left: 109px;
+    }
+
+    .hero .map-location {
+        top: -121px;
+        right: 15px;
     }
 }
 
@@ -338,7 +352,7 @@
 
     .header .logo {
         font-size: 40px;
-        line-height: calc(43.03px / 40px);
+        line-height: calc(43 / 40);
     }
 
     .header .box .navigation-first,
@@ -353,25 +367,34 @@
     .header .box .menu-link {
         padding: 38px 0;
         font-size: 20px;
-        line-height: calc(24.38px / 20px);
+        line-height: calc(24 / 20);
+    }
+
+    .header .box .navigation-second .active::after {
+        content: '';
+        position: relative;
+        bottom: -8px;
+        display: block;
+        width: 70px;
+        border-bottom: 1px solid var(--color-contacts-section-text-brown);
     }
 
     .header .box .menu-contact {
         padding: 8px;
-        border: 1px solid rgba(243, 198, 83, 0.7);
+        border: 1px solid var(--color-soc-icon-fill);
         border-radius: 2px;
         transition: border-color var(--transition-function), color var(--transition-function);
     }
 
     .header .box .menu-contact:hover,
     .header .box .menu-contact:focus {
-        border-color: #c79002;
-        color: #c79002;
+        border-color: var(--color-contacts-section-text-brown);
+        color: var(--color-contacts-section-text-brown);
     }
 
     .header .box .menu-contact:hover .icon,
     .header .box .menu-contact:focus .icon {
-        fill: #c79002;
+        fill: var(--color-contacts-section-text-brown);
     }
 
     .header .box .icon {
@@ -388,7 +411,7 @@
     .hero .hero-elements .location-icon:focus,
     .hero .soc-media .soc-icon:hover,
     .hero .soc-media .soc-icon:focus {
-        fill: #c79002;
+        fill: var(--color-svg-fill-broun);
     }
 
     .hero {
@@ -396,7 +419,7 @@
     }
 
     .hero .title {
-        width: 404px;
+        width: 404px; 
         font-size: 128px;
         margin-bottom: 16px;
     }
@@ -404,12 +427,12 @@
     .hero .sub-title {
         margin-bottom: 56px;
         font-size: 20px;
-        line-height: calc(24.38px / 20px);
+        line-height: 1.2;
     }
 
     .hero .pre-title {
         font-size: 36px;
-        line-height: calc(41.4px / 36px);
+        line-height: 1.14;
         margin-bottom: 137px;
     }
 
@@ -426,7 +449,7 @@
 
     .hero .map-location {
         font-size: 16px;
-        line-height: calc(19.5px / 16px);
+        line-height: calc(20 / 16);
     }
 
     .hero .hero-elements .location-icon {
@@ -463,7 +486,7 @@
     /*-----------------SOC-MEDIA-------------------*/
     .hero .soc-media {
         position: absolute;
-        bottom: 600px;
+        bottom: 594px;
         left: 1083px;
     }
 
