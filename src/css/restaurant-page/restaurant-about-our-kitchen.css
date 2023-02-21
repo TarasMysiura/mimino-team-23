@@ -210,6 +210,8 @@
     
       .swiper-slide {
         max-width: 245px;
+        border-radius: 2px;
+        
       }
       .slider-arrow-list {
         display: flex;
@@ -232,18 +234,10 @@
         height: 100%;
       }
     
-      /* .rest-about-slider-buttons {
-        color: var(--black);
-        padding: 0;
-        border: none;
-        background-color: transparent;
-        cursor: pointer;
-        transition: color var(--box-shadow-mobile-desktop);
-      }
-     */
-      .rest-about-slider-buttons:hover,
-      .rest-about-slider-buttons:focus {
-        color: var(--akzent-yellow);
+      
+      .arrow-slider-btn:hover .arrow-slider-icon,
+      .arrow-slider-btn:focus .arrow-slider-icon {
+        fill: var(--colors-text-btn-active);
       }
   }
   /* ===============TABLET=============== */
