@@ -184,11 +184,15 @@
     column-gap: 20px;
   }
   /* -------------Slider----------- */
+
+    .slider-rest-box {
+      margin-bottom: 20px;
+    }
     .slider-rest-list {
       display: flex;
-      min-width: 330px;
+      max-width: 330px;
       margin-left: 70px;
-      margin-bottom: 20px;
+      
       column-gap: 24px;
       position: relative;
       left: 69px;
@@ -199,9 +203,15 @@
     .swiper-slide {
       max-width: 245px;
     }
-  
-  
-    .rest-about-slider-buttons {
+    .slider-arrow-list {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 36px;
+    }
+    .arrow-slider-btn {
+      width: 32px;
+      height: 32px;
       color: var(--black);
       padding: 0;
       border: none;
@@ -209,7 +219,20 @@
       cursor: pointer;
       transition: color var(--box-shadow-mobile-desktop);
     }
+    .arrow-slider-icon{
+      width: 100%;
+      height: 100%;
+    }
   
+    /* .rest-about-slider-buttons {
+      color: var(--black);
+      padding: 0;
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+      transition: color var(--box-shadow-mobile-desktop);
+    }
+   */
     .rest-about-slider-buttons:hover,
     .rest-about-slider-buttons:focus {
       color: var(--akzent-yellow);
@@ -283,21 +306,28 @@
   }
 
   /* ------Slider------- */
-    .slider-rest-list {
-      position: relative;
-      justify-content: flex-end;
-      margin-bottom: 32px;
-      column-gap: 40px;
-      top: -28px;
-      left:0;
-  
-    }
-  
-    .swiper-slide {
-      width: auto;
-      min-width: 194px;
-  
-    }
+  .slider-rest-box {
+    margin-bottom: -32px;
+  }
+  .slider-arrow-box {
+    margin-top: 32px;
+  }
+  .slider-rest-list {
+    position: relative;
+    justify-content: flex-end;
+    max-width: 100%;
+    
+    column-gap: 40px;
+    top: -28px;
+    left:0;
+
+  }
+
+  .swiper-slide {
+    width: auto;
+    min-width: 194px;
+
+  }
 }
 
 /* ===============DESKTOP=============== */
@@ -393,13 +423,18 @@
     top: 89px;
   }
   /* ----Slider---- */
-.slider-rest-list {
-  position: relative;
-  top: -147px;
-  margin-bottom: 40px;
-}
-
-.swiper-slide {
-  min-width: 254px;
-}
+  .slider-rest-box {
+    margin-bottom: -147px;
+  }
+  .slider-rest-list {
+    position: relative;
+    top: -147px;
+    
+  }
+  .slider-arrow-box {
+    margin-top: 40px;
+  }
+  .swiper-slide {
+    min-width: 254px;
+  }
 }
