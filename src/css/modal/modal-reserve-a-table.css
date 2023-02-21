@@ -17,6 +17,7 @@
 .overlay.active {
   opacity: 1;
   visibility: visible;
+  pointer-events: none;
 }
 
 .modal {
