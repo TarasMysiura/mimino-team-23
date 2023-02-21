@@ -62,7 +62,7 @@ select {
   background-image: url(../../img/select.svg);
 
   position: absolute;
-  bottom: 45px;
+  bottom: 50px;
   right: 10px;
 
   width: 19.95px;
@@ -82,19 +82,23 @@ select {
   font-size: 16px;
   line-height: 1.15;
   letter-spacing: 0.05em;
+color: var(--text-input);
 
-  color: var(--text-input);
-  background-color: transparent;
+background-color: transparent;
   width: 290px;
   height: 54px;
 
   padding: 12px 17px;
+  margin-top: 20px;
 
   border: var(--border-input);
   border-radius: 2px;
 
   outline: none;
   cursor: pointer;
+}
+.name-input {
+  margin-top: 0;
 }
 
 .text-label {
@@ -106,7 +110,6 @@ select {
   color: var(--text-label);
 
   margin-top: 8px;
-  margin-bottom: 20px;
 }
 .cancel-margin {
   margin-bottom: 0;
@@ -203,7 +206,7 @@ select {
     height: 64px;
 
     padding: 12px 18px;
-    margin-bottom: 8px;
+    margin-top: 0;
   }
 
   .text-label {
