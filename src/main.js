@@ -1,2 +1,2 @@
-import './js/modal';
+import '../js/modal';
 // import './js/no-scroll';
