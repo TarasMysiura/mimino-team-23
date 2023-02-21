@@ -12,7 +12,7 @@
 @import url('./main-page/main-page-contacts.css');
 @import url('./footer.css');
 
-@import url('./modal/modal.css');
+/* @import url('./modal/modal.css'); */
 @import url('./modal/modal-reserve-a-table.css'); 
 @import url('./modal/modal-reserve-a-room.css');
 @import url('./modal/modal-prices-per-room.css');
