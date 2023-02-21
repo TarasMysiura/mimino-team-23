@@ -80,6 +80,8 @@
     background-color var(--transition-function);
 }
 
+
+
 .booking-room-btn:hover,
 .booking-room-btn:focus {
   color: var(--colors-bg-btn-modal-default);
@@ -126,6 +128,15 @@
   fill: var(--color-svg-fill-yellow);
 }
 
+@media screen and (min-width: 320px) and (max-width: 413.99px) {
+  .booking-room-btn {
+    padding: 20px 20px;
+    font-size: 16px;
+  }
+  .amenities-room-link {
+    font-size: 12px;
+  }
+}
 /* ----------MOBILE------------ */
 
 @media screen and (min-width: 414px) {
