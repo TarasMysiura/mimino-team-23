@@ -16,11 +16,12 @@
 .overlay.active {
   opacity: 1;
   visibility: visible;
+  pointer-events: none;
 }
 .modal {
   opacity: 0;
   visibility: hidden;
-  position: absolute;
+  position: fixed;
   width: 320px;
   padding: 60px 15px;
 
