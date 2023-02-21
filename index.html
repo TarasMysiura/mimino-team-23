@@ -11,7 +11,7 @@
   
   <script type="module" crossorigin src="/mimino-team-23/assets/modal-7ae64c72.js"></script>
   <link rel="stylesheet" href="/mimino-team-23/assets/modal-ac67137b.css">
-  <link rel="stylesheet" href="/mimino-team-23/assets/index-5122802f.css">
+  <link rel="stylesheet" href="/mimino-team-23/assets/index-3fd8fd27.css">
 </head>
 
 <body>
@@ -667,14 +667,14 @@
       <!------------------------------ NAME --------------------------->
       <form autocomplete="on">
         <ul class="input-flex list">
-          <li class="name-input">
+          <li>
             <input
               type="text"
               name="name"
               pattern="[A-Za-zА-Яа-яЁёІіЇїЄє]{2,}"
               required
               placeholder="Ваше ім’я"
-              class="text-input"
+              class="text-input name-input"
             />
             <div class="text-label">
               <label for="name">На кого забронювати столик?</label>
@@ -691,7 +691,7 @@
               <option value="5-8">5-8</option>
               <option value="8-15">8-15</option>
             </select>
-            <div class="text-label arrow-label-select arrow-select">
+            <div class="text-label arrow-label-select arrow-select cancel-margin">
               <label for="people">Столик на яку кількість осіб?</label>
             </div>
           </li>
@@ -757,11 +757,10 @@
   <!------------------------------ NAME ----------------------------------->
   <form autocomplete="on">
     <ul class="input-flex list">
-
-      <div class="name-phone-flex">
         <li class="name-input">
           <input type="text" name="name" pattern="[A-Za-zА-Яа-яЁёІіЇїЄє]{2,}" required placeholder="Ваше ім’я"
-            class="text-input" />
+  margin-top: 0;
+            class="text-input name-input" />  
           <div class="text-label">
             <label for="name">На кого забронювати номер?</label>
           </div>
@@ -775,11 +774,8 @@
             <label for="phone">Номер телефону</label>
           </div>
         </li>
-      </div>
-
 
       <!------------------------- ROOM --------------------------------->
-      <div class="room-input">
         <li class="empty"></li>
         <li>
           <select id="room" name="room" required class="text-input">
@@ -791,11 +787,8 @@
             <label for="room-input">Категорія номеру</label>
           </div>
         </li>
-      </div>
-
 
       <!----------------------------- DATE ------------------------------->
-      <div class="today-flex">
         <li class="date-input">
           <select name="date" id="date" required class="text-input">
             <option value="Сьогодні" selected>Сьогодні</option>
@@ -814,7 +807,6 @@
             <label>Дата виїзду</label>
           </div>
         </li>
-      </div>
     </ul>
 
     <!----------------------------- BUTTON ------------------------------->
