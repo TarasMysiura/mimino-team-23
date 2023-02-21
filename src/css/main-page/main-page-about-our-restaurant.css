@@ -190,7 +190,7 @@
     }
     .slider-rest-list {
       display: flex;
-      min-width: 330px;
+      max-width: 330px;
       margin-left: 70px;
       
       column-gap: 24px;
@@ -290,6 +290,7 @@
     .slider-rest-list {
       position: relative;
       justify-content: flex-end;
+      max-width: 100%;
       margin-bottom: 32px;
       column-gap: 40px;
       top: -28px;
