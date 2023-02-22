@@ -97,6 +97,11 @@ body {
   margin: 0 0 16px -194px;
 }
 
+.details-hotel-list img,
+.details-restaurant-list img{
+  border-radius: 2px;
+}
+
 .details-restaurant-list {
   margin: 0 -194px 16px 0;
 }
@@ -126,6 +131,14 @@ body {
 .details-restaurant .btn-arrow .icon {
   fill: #ffffff;
   display: block;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.details-hotel-arrows .btn-arrow:hover .icon,
+.details-restaurant-arrows .btn-arrow:hover .icon,
+.details-hotel-arrows .btn-arrow:focus .icon,
+.details-restaurant-arrows .btn-arrow:focus .icon {
+  fill: #F3C653;
 }
 
 .details-hotel-btn,
