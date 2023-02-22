@@ -30,8 +30,8 @@ document.addEventListener('DOMContentLoaded', function () {
       Подложке зададим id, чтобы не влиять на другие элементы с классом overlay*/
   var modalButtons = document.querySelectorAll('.js-open-modal'),
     overlay = document.querySelector('.js-overlay-modal'),
-    closeButtons = document.querySelectorAll('.js-modal-close');
-  bodyNoScroll = document.querySelector('body');
+    closeButtons = document.querySelectorAll('.js-modal-close'),
+    bodyNoScroll = document.querySelector('body');
 
   /* Перебираем массив кнопок */
   modalButtons.forEach(function (item) {
@@ -60,31 +60,37 @@ document.addEventListener('DOMContentLoaded', function () {
   closeButtons.forEach(function (item) {
     item.addEventListener('click', function (e) {
       var parentModal = this.closest('.modal');
+      // var parrentBody = this.closest('body')
 
       parentModal.classList.remove('active');
       overlay.classList.remove('active');
       bodyNoScroll.classList.remove('no-scroll');
+      // parrentBody.classList.remove('no-scroll');
     });
   }); // end foreach
 
-  document.body.addEventListener(
-    'keyup',
-    function (e) {
-      var key = e.keyCode;
+  // document.body.addEventListener(
+  //   'keyup',
+  //   function (e) {
+  //     var key = e.keyCode;
 
-      if (key == 27) {
-        document.querySelector('.modal.active').classList.remove('active');
-        document.querySelector('.overlay').classList.remove('active');
-        document.querySelector('.no-scroll').classList.remove('.no-scroll');
-      }
-    },
-    false
-  );
+  //     if (key == 27) {
+  //       document.querySelector('.modal.active').classList.remove('active');
+  //       document.querySelector('.overlay').classList.remove('active');
+  //       document.querySelectorAll('body.no-scroll').classList.remove('no-scroll');
+  //       // document.querySelectorAll('no-scroll').classList.remove('no-scroll');
+  //     }
+  //   },
+  //   false
+  // );
 
-  overlay.addEventListener('click', function () {
-    document.querySelector('.modal.active').classList.remove('active');
-    this.classList.remove('active');
-    document.querySelector('body.no-scroll').classList.remove('no-scroll');
-    this.classList.remove('no-scroll');
-  });
+  // overlay.addEventListener('click', function () {
+  //   document.querySelector('.modal.active').classList.remove('active');
+  //   this.classList.remove('active');
+  //   document.querySelector('no-scroll').classList.remove('no-scroll');
+  //   this.classList.remove('no-scroll');
+  //   // document.querySelectorAll('body.no-scroll').classList.remove('no-scroll');
+  //   // this.classList.remove('no-scroll');
+  // });
 }); // end ready
+
