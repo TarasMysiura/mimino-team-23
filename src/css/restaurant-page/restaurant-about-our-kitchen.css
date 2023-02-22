@@ -241,13 +241,13 @@
     }
     .about-rest-container {
       display: flex;
-      align-items: center;
       gap: 26px;
       margin-bottom: -32px;
     }
   
     .about-rest-title {
       margin-bottom: 0;
+      margin-top: 120px;
     }
   
     .about-rest-slogan {
