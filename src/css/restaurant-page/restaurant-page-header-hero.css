@@ -176,7 +176,7 @@
 }
 
 .hero .title {
-  margin: 0 auto 12px;
+  margin: 0 auto 20px;
   width: 260px;
   padding-left: 22px;
   font-family: 'Film P3', sans-serif;
@@ -190,7 +190,7 @@
 
 .hero .sub-title {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 44px;
 
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
