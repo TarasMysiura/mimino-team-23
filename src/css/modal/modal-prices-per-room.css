@@ -192,6 +192,9 @@ select {
     font-size: 32px;
     line-height: 1.16;
   }
+  .category-room {
+  margin-bottom: 20px;
+}
   .text-input {
     font-size: 24px;
     line-height: 1.17;
