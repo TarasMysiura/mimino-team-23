@@ -10,7 +10,7 @@
   
   <script type="module" crossorigin src="/mimino-team-23/assets/modal-7ae64c72.js"></script>
   <link rel="stylesheet" href="/mimino-team-23/assets/modal-6fd93898.css">
-  <link rel="stylesheet" href="/mimino-team-23/assets/hotel-page-c0decd0d.css">
+  <link rel="stylesheet" href="/mimino-team-23/assets/hotel-page-365db42f.css">
 </head>
 
 <body>
@@ -453,19 +453,19 @@
     
     <!------------------------------- TITLE ------------------------------>
     <div class="modal " data-modal="1">
-      <h1 class="modal-title">ЗАБРОНЮВАТИ СТОЛИК</h1>
+      <h3 class="modal-title">ЗАБРОНЮВАТИ СТОЛИК</h3>
 
       <!------------------------------ NAME --------------------------->
       <form autocomplete="on">
         <ul class="input-flex list">
-          <li>
+          <li class="name-input">
             <input
               type="text"
               name="name"
               pattern="[A-Za-zА-Яа-яЁёІіЇїЄє]{2,}"
               required
               placeholder="Ваше ім’я"
-              class="text-input name-input"
+              class="text-input"
             />
             <div class="text-label">
               <label for="name">На кого забронювати столик?</label>
@@ -496,8 +496,8 @@
               id="phone"
               required
               pattern="(\s*)?(\+)?([- _():=+]?\d[- _():=+]?){12}(\s*)?"
-              minlength="18"
-              maxlength="18"
+              minlength="7"
+              maxlength="7"
               placeholder="+38 (___) ___-__-__"
               class="text-input"
             />
@@ -543,7 +543,7 @@
 <div class="remodal" data-modal="2">
     <!------------------------------- TITLE ----------------------------------->
 <div class="modal " data-modal="2">
-  <h1 class="modal-title">ЗАБРОНЮВАТИ НОМЕР</h1>
+  <h3 class="modal-title">ЗАБРОНЮВАТИ НОМЕР</h3>
 
   <!------------------------------ NAME ----------------------------------->
   <form autocomplete="on">
@@ -551,7 +551,7 @@
         <li class="name-input">
           <input type="text" name="name" pattern="[A-Za-zА-Яа-яЁёІіЇїЄє]{2,}" required placeholder="Ваше ім’я"
   margin-top: 0;
-            class="text-input name-input" />  
+            class="text-input" />  
           <div class="text-label">
             <label for="name">На кого забронювати номер?</label>
           </div>
@@ -560,7 +560,7 @@
 
         <li class="phone-input">
           <input type="tel" name="phone" id="phone" required pattern="(\s*)?(\+)?([- _():=+]?\d[- _():=+]?){12}(\s*)?"
-            minlength="18" maxlength="18" placeholder="+38 (___) ___-__-__" class="text-input" />
+            minlength="7" maxlength="7" placeholder="+38 (___) ___-__-__" class="text-input" />
           <div class="text-label">
             <label for="phone">Номер телефону</label>
           </div>
@@ -568,19 +568,19 @@
 
       <!------------------------- ROOM --------------------------------->
         <li class="empty"></li>
-        <li>
+        <li class="room-input">
           <select id="room" name="room" required class="text-input">
             <option value="Двомісний люкс" selected>Двомісний люкс</option>
             <option value="Трьохмісний номер">Трьохмісний номер</option>
             <option value="Двомісний номер">Двомісний номер</option>
           </select>
           <div class="text-label arrow-label-select arrow-select">
-            <label for="room-input">Категорія номеру</label>
+            <label for="room">Категорія номеру</label>
           </div>
         </li>
 
       <!----------------------------- DATE ------------------------------->
-        <li class="date-input">
+        <li class="date-input-on">
           <select name="date" id="date" required class="text-input">
             <option value="Сьогодні" selected>Сьогодні</option>
             <option value="Сьогодні">Завтра</option>
@@ -621,7 +621,7 @@
 
 <div class="remodal" data-modal="3">
     <div class="modal " data-modal="3">
-  <h1 class="modal-title">ЦІНИ НА НОМЕР</h1>
+  <h3 class="modal-title">ЦІНИ НА НОМЕР</h3>
   <p class="type-room">Двомісний люкс</p>
   <p class="category-room">Категорія номеру</p>
 
@@ -636,14 +636,14 @@
           <option value="8-15">5</option>
         </select>
         <div class="text-label arrow-label-select arrow-select">
-          <label for="size" class="label-left">Кількість ночей</label>
+          <label for="size">Кількість ночей</label>
         </div>
       </li>
 
       <li class="price-input">
         <input type="number" name="number" placeholder="1000" class="text-input" />
         <div class="text-label">
-          <label for="name" class="label-left">грн</label>
+          <label for="name">грн</label>
         </div>
       </li>
     </ul>
@@ -668,7 +668,7 @@
 </div>
 <div class="remodal" data-modal="3">
     <div class="modal " data-modal="3">
-  <h1 class="modal-title">ЦІНИ НА НОМЕР</h1>
+  <h3 class="modal-title">ЦІНИ НА НОМЕР</h3>
   <p class="type-room">Двомісний люкс</p>
   <p class="category-room">Категорія номеру</p>
 
@@ -683,14 +683,14 @@
           <option value="8-15">5</option>
         </select>
         <div class="text-label arrow-label-select arrow-select">
-          <label for="size" class="label-left">Кількість ночей</label>
+          <label for="size">Кількість ночей</label>
         </div>
       </li>
 
       <li class="price-input">
         <input type="number" name="number" placeholder="1000" class="text-input" />
         <div class="text-label">
-          <label for="name" class="label-left">грн</label>
+          <label for="name">грн</label>
         </div>
       </li>
     </ul>
