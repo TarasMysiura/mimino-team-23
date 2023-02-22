@@ -168,10 +168,6 @@
     padding: 0 47px;
   }
 
-  .header {
-    height: 116px;
-  }
-
   .logo {
     font-size: 40px;
     line-height: calc(43.03px / 40px);
@@ -220,11 +216,7 @@
     padding: 0 85px;
   }
 
-  .header {
-    height: 147px;
-  }
-
-  .logo {
+   .logo {
     margin-right: 135px;
   }
 }
@@ -265,8 +257,8 @@
 
 .hero .container {
   position: relative;
-  padding-top: 341px;
-  padding-bottom: 14px;
+  padding-top: 405px;
+  padding-bottom: 17px;
 }
 
 .hero-room-title {
@@ -365,7 +357,7 @@
 
 .map-location {
   position: absolute;
-  top: -2px;
+  top: 0;
   right: 15px;
   display: flex;
   justify-content: center;
@@ -449,7 +441,7 @@
   }
 
   .hero .container {
-    padding-top: 353px;
+    padding-top: 373px;
     padding-bottom: 22px;
   }
 
@@ -470,6 +462,7 @@
 
   .hero-room-title {
     max-width: 509px;
+    margin-bottom: 24px;
 
     font-size: 36px;
   }
@@ -515,7 +508,7 @@
 
   .hero-soc-media {
     position: absolute;
-    top: -110px;
+    top: -62px;
     right: 0;
     z-index: 10;
   }
@@ -523,12 +516,8 @@
   /*----------------SECTION HERO-----------------*/
 
   .hero .container {
-    padding-top: 377px;
+    padding-top: 427px;
     padding-bottom: 48px;
-  }
-
-  .hero-room-title {
-    margin-bottom: 24px;
   }
 
   .hero-room-text {
