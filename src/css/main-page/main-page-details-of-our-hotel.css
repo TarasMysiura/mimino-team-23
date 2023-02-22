@@ -2,6 +2,10 @@ body {
   margin: 0;
 }
 
+.btn {
+  padding: 0;
+}
+
 .details-hotel {
   background: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
     url(../../img/mobile/hero-all-hotel-bg-mobile.jpg) center no-repeat;
