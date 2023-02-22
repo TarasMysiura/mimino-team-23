@@ -169,8 +169,6 @@
 .hero .soc-media .soc-icon:hover,
 .hero .soc-media .soc-icon:focus {
     transform: rotateZ(360deg);
-    width: 30px;
-    height: 30px;
 }
 
 
