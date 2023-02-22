@@ -370,9 +370,6 @@ h3 {
   .room-luxe-image-area,
   .room-two-image-area,
   .room-three-image-area {
-    display: block;
-    position: static;
-    z-index: 30;
     margin-top: -94px;
   }
 
