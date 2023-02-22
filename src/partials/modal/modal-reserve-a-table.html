@@ -1,19 +1,19 @@
 
     <!------------------------------- TITLE ------------------------------>
     <div class="modal " data-modal="1">
-      <h1 class="modal-title">ЗАБРОНЮВАТИ СТОЛИК</h1>
+      <h3 class="modal-title">ЗАБРОНЮВАТИ СТОЛИК</h3>
 
       <!------------------------------ NAME --------------------------->
       <form autocomplete="on">
         <ul class="input-flex list">
-          <li>
+          <li class="name-input">
             <input
               type="text"
               name="name"
               pattern="[A-Za-zА-Яа-яЁёІіЇїЄє]{2,}"
               required
               placeholder="Ваше ім’я"
-              class="text-input name-input"
+              class="text-input"
             />
             <div class="text-label">
               <label for="name">На кого забронювати столик?</label>
@@ -44,8 +44,8 @@
               id="phone"
               required
               pattern="(\s*)?(\+)?([- _():=+]?\d[- _():=+]?){12}(\s*)?"
-              minlength="18"
-              maxlength="18"
+              minlength="7"
+              maxlength="7"
               placeholder="+38 (___) ___-__-__"
               class="text-input"
             />

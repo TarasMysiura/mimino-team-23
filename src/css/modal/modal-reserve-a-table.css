@@ -82,14 +82,13 @@ select {
   font-size: 16px;
   line-height: 1.15;
   letter-spacing: 0.05em;
-color: var(--text-input);
+  color: var(--text-input);
 
-background-color: transparent;
+  background-color: transparent;
   width: 290px;
   height: 54px;
 
   padding: 12px 17px;
-  margin-top: 20px;
 
   border: var(--border-input);
   border-radius: 2px;
@@ -97,8 +96,11 @@ background-color: transparent;
   outline: none;
   cursor: pointer;
 }
-.name-input {
-  margin-top: 0;
+
+.name-input,
+.amount-input,
+.phone-input {
+  margin-bottom: 20px;
 }
 
 .text-label {
@@ -110,10 +112,9 @@ background-color: transparent;
   color: var(--text-label);
 
   margin-top: 8px;
+  margin-left: 15px;
 }
-.cancel-margin {
-  margin-bottom: 0;
-}
+
 /* ---------------------------------BUTTONS */
 .button-book {
   margin-top: 40px;
@@ -172,6 +173,15 @@ background-color: transparent;
   }
   .text-input {
     font-size: 20px;
+  }
+  .name-input {
+    margin-bottom: 0;
+  }
+  .amount-input {
+   margin-bottom: 0;
+  }
+  .phone-input {
+  margin-bottom: 0;
   }
 }
 

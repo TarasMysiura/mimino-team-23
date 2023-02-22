@@ -95,8 +95,11 @@ select {
   outline: none;
   cursor: pointer;
 }
-.name-input {
-  margin-top: 0;
+.name-input,
+.phone-input,
+.room-input,
+.date-input-on {
+  margin-bottom: 20px;
 }
 .text-label {
   font-family: "Montserrat", sans-serif;
@@ -107,6 +110,7 @@ select {
   color: var(--text-label);
 
   margin-top: 8px;
+  margin-left: 15px;
 }
 
 /* ---------------------------------BUTTONS */
@@ -211,14 +215,26 @@ select {
   .text-label {
     font-size: 16px;
     line-height: 1.25;
+  }
+  .name-input {
     margin-bottom: 0;
   }
-
+  .phone-input {
+    margin-bottom: 0;
+  }
+  .date-input-on {
+    margin-bottom: 0;
+  }
+  .date-input {
+    margin-bottom: 0;
+  }
+  .room-input {
+  margin-bottom: 0;
+  }
   /* ---------------------------------BUTTONS */
 
   .button-book {
     width: 592px;
-    margin-top: 0;
     font-size: 24px;
   }
 }

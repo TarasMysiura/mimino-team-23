@@ -1,6 +1,6 @@
 <!------------------------------- TITLE ----------------------------------->
 <div class="modal " data-modal="2">
-  <h1 class="modal-title">ЗАБРОНЮВАТИ НОМЕР</h1>
+  <h3 class="modal-title">ЗАБРОНЮВАТИ НОМЕР</h3>
 
   <!------------------------------ NAME ----------------------------------->
   <form autocomplete="on">
@@ -8,7 +8,7 @@
         <li class="name-input">
           <input type="text" name="name" pattern="[A-Za-zА-Яа-яЁёІіЇїЄє]{2,}" required placeholder="Ваше ім’я"
   margin-top: 0;
-            class="text-input name-input" />  
+            class="text-input" />  
           <div class="text-label">
             <label for="name">На кого забронювати номер?</label>
           </div>
@@ -17,7 +17,7 @@
 
         <li class="phone-input">
           <input type="tel" name="phone" id="phone" required pattern="(\s*)?(\+)?([- _():=+]?\d[- _():=+]?){12}(\s*)?"
-            minlength="18" maxlength="18" placeholder="+38 (___) ___-__-__" class="text-input" />
+            minlength="7" maxlength="7" placeholder="+38 (___) ___-__-__" class="text-input" />
           <div class="text-label">
             <label for="phone">Номер телефону</label>
           </div>
@@ -25,19 +25,19 @@
 
       <!------------------------- ROOM --------------------------------->
         <li class="empty"></li>
-        <li>
+        <li class="room-input">
           <select id="room" name="room" required class="text-input">
             <option value="Двомісний люкс" selected>Двомісний люкс</option>
             <option value="Трьохмісний номер">Трьохмісний номер</option>
             <option value="Двомісний номер">Двомісний номер</option>
           </select>
           <div class="text-label arrow-label-select arrow-select">
-            <label for="room-input">Категорія номеру</label>
+            <label for="room">Категорія номеру</label>
           </div>
         </li>
 
       <!----------------------------- DATE ------------------------------->
-        <li class="date-input">
+        <li class="date-input-on">
           <select name="date" id="date" required class="text-input">
             <option value="Сьогодні" selected>Сьогодні</option>
             <option value="Сьогодні">Завтра</option>
