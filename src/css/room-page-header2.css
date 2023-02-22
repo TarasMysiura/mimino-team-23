@@ -245,8 +245,6 @@
 .hero-soc-media .soc-icon:focus {
   fill: var(--color-svg-fill-broun);
   transform: rotateZ(360deg);
-  width: 30px;
-  height: 30px;
 }
 
 /*-----------------SECTION HERO---------------*/
