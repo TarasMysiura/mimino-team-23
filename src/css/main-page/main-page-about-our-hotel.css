@@ -13,7 +13,6 @@
   }
 
   .about-hot-slogan {
-    padding-top: 18px;
     margin-bottom: 6px;
     font-family: 'Times New Roman';
     font-style: normal;
@@ -69,7 +68,6 @@
     line-height: 1.25;
     letter-spacing: 0.02em;
     color: #c79002;
-    padding-right: 21px;
     max-width: 163px;
 
   }
@@ -103,7 +101,6 @@
 
 .hot-about--slider-container{
       display: flex;
-        justify-content: flex-start;
         align-items: center;
         gap: 36px;
 }
