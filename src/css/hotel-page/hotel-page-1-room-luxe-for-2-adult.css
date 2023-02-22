@@ -16,12 +16,6 @@ h3 {
   background: #f0ecd6;
 }
 
-.room-luxe .container,
-.room-two .container,
-.room-three .container {
-  overflow: hidden;
-}
-
 .room-luxe-pre-title,
 .room-two-pre-title,
 .room-three-pre-title {
@@ -66,6 +60,12 @@ h3 {
   width: 258px;
 }
 
+.room-luxe-wrapper:last-child,
+.room-two-wrapper:last-child,
+.room-three-wrapper:last-child {
+  overflow: hidden;
+}
+
 .room-luxe-image-area,
 .room-two-image-area,
 .room-three-image-area {
@@ -74,19 +74,24 @@ h3 {
   justify-content: right;
 }
 
+.room-luxe-image-area img,
+.room-two-image-area img,
+.room-three-image-area img {
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+}
+
+.room-luxe img,
+.room-two img,
+.room-three img {
+  border-radius: 2px;
+}
+
 .room-three-image-area {
   justify-content: left;
 }
 
 .slider-area {
-  width: 428px;
-}
-
-.room-luxe .slick-track,
-.room-two .slick-track,
-.room-three .slick-track {
-  display: flex;
-  gap: 15px;
+  width: 427px;
 }
 
 .room-luxe .slick-prev,
@@ -106,13 +111,23 @@ h3 {
 .room-three .slick-prev {
   left: 120px;
   background: url(../../img/svg-bg/cil_arrow-left.svg);
+  transition: background-image 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .room-luxe .slick-next,
 .room-two .slick-next,
 .room-three .slick-next {
-  right: 190px;
+  right: 205px;
   background: url(../../img/svg-bg/cil_arrow-right.svg);
+  transition: background-image 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.room-three .slick-prev {
+  left: 167px;
+}
+
+.room-three .slick-next {
+  right: 162px;
 }
 
 .room-luxe .slick-prev::before,
@@ -130,7 +145,7 @@ h3 {
 .room-luxe .slick-prev:focus,
 .room-two .slick-prev:focus,
 .room-three .slick-prev:focus {
-  background: url(../../img/svg-bg/cil_arrow-left.svg);
+  background: url(../../img/svg-bg/cil_arrow-left-hover.svg);
 }
 
 .room-luxe .slick-next:hover,
@@ -139,7 +154,7 @@ h3 {
 .room-luxe .slick-next:focus,
 .room-two .slick-next:focus,
 .room-three .slick-next:focus {
-  background: url(../../img/svg-bg/cil_arrow-right.svg);
+  background: url(../../img/svg-bg/cil_arrow-right-hover.svg);
 }
 
 .room-luxe-btn-link,
@@ -214,12 +229,6 @@ h3 {
   border-radius: 25px;
 }
 
-@media screen and (max-width: 413.98px) {
-  .room-three-paragraph {
-    margin-left: 12%;
-  }
-}
-
 @media screen and (min-width: 414px) {
   .container {
     max-width: 414px;
@@ -230,28 +239,66 @@ h3 {
   .room-three-paragraph {
     margin-left: 83px;
   }
+
+  .room-three-wrapper .slider-area {
+    margin-left: 120px;
+  }
 }
 
 @media screen and (max-width: 1023.98px) {
-  .room-three {
-    overflow: hidden;
-  }
-
-  .room-three-wrapper .slider-area {
-    position: relative;
-    left: 120px;
-  }
-
   .room-luxe-wrapper .slider-area,
   .room-two-wrapper .slider-area {
-    position: relative;
-    left: -120px;
+    margin-left: -120px;
   }
 
   .room-three-pre-title,
   .room-three-title,
   .room-three-secondary-title {
     text-align: right;
+  }
+}
+
+@media screen and (max-width: 413.98px) {
+  .room-three-paragraph {
+    margin-left: 12%;
+  }
+}
+
+@media screen and (max-width: 414.98px) {
+  .room-luxe-wrapper:last-child,
+  .room-two-wrapper:last-child {
+    margin-left: -15px;
+  }
+
+  .room-three-wrapper:last-child {
+    margin-right: -15px;
+  }
+
+  .room-luxe-wrapper .slider-area,
+  .room-two-wrapper .slider-area {
+    margin-right: 0;
+  }
+
+  .room-three-wrapper .slider-area {
+    margin-left: calc(120 * ((100vw - 320px) / (414 - 320)));
+  }
+
+  .room-luxe .slick-prev,
+  .room-two .slick-prev {
+    left: 135px;
+  }
+
+  .room-luxe .slick-next,
+  .room-two .slick-next {
+    right: 175px;
+  }
+
+  .room-three .slick-prev {
+    left: calc(173px + (152 - 173) * ((100vw - 320px) / (414 - 320)));
+  }
+
+  .room-three .slick-next {
+    right: calc(140px + (162 - 140) * ((100vw - 320px) / (414 - 320)));
   }
 }
 
@@ -352,6 +399,14 @@ h3 {
     background: url(../../img/svg-bg/cil_arrow-right.svg);
   }
 
+  .room-three .slick-prev {
+    left: 0;
+  }
+
+  .room-three .slick-next {
+    left: 64px;
+  }
+
   .room-luxe-btns-area,
   .room-two-btns-area,
   .room-three-btns-area {
@@ -440,14 +495,14 @@ h3 {
   .room-luxe .slick-prev,
   .room-two .slick-prev,
   .room-three .slick-prev {
-    left: 450px;
+    left: 436px;
     background: url(../../img/svg-bg/cil_arrow-left.svg);
   }
 
   .room-luxe .slick-next,
   .room-two .slick-next,
   .room-three .slick-next {
-    right: 10px;
+    right: 19px;
     background: url(../../img/svg-bg/cil_arrow-right.svg);
   }
 
@@ -455,6 +510,14 @@ h3 {
   .room-two-btns-area,
   .room-three-btns-area {
     margin-top: 71px;
+  }
+
+  .room-three .slick-prev {
+    left: 0;
+  }
+
+  .room-three .slick-next {
+    left: 64px;
   }
 }
 

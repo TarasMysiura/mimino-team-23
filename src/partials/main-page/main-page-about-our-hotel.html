@@ -15,16 +15,19 @@
             </div>
 
             <picture class="about-hot-img">
-                <source srcset="./img/desktop/about-hotel/hotel-1.jpg 1x, ./img/desktop/about-hotel/hotel-1-2x.jpg 2x"
+                <source srcset="./img/desktop/about-hotel/hotel-1.jpg 1x, 
+                ./img/desktop/about-hotel/hotel-1-2x.jpg 2x"
                     media="(min-width: 1280px)">
                 <source
-                    srcset="./img/tablet/about-hotel-tablet/hotel-tablet-1.jpg 1x, ./img/tablet/about-hotel-tablet/hotel-tablet-1-2x.jpg 2x"
+                    srcset="./img/tablet/about-hotel-tablet/hotel-tablet-1.jpg 1x, 
+                    ./img/tablet/about-hotel-tablet/hotel-tablet-1-2x.jpg 2x"
                     media="(min-width: 1024px)">
                 <source
-                    srcset="./img/mobile/about-hotel-mobile/hotel-mobile-1.jpg 1x, ./img/mobile/about-hotel-mobile/hotel-mobile-1-2x.jpg 2x"
-                    media="(min-width: 320px)">
+                    srcset="./img/mobile/about-hotel-mobile/hotel-mobile-1.jpg 1x, 
+                    ./img/mobile/about-hotel-mobile/hotel-mobile-1-2x.jpg 2x"
+                    media="(max-width: 1023px)">
 
-                <img class="about-hot--first-images" src="../../img/mobile/about-hotel-mobile/hotel-mobile-1.jpg"
+                <img class="about-hot--first-images" src="./img/mobile/about-hotel-mobile/hotel-mobile-1.jpg"
                     alt="hotel room">
             </picture>
 
@@ -37,47 +40,125 @@
                 sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
 
             </p>
-            <picture class="second--photo-about-hotel">
-                <!-- <source srcset=" ./img/desktop/about-hotel/hotel-2.jpg 1x, ./img/desktop/about-hotel/hotel-2-2x.jpg 2x" -->
-                <div class="second-rest-about">
+
+                <div class="">
                     <picture class="">
                         <source
-                            srcset=" ./img/desktop/about-hotel/hotel-2.jpg 1x, ./img/desktop/about-hotel/hotel-2-2x.jpg 2x"
+                            srcset=" 
+                            ./img/desktop/about-hotel/hotel-2.jpg 1x, 
+                            ./img/desktop/about-hotel/hotel-2-2x.jpg 2x"
                             media="(min-width: 1280px)">
                         <source
-                            srcset="./img/tablet/about-hotel-tablet/hotel-tablet-2.jpg 1x, ./img/tablet/about-hotel-tablet/hotel-tablet-2-2x.jpg 2x"
+                            srcset="
+                            ./img/tablet/about-hotel-tablet/hotel-tablet-2.jpg 1x, 
+                            ./img/tablet/about-hotel-tablet/hotel-tablet-2-2x.jpg 2x"
                             media="(min-width: 1024px)">
                         <source
-                            srcset="./img/mobile/about-hotel-mobile/hotel-mobile-2.jpg 1x, ./img/mobile/about-hotel-mobile/hotel-mobile-2-2x.jpg 2x"
-                            media="(max-width: 384px)">
+                            srcset="
+                            ./img/mobile/about-hotel-mobile/hotel-mobile-2.jpg 1x, 
+                            ./img/mobile/about-hotel-mobile/hotel-mobile-2-2x.jpg 2x"
+                            media="(max-width: 1023px)">
 
 
-                        <img class="about-hot--second-img" src="../../img/mobile/about-hotel-mobile/hotel-mobile-2.jpg"
+                        <img class="about-hot--second-img" src="./img/mobile/about-hotel-mobile/hotel-mobile-2.jpg"
                             alt="hotel ">
                     </picture>
 
 
                 </div>
-                <!-- ----Place for slide -->
 
-                <div class="hot-about-slider">
+        </div>
+
+            <!-- ----Place for slide -->
+                <div class="slider-hotel--box">
+        <ul class="list slider-hotel--list">
+        <li class="slider-hotel---item">
+        <picture>
+            <source
+                srcset="
+                ./img/desktop/slider-desktop/towel.jpg    1x,
+                ./img/desktop/slider-desktop/towel@2x.jpg 2x
+            "
+            media="(min-width: 1280px)"
+            sizes="254px"
+            />
+
+            <source
+            srcset="
+                ./img/tablet/slider-tablet/towel.jpg    1x,
+                ./img/tablet/slider-tablet/towel@2x.jpg 2x
+            "
+            media="(min-width: 1024px)"
+            sizes="194px"
+            />
+
+        <source
+            srcset="
+                ./img/mobile/slider-mobile/towel.jpg 1x,
+                ./img/mobile/slider-mobile/towel@2x.jpg 2x
+            "
+            media="(max-width: 1023px),"
+            />
+            <img
+            src="./img/mobile/slider-mobile/towel.jpg"
+            alt=""
+            class="hotel--swiper-slide"
+            />
+        </picture>
+        </li>
+
+
+        <li class="slider-hotel--item">
+        <picture>
+            <source
+            srcset="
+                ./img/desktop/slider-desktop/registr.jpg    1x,
+                ./img/desktop/slider-desktop/registr@2x.jpg 2x
+            "
+            media="(min-width: 1280px),"
+            />
+            <source
+            srcset="
+                ./img/tablet/slider-tablet/regstr.jpg  1x,
+                ./img/tablet/slider-tablet/regstr@2x.jpg 2x
+            "
+            media="(min-width: 1024px),"
+            />
+            <source
+            srcset="
+                ./img/mobile/slider-mobile/registr.jpg    1x,
+                ./img/mobile/slider-mobile/registr@2x.jpg 2x
+            "
+            media="(max-width: 1023px)"
+            sizes="254px"
+            />
+
+            <img
+            src="./img/mobile/slider-mobile/registr.jpg"
+            alt=""
+            class="hotel--swiper-slide"
+            />
+        </picture>
+        </li>
+        
+    </ul>
+    </div>
+                        <div class="hot-about-slider">
                     
                     <div class="hot-about--slider-container">
                         <button class="hotel-slider--arrow-left" type="button">
                             <svg width="30px" height="17px" class="hot-about--left-svg">
-                                <use href="../../img/icons.svg#icon-cil_arrow-left"></use>
+                                <use href="./img/icons.svg#icon-cil_arrow-left"></use>
                             </svg>
                         </button>
                         <button class="hotel-slider-arrow-right" type="button">
                             <svg width="30px" height="17px" class="hot-about--right-svg">
-                                <use href="../../img/icons.svg#icon-cil_arrow-right"></use>
+                                <use href="./img/icons.svg#icon-cil_arrow-right"></use>
                             </svg>
                         </button>
                     </div>
                 </div>
 
-
-        </div>
     </div>
 
 </section>

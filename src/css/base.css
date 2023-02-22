@@ -1,6 +1,10 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+.no-scroll {
+  overflow: hidden;
+}
+
 
 .list {
     list-style: none;
