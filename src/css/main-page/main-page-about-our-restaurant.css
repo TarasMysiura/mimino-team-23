@@ -83,7 +83,7 @@
     position: relative;
     left: 70px;
     margin: 0;
-    /* box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25); */
+
   }
 
   .rest-about-slider-container {
@@ -408,7 +408,6 @@
     max-width: 460px;
   }
 
- 
 
   .second-rest-about {
     column-gap: 32px;

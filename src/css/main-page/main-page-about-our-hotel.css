@@ -31,8 +31,6 @@
     margin: 0px;
     padding: 0px;
     margin-bottom: 16px;
-    /* width: 127px;
-    height: 43px; */
     letter-spacing: 0.3em;
     color: #494848;
     text-decoration: none;
@@ -47,9 +45,6 @@
     line-height: 1, 25;
     letter-spacing: 0.02em;
     color: #7a7a7a;
-  }
-  .about-hot-img {
-    
   }
   .about-hot--first-images {
     box-shadow: var(--box-shadow-mobile-desktop);
