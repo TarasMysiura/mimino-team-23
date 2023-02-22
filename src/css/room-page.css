@@ -211,3 +211,6 @@
     gap: 159px;
   }
 }
+@import url('./modal/modal-reserve-a-table.css'); 
+@import url('./modal/modal-reserve-a-room.css');
+@import url('./modal/modal-prices-per-room.css');
