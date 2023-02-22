@@ -14,9 +14,9 @@
 .menu {
   min-width: 320px;
   background-color: #f0ecd6;
+  padding: 32px 0;
 }
 .menu-section {
-  padding: 32px 0;
   min-width: 320px;
 }
 
@@ -161,10 +161,13 @@
     max-width: 960px;
   }
 
-  .menu-section {
-    max-width: 930px;
+  .menu {
     padding-top: 58px;
     padding-bottom: 40px;
+  }
+
+  .menu-section {
+    max-width: 930px;
   }
 
   .menu-rest {
@@ -214,10 +217,12 @@
     max-width: 1140px;
   }
 
-  .menu-section {
-    max-width: 1110px;
+  .menu {
     padding-top: 58px;
     padding-bottom: 60px;
+  }
+  .menu-section {
+    max-width: 1110px;
   }
 
   .menu-rest {
