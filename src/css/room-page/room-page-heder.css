@@ -160,7 +160,6 @@
   .nav-menu-link {
     padding: 28px 0;
   }
-
 }
 /* ----------TABLET------------ */
 @media screen and (min-width: 1024px) {
@@ -198,12 +197,11 @@
 
   .nav-menu-contact {
     padding: 8px;
-    border: 1px solid var(--color-soc-icon-fil);
+    border: 1px solid var(--color-soc-icon-fill);
     border-radius: 2px;
     transition: border-color var(--transition-function),
       color var(--transition-function);
   }
-
   .nav-menu-contact:hover,
   .nav-menu-contact:focus {
     border-color: var(--color-contacts-section-text-brown);
@@ -294,7 +292,6 @@
   font-size: 12px;
   color: var(--color-text-white);
 }
-
 
 .hero-room-btn {
   position: absolute;
@@ -434,7 +431,6 @@
     top: -15px;
   }
 }
-
 
 /* ===============TABLET=============== */
 
