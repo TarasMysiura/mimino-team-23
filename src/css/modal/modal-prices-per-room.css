@@ -74,6 +74,12 @@
   outline: none;
   cursor: pointer;
 }
+<<<<<<< HEAD
+=======
+.category-room {
+  margin-bottom: 0;
+}
+>>>>>>> 6ce8247d28b756a8b7adf4e4f5cabe37cb68cca3
 
 .text-label,
 .category-room {
@@ -86,10 +92,14 @@
 
   margin-top: 8px;
 }
+<<<<<<< HEAD
 .category-room {
   margin-bottom: 0;
   margin-top: 0;
 }
+=======
+
+>>>>>>> 6ce8247d28b756a8b7adf4e4f5cabe37cb68cca3
 .label-left {
   margin-left: 15px;
 }
