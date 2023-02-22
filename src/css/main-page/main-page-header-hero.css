@@ -163,8 +163,6 @@
 .hero .soc-media .soc-icon:hover,
 .hero .soc-media .soc-icon:focus {
     transform: rotateZ(360deg);
-    width: 30px;
-    height: 30px;
 }
 
 
@@ -472,7 +470,7 @@
     /*-----------------SOC-MEDIA-------------------*/
     .hero .soc-media {
         position: absolute;
-        bottom: 600px;
+        bottom: 594px;
         left: 1083px;
     }
 
