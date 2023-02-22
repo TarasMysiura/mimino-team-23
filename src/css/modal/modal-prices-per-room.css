@@ -53,7 +53,9 @@
 
   margin-bottom: 28px;
 }
-
+.amount-input {
+  margin-bottom: 20px;
+}
 .text-input {
   font-family: "Times New Roman", sans-serif;
   font-weight: 700;
@@ -74,12 +76,6 @@
   outline: none;
   cursor: pointer;
 }
-<<<<<<< HEAD
-=======
-.category-room {
-  margin-bottom: 0;
-}
->>>>>>> 6ce8247d28b756a8b7adf4e4f5cabe37cb68cca3
 
 .text-label,
 .category-room {
@@ -92,17 +88,11 @@
 
   margin-top: 8px;
 }
-<<<<<<< HEAD
 .category-room {
-  margin-bottom: 0;
   margin-top: 0;
+  margin-bottom: 20px;
 }
-=======
 
->>>>>>> 6ce8247d28b756a8b7adf4e4f5cabe37cb68cca3
-.label-left {
-  margin-left: 15px;
-}
 select {
   appearance: none;
   overflow: hidden;
@@ -202,9 +192,6 @@ select {
     font-size: 32px;
     line-height: 1.16;
   }
-  .category-room {
-  margin-bottom: 20px;
-}
   .text-input {
     font-size: 24px;
     line-height: 1.17;
@@ -213,7 +200,6 @@ select {
     height: 64px;
   }
   .category-room {
-    margin-bottom: 20px;
     margin-top: 0;
   }
 
@@ -227,6 +213,9 @@ select {
 
     font-size: 24px;
     line-height: 1.21;
+  }
+  .amount-input {
+    margin-bottom: 0;
   }
 }
 /* !===============DESKTOP=============== */
