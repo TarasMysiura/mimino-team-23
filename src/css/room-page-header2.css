@@ -513,9 +513,13 @@
     padding-top: 427px;
     padding-bottom: 48px;
   }
+  .hero-room-title {
+    color: var(--color-title-mimiho-white);
+  }
 
   .hero-room-text {
     margin-bottom: 0;
+    color: var(--color-title-mimiho-white);
   }
 
   .hero-room-btn {
