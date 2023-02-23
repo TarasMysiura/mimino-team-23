@@ -245,7 +245,7 @@
 .hero-soc-media .soc-icon:focus {
   fill: var(--color-svg-fill-broun);
   transform: rotateZ(360deg);
-  }
+}
 
 /*-----------------SECTION HERO---------------*/
 
@@ -272,11 +272,14 @@
   color: var(--color-text-white);
 }
 
-
 .hero-room-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
   max-width: 325px;
   margin-bottom: 17px;
-  font-size: 12px;
   color: var(--color-text-white);
 }
 
