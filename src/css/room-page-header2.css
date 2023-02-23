@@ -4,34 +4,34 @@
   background-position: center;
   background-size: cover;
 
-  background-image: url(../../img/mobile/hero-hotel-bg-mobile.jpg);
+  background-image: url(../img/mobile/hero-room2-bg-mobile.jpg);
 }
 
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero-main-background {
-    background-image: url(../../img/mobile/hero-hotel-bg-mobile-2x.jpg);
+    background-image: url(../img/mobile/hero-room2-bg-mobile-2x.jpg);
   }
 }
 
 @media screen and (min-width: 415px) {
   .hero-main-background {
-    background-image: url(../../img/tablet/hero-hotel-bg-tablet.jpg);
+    background-image: url(../img/tablet/hero-room2-bg-tablet.jpg);
   }
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero-main-background {
-      background-image: url(../../img/tablet/hero-hotel-bg-tablet-2x.jpg);
+      background-image: url(../img/tablet/hero-room2-bg-tablet-2x.jpg);
     }
   }
 }
 
 @media screen and (min-width: 1025px) {
   .hero-main-background {
-    background-image: url(../../img/desktop/hero-hotel-bg-desktop.jpg);
+    background-image: url(../img/desktop/hero-room2-bg-desktop.jpg);
   }
 }
 
@@ -39,7 +39,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero-main-background {
-    background-image: url(../../img/desktop/hero-hotel-bg-desktop-2x.jpg);
+    background-image: url(../img/desktop/hero-room2-bg-desktop-2x.jpg);
   }
 }
 
@@ -216,7 +216,7 @@
     padding: 0 85px;
   }
 
-   .logo {
+  .logo {
     margin-right: 135px;
   }
 }
@@ -255,7 +255,7 @@
 
 .hero .container {
   position: relative;
-  padding-top: 405px;
+  padding-top: 437px;
   padding-bottom: 17px;
 }
 
@@ -269,18 +269,14 @@
   line-height: 1.14;
   letter-spacing: 0.05em;
   text-transform: capitalize;
-  color: var(--color-text-white);
-}
-
-.part-room-title {
-  text-transform: lowercase;
+  color: var(--color-title-black);
 }
 
 .hero-room-text {
   max-width: 325px;
   margin-bottom: 17px;
   font-size: 12px;
-  color: var(--color-text-white);
+  color: var(--color-title-black);
 }
 
 .hero-room-btn {
@@ -378,7 +374,7 @@
   font-size: 12px;
   line-height: 1.3;
   letter-spacing: 0.01em;
-  color: var(--color-contacts-address-hero);
+  color: var(--color-title-black);
   text-decoration: none;
   transition: border-color var(--transition-function),
     color var(--transition-function);
@@ -517,9 +513,13 @@
     padding-top: 427px;
     padding-bottom: 48px;
   }
+  .hero-room-title {
+    color: var(--color-title-mimiho-white);
+  }
 
   .hero-room-text {
     margin-bottom: 0;
+    color: var(--color-title-mimiho-white);
   }
 
   .hero-room-btn {

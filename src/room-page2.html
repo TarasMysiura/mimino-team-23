@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/public/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>room page2</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/room-page.css" />
+    <link rel="stylesheet" href="./css/room-page-header2.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/modal/modal-reserve-a-table.css" />
+    <link rel="stylesheet" href="./css/modal/modal-reserve-a-room.css" />
+    <link rel="stylesheet" href="./css/modal/modal-prices-per-room.css" />
+  </head>
+
+  <body>
+    <main>
+      <load src="partials/room-page/room-page-heder2.html" />
+      <section class="amenities-room-section">
+        <div class="container">
+          <div class="amenities-room-thumb">
+            <h2 class="amenities-room-title title">ЗРУЧНОСТІ У НОМЕРІ</h2>
+            <p class="amenities-title-text text">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+            <ul class="amenities-room-list list">
+              <li class="amenities-room-item">
+                <h3 class="amenities-room-subtitle subtitle">ЗАГАЛЬНІ</h3>
+                <div class="room-text-wrapper">
+                  <p class="amenities-room-text text">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    do amet sint. Velit officia consequat duis enim velit
+                    mollit. Exercitation veniam consequat sunt nostrud amet.
+                  </p>
+                  <p class="amenities-room-text text">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    do amet sint. Velit officia consequat duis enim velit
+                    mollit. Exercitation veniam consequat sunt nostrud amet.
+                  </p>
+                </div>
+              </li>
+              <li class="amenities-room-item">
+                <h3 class="amenities-room-subtitle subtitle">ВАННА КІМНАТА</h3>
+                <div class="room-text-wrapper">
+                  <p class="amenities-room-text text">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    do amet sint. Velit officia consequat duis enim velit
+                    mollit. Exercitation veniam consequat sunt nostrud amet.
+                  </p>
+                  <p class="amenities-room-text text">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    do amet sint. Velit officia consequat duis enim velit
+                    mollit. Exercitation veniam consequat sunt nostrud amet.
+                  </p>
+                </div>
+              </li>
+              <li class="amenities-room-item">
+                <h3 class="amenities-room-subtitle subtitle">СПАЛЬНЯ</h3>
+                <p class="amenities-room-text text">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint.
+                </p>
+              </li>
+              <li class="amenities-room-item">
+                <h3 class="amenities-room-subtitle subtitle">КУХНЯ</h3>
+                <div class="room-text-wrapper">
+                  <p class="amenities-room-text text">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    do amet sint.
+                  </p>
+                  <p class="amenities-room-text text">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    do amet sint.
+                  </p>
+                </div>
+              </li>
+              <li class="amenities-room-item">
+                <h3 class="amenities-room-subtitle subtitle">МЕДІА</h3>
+                <p class="amenities-room-text text">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim velit mollit.
+                </p>
+              </li>
+            </ul>
+            <div class="amenities-btn-link-wrapper">
+              <button
+                class="booking-room-btn js-open-modal"
+                data-modal="2"
+                type="button"
+              >
+                ОФОРМИТИ БРОНЮВАННЯ
+              </button>
+              <a class="amenities-room-link" href="./hotel-page.html"
+                >Повернутися до перегляду номерів
+                <svg class="back-icon" width="24" height="24">
+                  <use href="./img/icons.svg#icon-cil_arrow-right"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===================Ліза========================= -->
+    <load src="partials/footer.html" />
+
+    <!-- Подложка под модальным окном -->
+    <div class="overlay js-overlay-modal"></div>
+
+    <!-- ===================Наташа Рубель========================= -->
+    <load src="partials/modal/modal.html" />
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
